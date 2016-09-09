@@ -1,0 +1,85 @@
+
+/*
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+*/
+
+
+.news-section {
+    text-align: center;
+}
+
+.sponsors-section {
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.schedule-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.selection-container {
+    background-color: #d3d3d3;
+    height: 100px;
+    outline: 1px solid black;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ .navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #EC5536;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-fixed-top {
+        min-height: 50px;
+    }
+
+    .navbar h3 {
+        margin-top: -5px;
+    }
+}
+
+/*
+.brand {
+    @elementHeight: 20px;
+    padding: ((@navbarHeight - @elementHeight) / 2 - 2) 20px ((@navbarHeight - @elementHeight) / 2 + 2);
+    display: inline-block;
+    vertical-align: middle;
+} */
