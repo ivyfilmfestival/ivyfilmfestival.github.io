@@ -1,4 +1,4 @@
-.slide {
+/*.slide {
   position: relative;
 }
  
@@ -16,4 +16,4 @@
 
 @keyframes come-in {
   to { transform: translateY(0); }
-}
+}*/

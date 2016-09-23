@@ -1,0 +1,23 @@
+{
+  "name": "ivyfilmfestival.github.io",
+  "version": "1.0.0",
+  "description": "Website for Ivy Film Festival",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seansegal/iff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seansegal/iff/issues"
+  },
+  "homepage": "https://github.com/seansegal/iff",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nunjucks-render": "^2.0.0"
+  }
+}

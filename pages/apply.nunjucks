@@ -1,0 +1,111 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll hidden-xs" href="index.html">
+                    <img src="assets/IFF_Transparent_MB-01.png" alt="iff" width="70px" height="70px">
+                </a>
+                <a class="navbar-brand page-scroll visible-xs" href="index.html">
+                    <h3>iff</h3>
+                </a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="festival.html">the festival</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="submit.html">submit</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="sponsors.html">sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="events.html">events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="apply.html">apply</a>
+                    </li>
+                </ul>
+                <div id="social-media">
+                    <a href="https://www.facebook.com/ivyfilmfestival/"><i class="social-media-icon fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ivyfilmfestival/"><i class="social-media-icon fa fa-instagram"></i></a>
+                    <a href="https://medium.com/ivy-film-festival"><i class="social-media-icon fa fa-medium"></i></a>
+                    <a href="https://twitter.com/ivyfilmfestival"><i class="social-media-icon fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- About Section -->
+    <section>
+        <div class="container top-section">
+            <h1 style='text-align:center;'>interested in working with iff?</h1>
+            <br/>
+            
+            <h4 style='text-align:center;'><a href="assets/documents/IvyFilmFestival2016GENERALSTAFFAPPLICATION (1).docx">apply here</a></h4>
+            
+        </div>
+    </section>
+
+    <!-- Applicaiton timeline -->
+    <section style='padding-top:0px'>
+        <div class="container events-section">
+            <div class="col-lg-12">
+                <h3>timeline</h3>
+                <br/>
+                <div class="row">
+                    <div class="col-md-2 year">9.14.16</div>
+                    <div class="col-md-8"><p>applications go live</p></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 year">9.20.16</div>
+                    <div class="col-md-8"><p>application deadline at midnight. send the application to specific departements, and cc <a href='mailto:director@ivyfilmfestival.com'>director@ivyfilmfestival.com</a></p></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 year">9.22.16</div>
+                    <div class="col-md-8"><p>you’ll hear back from us! interviews begin</p></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 year">9.25.15</div>
+                    <div class="col-md-8"><p>interviews end</p></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 year">9.27.16</div>
+                    <div class="col-md-8"><p>decision emails go out</p></div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    {% include "partials/footer.nunjucks" %}
+
+{% endblock %}

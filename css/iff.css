@@ -82,17 +82,6 @@ h3 {
 	z-index: 1;
 	margin-top: -180px;
 }
-/*
-.intro-section.module.parallax {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.intro-section.module.parallax-1 {
-	/*background-image: url('../assets/home.jpg');*/
-
 
 #about-logo {
 	width: 300px;
@@ -116,7 +105,6 @@ h3 {
 #about-desc {
 	display: inline-block;
 }
-
 
 
 #social-media {
@@ -334,9 +322,7 @@ a:active {
 }
 
 
-
 /* INTRO */
-
 section {
 	width: 100%;
 	padding-top: 50px;
@@ -633,16 +619,6 @@ section {
 		text-align: left;
 	}
 }
-
-
-
-/*
-@media (max-width: 768px) {
-	html, body {
-		width: auto !important;
-		overflow-x: hidden !important;
-	}
-}*/
 
 .year {
 	font-size: 26px;
