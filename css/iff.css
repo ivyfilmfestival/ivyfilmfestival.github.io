@@ -294,6 +294,16 @@ a:active {
 	  transition: 0.4s;
 	}
 
+	.selected::after {
+	  content: '';
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  width: 0%;
+	  border-bottom: 2px solid #EC5536;
+	}
+
+
 }
 
 .navbar-nav > li > a:hover:after {
