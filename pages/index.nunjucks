@@ -26,6 +26,18 @@
         <h1>latest news</h1>
         <div class="news-item">
             <div class="news-date">
+                <h4>10.05.2016</h4>
+            </div>
+            <div class="news-image">
+                <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp" width="285px" height="400px">
+            </div>
+            <div class="news-desc">
+                <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
+            </div>
+        </div>
+
+        <div class="news-item news-item-second">
+            <div class="news-date">
                 <h4>9.15.2016</h4>
             </div>
             <div class="news-image">
@@ -33,18 +45,6 @@
             </div>
             <div class="news-desc">
                 <p>IFF presents: <a href="https://www.facebook.com/events/1766903673539841/">Queen of Katwe</a></p>
-            </div>
-        </div>
-
-        <div class="news-item news-item-second">
-            <div class="news-date">
-                <h4>3.09.16</h4>
-            </div>
-            <div class="news-image">
-                <img src="assets/american-promise-poster_400x300.jpg" width="300px" height="400px">
-            </div>
-            <div class="news-desc">
-                <p>IFF + TFA present: <a href="https://www.facebook.com/events/1766903673539841/">American Promise</a></p>
             </div>
         </div>
     </section>
@@ -73,7 +73,7 @@
                     TV pilots and screenplays!*</p>
                 <a href="submit.html"><div class="slide" id="submit-button">submit</div></a>
                 <br/><br/>
-                <div id="submit-deadline"><p>*Late deadline: March 8, 2016</p></div>
+                <div id="submit-deadline"><p>*Late deadline: March 11, 2017</p></div>
             </div>
         </div>
     </section>
