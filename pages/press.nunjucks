@@ -1,0 +1,28 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+    <!-- Navigation -->
+    {% include "partials/nav.nunjucks" %}
+
+    <!-- History Section -->
+    <section>
+        <div class="container events-section">
+            <div class="col-lg-12">
+                <h1>press</h1>
+                <br/>
+                 {% for item in press %}
+                <div class="row">
+                    <div class="col-md-2 year">{{ event.date }}</div>
+                    <div class="col-md-8"><p><a href="{{ event.facebook_url }}"> {{event.title}} </a></p></div>
+                </div>
+                <hr>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    {% include "partials/footer.nunjucks" %}
+
+{% endblock %}
