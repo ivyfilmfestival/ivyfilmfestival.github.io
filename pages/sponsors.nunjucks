@@ -5,12 +5,25 @@
     <!-- Navigation -->
     {% include "partials/nav.nunjucks" %}
 
-    <!-- About Section -->
+
+    <!-- Become a sponsor section -->
     <section>
         <div class="container top-section">
+            <h1>become a sponsor</h1>
+
+            <p>Ivy Film Festival is run by 95 passionate Brown and RISD students who devote their spare time to create a springboard for young creative talents to be discovered.  As a student-run organization, we depend entirely on generous sponsors to realize our mission. If you want to be part of supporting the next generation of filmmakers, please send "Hello" to <a href="mailto:business@ivyfilmfestival.com">business@ivyfilmfestival.com</a>!
+            </p>
+
+            <p>For more details, check out our sponsorship packet <a href="assets/documents/IFF_Sponsorship_Pack.pdf">here</a>.</p>
+
+    </section>
+
+    <!-- About Section -->
+    <section>
+        <div class="container">
             <h1>sponsors 2016</h1>
 
-                        <h3 class="sponsors-heading">platinum</h3>
+            <h3 class="sponsors-heading">platinum</h3>
             <img class="sponsor-image" src="assets/sponsors/PLATINUM/ufb-logo.png">
             
 
@@ -53,16 +66,6 @@
                 <img class="sponsor-image" style="padding-bottom:15px;" src="assets/sponsors/INDUSTRY/react.png">
 
             <p>Ivy Film Festival has partnered with REACT to FILM to host thought-provoking documentary screenings paired with events to critically analyze, teach, and discuss social justice topics themselves as well as their depictions in film and media. Our screenings in partnership with REACT toFILM aim to serve as both a call to action for civic engagement on campus but also to demonstrate the power of film to provide a teaching moment and impact societal change. Past screenings have included: <em>After Spring, The Hunting Ground, The Mask You Live In, and 3 ½ Minutes, Ten Bullets</em>.
-            </p>
-
-    </section>
-
-    <!-- About Section -->
-    <section>
-        <div class="container">
-            <h1>become a sponsor</h1>
-
-            <p>Ivy Film Festival is run by 95 passionate Brown and RISD students who devote their spare time to create a springboard for young creative talents to be discovered.  As a student-run organization, we depend entirely on generous sponsors to realize our mission. If you want to be part of supporting the next generation of filmmakers, please send "hello" to <a href="mailto:business@ivyfilmfestival.com">business@ivyfilmfestival.com</a>! You will receive our Sponsorship Packet with detailed information. 
             </p>
 
     </section>
