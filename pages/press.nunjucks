@@ -13,8 +13,8 @@
                 <br/>
                  {% for item in press %}
                 <div class="row">
-                    <div class="col-md-2 year">{{ event.date }}</div>
-                    <div class="col-md-8"><p><a href="{{ event.facebook_url }}"> {{event.title}} </a></p></div>
+        <!--             <div class="col-md-2 year">{{ item.date }}</div> -->
+                    <div class="col-md-12"><p><a href="{{ item.link }}"> {{item.title}} </a></p></div>
                 </div>
                 <hr>
                 {% endfor %}

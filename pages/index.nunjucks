@@ -11,8 +11,13 @@
     <div id="video-frame">
             <!--
             <iframe class="bg-video" id="youtube-bg-iframe" type="text/html" width="640" height="390" src="//www.youtube.com/embed/Cc9COlFuync?playlist=Cc9COlFuync&autoplay=1&loop=1&controls=0&rel=0&enablejsapi=1&showinfo=0" frameborder="0"></iframe> -->
+            <!-- THE ORIGINAL VIDEO BELOW  -->
             <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/3Aixhxr5G1I?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=3Aixhxr5G1I" frameborder="0" allowfullscreen></iframe>
-            <div id="intro-text">
+
+<!--           <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/t1tuH1Z0OII?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=3Aixhxr5G1I" frameborder="0" allowfullscreen></iframe> -->
+
+
+            <div id="intro-text"> 
             <h1>april 10-16, 2017</h1>
             <br/>
             <div id="intro-desc"><p>Ivy Film Festival is the largest student-run film festival in the world hosted annually at Brown University.</p></div>
@@ -22,7 +27,7 @@
     </section>
 
     <!-- Latest News Section -->
-    <section class="news-section">
+<!--     <section class="news-section">
         <h1>latest news</h1>
         <div class="news-item">
             <div class="news-date">
@@ -47,26 +52,21 @@
                 <p>IFF presents: <a href="https://www.facebook.com/events/296829937341279">Queen of Katwe</a></p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
-    <section>
+<!--     <section>
         <div class="container">
             <div class="col-lg-12">
                 <h1>about us </h1>
-                <!--
-                <div id="about-logo">
-                    <img id="about-logo-bg" src="assets/logo_bg_green.png">
-                    <img id="about-logo-letters" src="assets/logo_letters_white.png">
-                </div> -->
                 <p id="about-desc">Ivy Film Festival is a student-led organization dedicated to showcasing the diverse work of student filmmakers and screenwriters. Through its official selection and events, the Festival builds a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
                 <p><a href="about.html">Learn more</a></p>
             </div>
         </div>
-    </section>
+    </section>  -->
 
     <!-- Presenters Section -->
-    <section id="submit" class="submit-section">
+<!--     <section id="submit" class="submit-section">
         <div class="container">
             <div class="col-lg-12">
                 <p>We are currently accepting films, <br>
@@ -76,7 +76,7 @@
                 <div id="submit-deadline"><p>*Late deadline: March 11, 2017</p></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Sponsors Section -->
     <section id="sponsors" class="sponsors-section">
