@@ -176,35 +176,6 @@
         </div>
     </section>
 
-    <!-- Press Section -->
-    <section>
-        <div class="container">
-                <h1>press</h1>
-                <i>
-                <br/>
-                <p><a href="http://www.nytimes.com/2016/04/08/movies/beyond-tribeca-film-festival-more-new-york-film-festival-in-april.html">Beyond Tribeca: New York’s Many Other Film Fests in April (New York Times)</a></p>
-                <p><a href="https://www.bostonglobe.com/lifestyle/names/2016/03/30/robert-niro-will-rhode-island-next-week-for-ivy-film-festival/0faE4KOpS3SEM4BMsNTtiK/story.html">Robert De Niro headed to Rhode Island for Ivy Film Festival (Boston Globe)</a></p>
-                <p><a href="http://www.providencejournal.com/article/20160407/NEWS/160409379">De Niro gives his father starring role at Brown film festival (Providence Journal)</a></p>
-                <p><a href="https://news.brown.edu/articles/2016/04/ivyfilm">For 15 years running, student films take center stage at the Ivy Film Festival (Brown News)</a></p>
-                <p><a href="http://www.browndailyherald.com/2016/04/05/ivy-film-festival-reaches-campuses-nationwide/">Ivy Film Festival reaches campuses nationwide (Brown Daily Herald)</a></p>
-                <p><a href="http://www.browndailyherald.com/2016/04/06/jodie-foster-reflects-on-career-path-in-film-industry/">Jodie Foster reflects on career path in film industry(Brown Daily Herald)</a></p>
-
-                <p><a href="http://www.forbes.com/forbes/welcome/#68300e992b97">True Detective' Producer Explains How TV Became The Land With No Rules (Forbes)</a></p>
-                <p><a href="http://variety.com/2004/film/markets-festivals/h-wood-trio-in-league-for-ivy-film-festival-1117902567/">H’wood trio in league for Ivy Film Festival (Variety)</a></p>
-                <p><a href="http://variety.com/2007/film/markets-festivals/ivy-festival-for-film-business-advice-1117963142/">Ivy Film Festival for film business advice (Variety)</a></p>
-                <p><a href="http://variety.com/2009/film/features/ivy-film-festival-attracts-industry-pros-1118002508/">Ivy Film Festival attracts industry pros (Variety)</a></p>
-                <p><a href="https://i-d.vice.com/en_gb/topic/ivy-film-festival">jason schwartzman on wes anderson, bill murray and francois truffaut (Vice)</a></p>
-                <p><a href="http://www.thecrimson.com/article/2005/4/22/ivy-film-festival-unites-student-filmmakers/">Ivy Film Festival Unites Student Filmmakers (The Harvard Crimson)</a></p>
-                <p><a href="http://blogs.indiewire.com/thompsononhollywood/todd-haynes-to-world-premiere-first-scenes-from-carol-at-ivy-film-fest-20150330">Ivy Film Fest Tributes Todd Haynes (Indiewire)</a></p>
-                <p><a href="http://indienyc.com/ivy-film-festival-expands-to-top-5-schools-lineup-includes-todd-haynes-jason-schwatrzmann/">Ivy Film Festival Expands To Top 5 Schools, Lineup Includes Todd Haynes &amp; Jason Schwatrzmann</a></p>
-                <p><a href="http://www.golocalprov.com/lifestyle/new-screenwriter-aaron-sorkin-coming-to-ivy-film-festival">NEW: Screenwriter Aaron Sorkin Coming to Ivy Film Festival (GoLocalProv)</a></p>
-                <p><a href="http://www.browndailyherald.com/2012/04/11/exclusive-qa-with-actress-laura-linney-86/">Exclusive Q&amp;A with actress Laura Linney '86 (Brown Daily Herald)</a></p>
-                <p><a href="http://www.browndailyherald.com/2013/04/16/exclusive-qa-with-horror-director-wes-craven/">Exclusive Q&amp;A with horror director Wes Craven (Brown Daily Herald)</a></p>
-                <p><a href="http://www.browndailyherald.com/2012/04/16/the-herald-gets-girly-with-lena-dunham/">The Herald gets girly with Lena Dunham (Brown Daily Herald)</a></p>
-                </i>
-        </div>
-    </section>
-
     <!-- Footer -->
     {% include "partials/footer.nunjucks" %}
 
