@@ -168,7 +168,7 @@ a {
     -webkit-text-underline-position: under;
   	-ms-text-underline-position: below;
   	text-underline-position: under; 
-  	display: inline-block;line-height: 5px;
+  	display: inline-block;line-height: 100%;
   	/*transition: 0.4s; */
 }
 
@@ -670,7 +670,7 @@ section {
 
 .events-section {
 	padding-top: 100px;
-	height: 700px;
+	min-height: 700px;
 }
 
 .top-section {
