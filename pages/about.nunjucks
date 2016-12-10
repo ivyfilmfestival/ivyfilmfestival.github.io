@@ -8,134 +8,21 @@
     <!-- About Section -->
     <section>
         <div class="container top-section">
-            <h1>what we do and why?</h1>
-            <br/>
-            <h4>mission statement</h4>
-            <p>Ivy Film Festival is a student-run organization dedicated since 2001 to showcasing the diverse work of student filmmakers and screenwriters from around the world. Through its official selections, keynote speakers, master classes, panel discussions and other events, the Festival contributes to building a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
+<!--             <h1>our mission<h1> 
+                <h1 id="mission">             To be the world's foremost film festival for students, by students.</h1> -->
+<!--             <p></p> -->
+<!--             <h1>what we do and why?</h1> -->
+<!--             <br/> -->
+            <h1>about us</h1>
+            <p>Founded in 2001 at Brown University by David Peck '03 and Justin Slosky '03, Ivy Film Festival has become one of the world’s largest film festivals for students, by students. We are dedicated to showcasing student filmmakers from around the world, creating channels for students to learn about the industry’s emerging discourses and innovations, and building a network between today’s pioneers and the next generation.</p>
         </div>
     </section>
 
-    <!-- History Section -->
+        <!-- Our Team Section -->
     <section>
         <div class="container">
-            <h1>the history of the festival</h1>
-            <br/>
-            <div class="row">
-                <div class="col-md-2 year">2016</div>
-                <div class="col-md-8"><p><i>Screenings: Krisha, Remember the Artist</i>
-                <br/>Guests: Jodie Foster, Robert De Niro &amp; Trey Edward Schults</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2015</div>
-                <div class="col-md-8"><p><i>Screenings: The End of the Tour, Trainwreck</i>
-                <br/>Guests: Todd Haynes and Jason Schwartzman</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2014</div>
-                <div class="col-md-8"><p><i>Screenings: The Grand Budapest Hotel, Inside Llewyn Davis</i>
-                <br/>Guests: Wes Anderson, Ushio &amp; Noriko Shinohara</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2013</div>
-                <div class="col-md-8"><p><i>Screenings: Searching for Sugar Man, Sons of the Clouds</i>
-                <br/>Guests: Wes Craven, Mira Nair</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2012</div>
-                <div class="col-md-8"><p><i>Screenings: HBO series Girls, The Invisible War</i>
-                <br/>Guests: Lena Dunham, Laura Linney</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2011</div>
-                <div class="col-md-8"><p><i>Screenings: The Social Network, Bobby Fischer Against the World</i>
-                <br/>Guests: Aaron Sorkin, James Franco</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2010</div>
-                <div class="col-md-8"><p><i>Screenings: Waiting for Superman</i>
-                <br/>Guests: Davis Guggenheim and Andrew Renzi</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2009</div>
-                <div class="col-md-8"><p><i>Screenings: (500) Days of Summer</i>
-                <br/>Guests: Jack Nicholson and Robert Evans</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2008</div>
-                <div class="col-md-8"><p><i>People: Martin Scorsese and Michael Costigan</i>
-                <br/>Guests: Lena Dunham, Laura Linney</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2007</div>
-                <div class="col-md-8"><p><i>Screening: Eagle vs. Shark</i>
-                <br/>Guests: Park Chan-wook and Doug Liman</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2006</div>
-                <div class="col-md-8"><p><i>Screening: Brick, Half Nelson</i>
-                <br/>Guests: Michael Showalter and Richard Heller</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2005</div>
-                <div class="col-md-8"><p><i>Screening: Murderball, The Aristocrats</i>
-                <br/>Guests: John Hamburg, Ellen Kuras</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2004</div>
-                <div class="col-md-8"><p><i>Screening: Mean Girls, Supersize Me</i>
-                <br/>Guests: Wes Craven and Adrien Brody</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2003</div>
-                <div class="col-md-8"><p><i>Screening: Roger Dodger</i>
-                <br/>Guests: Tim Robbins and Julia Stiles</p></div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-2 year">2001</div>
-                <div class="col-md-8"><p><i>Screening: Harvard Man</i>
-                <br/>Guests: Oliver Stone and Henry Bean
-                <br/>IFF Founders: David Peck '03 and Justin Slosky '03</p></div>
-            </div>
-        </div>
-
-    </section>
-
-    <section>
-        <div class="container">
-            <h1>satellite film festival</h1>
-            <p id="satellite-desc">IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2017 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions, creating an intercollegiate network of emerging filmmakers.</p>
-                <div id="satellite-schools"><p>Harvard
-                    <br> Princeton
-                    <br> Yale
-                    <br>Cornell
-                    <br>Dartmouth
-                    <br>Columbia
-                    <br>University of Pennsylvania
-                    <br>New York University
-                    <br>UT Austin
-                    <br>UC Berkeley
-                    <br>School of Visual Arts</p></div>
-        </div>
-    </section>
-
-    <!-- Departments Section -->
-    <section>
-        <div class="container">
-            <h1>departments</h1>
+            <h1>our team</h1>
+            <p>Ivy Film Festival is made up of 95 students from Brown University and Rhode Island School of Design (RISD), and divided into 9 different internal departments.</p>
             <br/>
             <h4>executive directors <a class="mail-icon-link" class="mail-icon-link" href="mailto:director@ivyfilmfestival.com"><i class="mail-icon fa fa-envelope"></a></i></h4>
             <p>Oakley Friedberg, Solveig Xia</p>
@@ -253,6 +140,129 @@
                 Xavier Markey-Smith,
                 Maddie Gibson</p>
 
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section>
+        <div class="container">
+            <h1>the history of the festival</h1>
+            <br/>
+            <div class="row">
+                <div class="col-md-2 year">2016</div>
+                <div class="col-md-8"><p><i>Screenings: Krisha, Remember the Artist</i>
+                <br/>Guests: Jodie Foster, Robert De Niro &amp; Trey Edward Schults</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2015</div>
+                <div class="col-md-8"><p><i>Screenings: The End of the Tour, Trainwreck</i>
+                <br/>Guests: Todd Haynes and Jason Schwartzman</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2014</div>
+                <div class="col-md-8"><p><i>Screenings: The Grand Budapest Hotel, Inside Llewyn Davis</i>
+                <br/>Guests: Wes Anderson, Ushio &amp; Noriko Shinohara</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2013</div>
+                <div class="col-md-8"><p><i>Screenings: Searching for Sugar Man, Sons of the Clouds</i>
+                <br/>Guests: Wes Craven, Mira Nair</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2012</div>
+                <div class="col-md-8"><p><i>Screenings: HBO series Girls, The Invisible War</i>
+                <br/>Guests: Lena Dunham, Laura Linney</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2011</div>
+                <div class="col-md-8"><p><i>Screenings: The Social Network, Bobby Fischer Against the World</i>
+                <br/>Guests: Aaron Sorkin, James Franco</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2010</div>
+                <div class="col-md-8"><p><i>Screenings: Waiting for Superman</i>
+                <br/>Guests: Davis Guggenheim and Andrew Renzi</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2009</div>
+                <div class="col-md-8"><p><i>Screenings: (500) Days of Summer</i>
+                <br/>Guests: Jack Nicholson and Robert Evans</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2008</div>
+                <div class="col-md-8"><p><i>People: Martin Scorsese and Michael Costigan</i>
+                <br/>Guests: Lena Dunham, Laura Linney</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2007</div>
+                <div class="col-md-8"><p><i>Screening: Eagle vs. Shark</i>
+                <br/>Guests: Park Chan-wook and Doug Liman</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2006</div>
+                <div class="col-md-8"><p><i>Screening: Brick, Half Nelson</i>
+                <br/>Guests: Michael Showalter and Richard Heller</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2005</div>
+                <div class="col-md-8"><p><i>Screening: Murderball, The Aristocrats</i>
+                <br/>Guests: John Hamburg, Ellen Kuras</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2004</div>
+                <div class="col-md-8"><p><i>Screening: Mean Girls, Supersize Me</i>
+                <br/>Guests: Wes Craven and Adrien Brody</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2003</div>
+                <div class="col-md-8"><p><i>Screening: Roger Dodger</i>
+                <br/>Guests: Tim Robbins and Julia Stiles</p></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 year">2001</div>
+                <div class="col-md-8"><p><i>Screening: Harvard Man</i>
+                <br/>Guests: Oliver Stone and Henry Bean
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <h1>satellite film festival</h1>
+            <p id="satellite-desc">IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2017 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions, creating an intercollegiate network of emerging filmmakers.</p>
+                <div id="satellite-schools"><p>
+                    Harvard University
+<br>Princeton University
+<br>Yale University 
+<br>Cornell University
+<br>Dartmouth University
+<br>Columbia University
+<br>University of Pennsylvania 
+<br>Northwestern University
+<br>University of Chicago
+<br>New York University 
+<br>University of California, Berkeley 
+<br>Wesleyan University
+<br>Oberlin College
+<br>University of Texas at Austin 
+<br>School of Visual Arts
+<br>Prague Film School
+</p></div>
         </div>
     </section>
 
