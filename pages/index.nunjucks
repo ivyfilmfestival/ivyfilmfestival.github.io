@@ -9,80 +9,20 @@
     <!-- Intro Section -->
     <section class="intro-section module parallax parallax-1"> 
     <div id="video-frame">
-            <!--
-            <iframe class="bg-video" id="youtube-bg-iframe" type="text/html" width="640" height="390" src="//www.youtube.com/embed/Cc9COlFuync?playlist=Cc9COlFuync&autoplay=1&loop=1&controls=0&rel=0&enablejsapi=1&showinfo=0" frameborder="0"></iframe> -->
-            <!-- THE ORIGINAL VIDEO BELOW  -->
             <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/bfxesJdFUTg?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=bfxesJdFUTg" frameborder="0" allowfullscreen></iframe>
-
-<!--           <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/t1tuH1Z0OII?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=3Aixhxr5G1I" frameborder="0" allowfullscreen></iframe> -->
-
-
             <div id="intro-text"> 
             <h1>april 10-16, 2017</h1>
             <br/>
-            <div id="intro-desc"><p>Ivy Film Festival is among the largest student-run film festival in the world hosted annually at Brown University.</p></div>
+            <div id="intro-desc"><p>Ivy Film Festival is among the largest student-run film festivals in the world hosted annually at Brown University.</p></div>
             <p>
                 <!-- <a id="trailer-link" target="_blank" href="https://www.youtube.com/watch?v=t1tuH1Z0OII">Watch the 2016 trailer</a> -->
                 <a id="trailer-link" target="_blank" href="submit.html">Submit to IFF 2017!</a>
-
             </p>
         </div>
    </div>
     </section>
 
-    <!-- Latest News Section -->
-<!--     <section class="news-section">
-        <h1>latest news</h1>
-        <div class="news-item">
-            <div class="news-date">
-                <h4>10.05.2016</h4>
-            </div>
-            <div class="news-image">
-                <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp" width="285px" height="400px">
-            </div>
-            <div class="news-desc">
-                <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
-            </div>
-        </div>
-
-        <div class="news-item news-item-second">
-            <div class="news-date">
-                <h4>9.15.2016</h4>
-            </div>
-            <div class="news-image">
-                <img src="assets/queen_of_katwe.jpg" width="300px" height="400px">
-            </div>
-            <div class="news-desc">
-                <p>IFF presents: <a href="https://www.facebook.com/events/296829937341279">Queen of Katwe</a></p>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- About Section -->
-<!--     <section>
-        <div class="container">
-            <div class="col-lg-12">
-                <h1>about us </h1>
-                <p id="about-desc">Ivy Film Festival is a student-led organization dedicated to showcasing the diverse work of student filmmakers and screenwriters. Through its official selection and events, the Festival builds a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
-                <p><a href="about.html">Learn more</a></p>
-            </div>
-        </div>
-    </section>  -->
-
-    <!-- Presenters Section -->
-<!--     <section id="submit" class="submit-section">
-        <div class="container">
-            <div class="col-lg-12">
-                <p>We are currently accepting films, <br>
-                    TV pilots and screenplays!*</p>
-                <a href="submit.html"><div class="slide" id="submit-button">submit</div></a>
-                <br/><br/>
-                <div id="submit-deadline"><p>*Late deadline: March 11, 2017</p></div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Sponsors Section -->
+    <!-- Sponsors Section (TODO: delete) -->
     <section id="sponsors" class="sponsors-section">
         <div class="container">
             <h1>sponsors</h1>
