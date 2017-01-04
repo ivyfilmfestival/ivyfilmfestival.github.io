@@ -10,35 +10,58 @@
     <div class="container top-section">
         <h1>events</h1>
     </div>
-    <div class='row'>
-        <div class='col-md-2'></div>
-        <div class='col-md-4'>
-            <div class="event-image-offset-1">
-            <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp">
-            </div>
-        </div>
-        <div class='col-md-4'>
-            <div class="event-image-offset">
-                <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp">
-            </div>
-        </div>
-        <div class='col-md-2'></div>
-    </div>
+    {% for event in events %}
 
-    <div class='row'>
+        <!--  LEFT SIDE EVENTS -->
+        {% if loop.index0 % 2 == 0 %}
+        <div class='row'>
+            <div class='col-md-2'></div>
+            <div class='col-md-4'>
+                <div class="event-image-offset-1">
+                <img class='event-image' src="assets/queen_of_katwe.jpg">
+                <p><a href="/">{{event.title}}</a></p>
+                </div>
+            </div>
+
+        <!-- RIGHT SIDE EVENTS -->
+        {% else %}
+            <div class='col-md-4'>
+                <div class="event-image-offset">
+                    <img class='event-image' src="assets/queen_of_katwe.jpg">
+                    <div class="news-desc">
+                        <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-2'></div>
+        </div> <!-- ends the row -->
+        {% endif %}
+
+        {% if loop.last and loop.index0 % 2 == 0 %}
+            </div>
+        {% endif %}
+    {% endfor %}
+
+
+
+
+
+<!--     <div class='row'>
     <div class='col-md-2'></div>
     <div class='col-md-4'>
         <div class="event-image-offset-1">
-        <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp">
+        <img class='event-image' src="assets/queen_of_katwe.jpg">
+        <p>Event title here</p>
     </div>
     </div>
     <div class='col-md-4'>
         <div class="event-image-offset">
-            <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp">
+            <img class='event-image' src="assets/queen_of_katwe.jpg">
+            <p>Event title here</p>
         </div>
     </div>
     <div class='col-md-2'></div>
-    </div>
+    </div> -->
 </section>
 
 
@@ -52,7 +75,7 @@
                 <h4>10.05.2016</h4>
             </div>
             <div class="news-image">
-                <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp" >
+                <img class='event-image' src="assets/queen_of_katwe.jpg" >
             </div>
             <div class="news-desc">
                 <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
@@ -75,7 +98,7 @@
                 <h4>10.05.2016</h4>
             </div>
             <div class="news-image">
-                <img class='event-image' src="http://t2.gstatic.com/images?q=tbn:ANd9GcTvLb3dWpItF9wfKXCumTjG8-RIXVj5mHliDPwL4fm53yDexdTp" >
+                <img class='event-image' src="assets/queen_of_katwe.jpg" >
             </div>
             <div class="news-desc">
                 <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
