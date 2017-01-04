@@ -6,40 +6,48 @@
     {% include "partials/nav.nunjucks" %}
 
 <!-- Events Seciont -->
-<section class="news-section">
+<section>
     <div class="container top-section">
         <h1>events</h1>
     </div>
     {% for event in events %}
-
-        <!--  LEFT SIDE EVENTS -->
+        <div class='row' style='margin:20px'>
+        <!--  RIGHT SIDE EVENTS -->
         {% if loop.index0 % 2 == 0 %}
-        <div class='row'>
-            <div class='col-md-2'></div>
-            <div class='col-md-4'>
-                <div class="event-image-offset-1">
-                <img class='event-image' src="assets/queen_of_katwe.jpg">
-                <p><a href="/">{{event.title}}</a></p>
+            <div class='col-md-1'></div>
+            <div class='col-md-5'>
+                <div class='event-title-left'>
+                <h4>{{event.title}}</h4>
+                <h4>{{event.date}}</h4>
+                <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg"></i></a>
+                {% if event.tickets_url %}
+                    <a class='events-icon' href= "{{event.tickets_url}}" ><i class="social-media-icon fa fa-ticket fa-lg"></i></a>
+                {% endif %}
                 </div>
             </div>
-
-        <!-- RIGHT SIDE EVENTS -->
+            <div class='col-md-5'>
+                <img class='event-image' style='float:left;' src="{{event.image_url}}">
+            </div>
+            <div class='col-md-1'></div>
+        <!-- LEFT SIDE EVENTS -->
         {% else %}
-            <div class='col-md-4'>
-                <div class="event-image-offset">
-                    <img class='event-image' src="assets/queen_of_katwe.jpg">
-                    <div class="news-desc">
-                        <p>IFF presents: <a href="https://www.facebook.com/events/1147286645337520/">The Birth of A Nation</a></p>
-                    </div>
+            <div class='col-md-1'></div>
+            <div class='col-md-5'>
+                <img class='event-image' style='float:right;' src="{{event.image_url}}">
+            </div>
+            <div class='col-md-5'>
+                <div class='event-title-right'>
+                <h4>{{event.title}}</h4>
+                <h4>{{event.date}}</h4>
+                <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg" style='color:#42744D;text-decoration:none;'></i></a>
+                {% if event.tickets_url %}
+                    <a class='events-icon' href= "{{event.tickets_url}}" ><i class="social-media-icon fa fa-ticket fa-lg" style='color:#42744D;text-decoration-none;'></i></a>
+                {% endif %}
                 </div>
             </div>
-            <div class='col-md-2'></div>
-        </div> <!-- ends the row -->
+            <div class='col-md-1'></div>
         {% endif %}
-
-        {% if loop.last and loop.index0 % 2 == 0 %}
-            </div>
-        {% endif %}
+        </div>
     {% endfor %}
 
 

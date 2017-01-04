@@ -6,8 +6,9 @@
 }
 
 .event-image{
+/*	max-width: 300px;*/
 	max-width: 300px;
-/*	height:400px;*/
+	margin-top:10px;
 	border-style: solid;
     border-width: 4px 4px 4px 4px;
     border-color: #EC5536;
@@ -15,9 +16,26 @@
     float: right;*/
 }
 
-.event-image-offset-1{
-/*         padding-bottom:15%;*/
+.event-title-left {
+	margin-top:40px;
+	text-align: center;
+	float:right;
 }
+
+.event-title-right {
+	margin-top:330px;
+	text-align: center;
+	float:left;
+}
+
+.events-icon {
+	border-bottom:0px; /* Remove hyperlink underline */
+}
+
+.events-icon i {
+	color:#42744D;	
+}
+
 
 .event-image-offset{
        padding-top:35%;
