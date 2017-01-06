@@ -14,9 +14,9 @@
         <div class='row' style='margin:20px'>
         <!--  RIGHT SIDE EVENTS -->
         {% if loop.index0 % 2 == 0 %}
-            <div class='col-md-1'></div>
-            <div class='col-md-5'>
-                <div class='event-title-left'>
+            <div class='col-0 col-sm-1'></div>
+            <div class='col-12 col-sm-5'>
+                <div class='event-title event-title-left'>
                 <h4>{{event.title}}</h4>
                 <h4>{{event.date}}</h4>
                 <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg"></i></a>
@@ -25,18 +25,15 @@
                 {% endif %}
                 </div>
             </div>
-            <div class='col-md-5'>
-                <img class='event-image' style='float:left;' src="{{event.image_url}}">
+            <div class='col-12 col-sm-5'>
+                <img class='event-image event-image-left' src="{{event.image_url}}">
             </div>
-            <div class='col-md-1'></div>
+            <div class='col-0 col-sm-1'></div>
         <!-- LEFT SIDE EVENTS -->
         {% else %}
-            <div class='col-md-1'></div>
-            <div class='col-md-5'>
-                <img class='event-image' style='float:right;' src="{{event.image_url}}">
-            </div>
-            <div class='col-md-5'>
-                <div class='event-title-right'>
+            <div class='col-0 col-sm-1'></div>
+            <div class='col-12 col-sm-5 col-sm-push-5'>
+                <div class='event-title event-title-right'>
                 <h4>{{event.title}}</h4>
                 <h4>{{event.date}}</h4>
                 <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg" style='color:#42744D;text-decoration:none;'></i></a>
@@ -45,7 +42,10 @@
                 {% endif %}
                 </div>
             </div>
-            <div class='col-md-1'></div>
+            <div class='col-12 col-sm-5 col-sm-pull-5'>
+                <img class='event-image event-image-right' src="{{event.image_url}}">
+            </div>
+            <div class='col-0 col-sm-1'></div>
         {% endif %}
         </div>
     {% endfor %}
