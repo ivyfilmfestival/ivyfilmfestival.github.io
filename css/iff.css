@@ -578,7 +578,6 @@ section {
 }
 
 /* FOOTER */
-
 .footer {
 	border-style: solid;
     border-width: 6px 6px 6px 6px;
@@ -588,7 +587,6 @@ section {
     background-repeat:   no-repeat;
     background-position: 40px 20px; 
     overflow: hidden;
-    margin-top: 150px;
 }
 
 .footer p {
