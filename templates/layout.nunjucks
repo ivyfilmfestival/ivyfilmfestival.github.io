@@ -62,6 +62,9 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+    <!-- IFF Javascript -->
+    <script src='js/iff.js'></script>
+
 </body>
 
 </html>

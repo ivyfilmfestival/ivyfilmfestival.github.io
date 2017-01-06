@@ -44,7 +44,7 @@ $(document).scroll(function() {
 
 // video resizing
 $(function() {
-var $hero = $(".intro-section");
+    var $hero = $(".intro-section");
     var $video = $(".bg-video");
     var videoRatio = 16/9;
     function resizeBGVideo() {

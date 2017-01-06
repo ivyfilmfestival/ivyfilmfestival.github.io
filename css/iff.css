@@ -1,5 +1,10 @@
 /* GENERAL */
 
+
+#mobile-bg-picture{
+	display:none;
+}
+
 .event-image{
 	max-width: 300px;
 /*	height:400px;*/
