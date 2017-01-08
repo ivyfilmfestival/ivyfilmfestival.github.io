@@ -187,17 +187,17 @@ h3 {
 
 @font-face {
     font-family: "Kazimir Light";
-    src: url("../assets/Kazimir_Light.woff") format('woff');
+    src: url("../assets/fonts/Kazimir_Light.woff") format('woff');
 }
 
 @font-face {
     font-family: "Basis Grotesque Bold";
-    src: url("../assets/basis_grotesque_bold.otf") format("opentype");
+    src: url("../assets/fonts/basis_grotesque_bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Basis Grotesque Regular";
-    src: url("../assets/basis_grotesque_regular.otf") format("opentype");
+    src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype");
 }
 
 h1 {
