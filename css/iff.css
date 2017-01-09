@@ -68,23 +68,24 @@
 	color: #42744D;
 }
 
-#satellite-desc {
-	position: relative;
-	width: 60%;
-	display: inline-block;vertical-align: top; /* here */
-}
+/*#satellite-desc {*/
+	/*position: relative;*/
+	/*width: 60%;*/
+	/*display: inline-block;vertical-align: top; /* here */
+
 
 .about-intro-section {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-#satellite-schools {
-	width: 30%;
-	display: inline-block;vertical-align: top; /* here */
-	padding-top: 40px;
-	float: right;
-	line-height: 28px;
+.satellite-schools {
+	/*width: 30%;*/
+	/*display: inline-block;vertical-align: top;  here */
+	/*padding-top: 40px;*/
+	/*float: right;*/
+	/*line-height: 28px;*/
 	color: #EC5536;
+	text-align:center;
 }
 #trailer-link {
 	color: #EC5536;

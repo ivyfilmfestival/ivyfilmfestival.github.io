@@ -1,4 +1,25 @@
 {
+	"about": {
+		"satellite_schools": [
+			"Harvard University", 
+			"Cornell University",
+			"Columbia University",
+			"University of Chicago",
+			"Wesleyan University",
+			"School of Visual Arts",
+			"Princeton University",
+			"Cornell University", 
+			"University of Pennsylvania", 
+			"New York University", 
+			"Oberlin College", 
+			"Prague Film School",
+			"Yale University", 
+			"Dartmouth University", 
+			"Northwestern University", 
+			"University of California, Berkeley", 
+			"University of Texas at Austin"
+		]
+	},
 	"events": [
 		{
 			"title": "Lion (The Weinstein Company)",
