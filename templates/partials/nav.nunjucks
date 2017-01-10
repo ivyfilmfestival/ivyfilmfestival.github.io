@@ -34,13 +34,13 @@
                     <a class="page-scroll" id="{%if activePage == 'submit' %}selected-nav{% endif %}" href="submit.html">submit</a>
                 </li>
                 <li>
-                    <a class="page-scroll" id="{%if activePage == 'sponsors' %}selected-nav{% endif %}" href="sponsors.html">sponsors</a>
-                </li>
-                <li>
                     <a class="page-scroll" id="{%if activePage == 'events' %}selected-nav{% endif %}" href="events.html">events</a>
                 </li>
                 <li>
                     <a class="page-scroll" id="{%if activePage == 'press' %}selected-nav{% endif %}" href="press.html">press</a>
+                </li>
+                <li>
+                    <a class="page-scroll" id="{%if activePage == 'sponsors' %}selected-nav{% endif %}" href="sponsors.html">sponsors</a>
                 </li>
             </ul>
             <div id="social-media">
