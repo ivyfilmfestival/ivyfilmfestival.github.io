@@ -268,6 +268,7 @@ a:active {
 	font-family: "Basis Grotesque Bold", sans-serif;
 	transition: 0.4s;
 	color: #333;
+	background:white;
 }
 
 @media (min-width: 767px) {
