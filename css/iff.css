@@ -1,12 +1,9 @@
 /* GENERAL */
-
-
 #mobile-bg-picture{
 	display:none;
 }
 
 .event-image{
-/*	max-width: 300px;*/
 	max-width: 300px;
 	margin-top:10px;
 	border-style: solid;
@@ -16,8 +13,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom:40px;
-/*    display: inline-block;
-    float: right;*/
 }
 
 .event-title{
@@ -47,7 +42,7 @@
 }
 
 .events-icon {
-	border-bottom:0px; /* Remove hyperlink underline */
+	border-bottom:0px; /* Remove hyperlink underline for events links */
 }
 
 .events-icon i {
@@ -56,7 +51,7 @@
 
 
 .event-image-offset{
-       padding-top:35%;
+	padding-top:35%;
 }
 
 .mail-icon-link {
@@ -68,22 +63,11 @@
 	color: #42744D;
 }
 
-/*#satellite-desc {*/
-	/*position: relative;*/
-	/*width: 60%;*/
-	/*display: inline-block;vertical-align: top; /* here */
-
-
 .about-intro-section {
 	background-color: rgba(0, 0, 0, 0);
 }
 
 .satellite-schools {
-	/*width: 30%;*/
-	/*display: inline-block;vertical-align: top;  here */
-	/*padding-top: 40px;*/
-	/*float: right;*/
-	/*line-height: 28px;*/
 	color: #EC5536;
 	text-align:center;
 }
@@ -103,7 +87,7 @@
 }
 
 #mission{
-	   color: black;
+	color: black;
     font-family: "Kazimir Light", Georgia, serif;
     font-size: 29px;
 }
@@ -235,17 +219,18 @@ a {
   	-ms-text-underline-position: below;
   	text-underline-position: under; 
   	display: inline-block;line-height: 100%;
-  	/*transition: 0.4s; */
 }
 
-a:link, a:visited, a:hover, a:active { color: black }
+a:link, a:visited, a:hover, a:active {
+	color: black 
+}
 
 a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 section a:hover {
@@ -278,17 +263,11 @@ a:active {
 }
 
 /* NAVBAR */
-
 .navbar {
 	font-size: 13px;
 	font-family: "Basis Grotesque Bold", sans-serif;
 	transition: 0.4s;
 	color: #333;
-
-	/*
-	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25); */
 }
 
 @media (min-width: 767px) {
@@ -368,35 +347,32 @@ a:active {
 	  width: 0%;
 	  border-bottom: 2px solid #EC5536;
 	}
-
-
 }
 
 .navbar-nav > li > a:hover:after {
-  width: 100%;
+	width: 100%;
 }
 
 @media (max-width: 767px) {
-    .navbar-nav > li > a {
-        line-height: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+	.navbar-nav > li > a {
+		line-height: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 
-    .navbar-fixed-top {
-        min-height: 50px;
-    }
+	.navbar-fixed-top {
+		min-height: 50px;
+	}
 
-    .navbar h3 {
-        margin-top: -5px;
-    }
+	.navbar h3 {
+		margin-top: -5px;
+	}
 }
 
 .navbar a {
 	text-decoration: none;
     border-bottom: 0px;
 }
-
 
 /* INTRO */
 section {
@@ -407,42 +383,34 @@ section {
 }
 
 .intro-section {
-    overflow: auto;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 55% 20%;
-    min-height: 110vh;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.0);
-    position: relative;
-    overflow: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	overflow: auto;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 55% 20%;
+	min-height: 110vh;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.0);
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .bg-video {
-        position: absolute;
-        pointer-events: none;
-        min-width: 100%;
-        min-height: 100%;
-        z-index: -1;
-
-
-    }
+	position: absolute;
+	pointer-events: none;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
 
 @media (min-width: 767px) {
-	/*
-    .intro-section {
-    	margin-top: 80px;
-    }*/
-
-    #intro-desc {
-	    width: 40%;
+	#intro-desc {
+		width: 40%;
 	}
 	section {
 		padding-bottom: 50px;
@@ -464,7 +432,6 @@ section {
 }
 
 /* LATEST NEWS */
-
 .news-section {
 	min-height: 1100px;
     text-align: center;
@@ -475,9 +442,9 @@ section {
 }
 
 @media (min-width: 767px) {
-    .news-section {
-    	min-height: 1000px;
-    }
+	.news-section {
+		min-height: 1000px;
+	}
 }
 
 .news-item {
