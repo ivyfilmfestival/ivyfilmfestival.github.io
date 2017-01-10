@@ -354,6 +354,10 @@ a:active {
 	width: 100%;
 }
 
+.selected-nav-bar > a:after {
+	width: 100%;
+}
+
 @media (max-width: 767px) {
 	.navbar-nav > li > a {
 		line-height: 20px;

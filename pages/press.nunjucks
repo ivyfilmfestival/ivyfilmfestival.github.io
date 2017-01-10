@@ -3,7 +3,8 @@
 {% block content %}
 
     <!-- Navigation -->
-    {% include "partials/nav.nunjucks" %}
+    {% import 'partials/nav.nunjucks' as nav %}
+    {{nav.active('press')}}
 
     <!-- History Section -->
     <section>

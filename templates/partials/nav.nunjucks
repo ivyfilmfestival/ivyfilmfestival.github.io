@@ -1,3 +1,4 @@
+{% macro active(activePage='index') %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header page-scroll">
@@ -24,22 +25,22 @@
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll selected" href="about.html">about</a>
+                    <a class="page-scroll" id="{%if activePage == 'about' %}selected-nav{% endif %}" href="about.html">about</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="festival.html">festival week</a>
+                    <a class="page-scroll" id="{%if activePage == 'festival' %}selected-nav{% endif %}" href="festival.html">festival week</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="submit.html">submit</a>
+                    <a class="page-scroll" id="{%if activePage == 'submit' %}selected-nav{% endif %}" href="submit.html">submit</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="sponsors.html">sponsors</a>
+                    <a class="page-scroll" id="{%if activePage == 'sponsors' %}selected-nav{% endif %}" href="sponsors.html">sponsors</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="events.html">events</a>
+                    <a class="page-scroll" id="{%if activePage == 'events' %}selected-nav{% endif %}" href="events.html">events</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="press.html">press</a>
+                    <a class="page-scroll" id="{%if activePage == 'press' %}selected-nav{% endif %}" href="press.html">press</a>
                 </li>
             </ul>
             <div id="social-media">
@@ -53,3 +54,4 @@
     </div>
     <!-- /.container -->
 </nav>
+{% endmacro %}

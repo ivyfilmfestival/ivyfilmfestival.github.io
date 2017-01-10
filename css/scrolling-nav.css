@@ -60,6 +60,10 @@
     color: #EC5536;
 }
 
+#selected-nav {
+    color: #EC5536;
+}
+
 @media (max-width: 767px) {
     .navbar-nav > li > a {
         line-height: 20px;
