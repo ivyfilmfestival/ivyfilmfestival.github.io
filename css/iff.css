@@ -621,19 +621,37 @@ section {
 	vertical-align: top;
 }
 
-#footer-media p {
-	display: block;
-	vertical-align: top;
+.footer-media {
+	position: relative;
+  	top: 50%;
+}
+
+.footer-media a {
+	border-bottom: none;
+}
+
+#footer-container {
+	width: 100%;
+}
+
+.footer-col{
 	text-align: center;
-	font-family: "Basis Grotesque Bold", sans-serif;
-	border-bottom: 0px solid #FAD2C1;
-	color: #42744D;
+}
+
+@media(max-width: 768px){
+	#newsletter-container {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom:15px;
+		margin-top:10px;
+	}	
 }
 
 @media (min-width: 768px) {
 
-	.footer p {
-		text-align: left;
+	#footer-container{
+		width:75%;
 	}
 
 	#footer-desc {
