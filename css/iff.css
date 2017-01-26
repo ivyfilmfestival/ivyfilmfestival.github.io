@@ -250,13 +250,13 @@ a:active {
     text-decoration: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.container {
 		width: 70%;
 	}
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .news-section, .about-section {
         padding-top: 100px;
     }
@@ -271,7 +271,7 @@ a:active {
 	background:white;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.navbar {
 		border-width: 0px;
 		background:transparent;
@@ -281,7 +281,7 @@ a:active {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.navbar {
 		background-color: #fff;
 	}
@@ -328,7 +328,7 @@ a:active {
     color: #333;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 
 	.navbar-nav > li > a:after {
 	  content: '';
@@ -358,7 +358,7 @@ a:active {
 	width: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.navbar-nav > li > a {
 		line-height: 20px;
 		padding-top: 10px;
@@ -413,7 +413,7 @@ section {
 	z-index: -1;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	#intro-desc {
 		width: 40%;
 	}
@@ -446,7 +446,7 @@ section {
 	padding-bottom: 40px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.news-section {
 		min-height: 1000px;
 	}
@@ -459,7 +459,7 @@ section {
     margin: 0 auto;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .news-item-second {
         margin-top: 300px;
     }
@@ -544,7 +544,7 @@ section {
   	display: inline-block;line-height: 10px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 
 	.submit-section {
 	    height: 500px;
@@ -622,7 +622,7 @@ section {
 	color: #42744D;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 
 	.footer p {
 		text-align: left;
@@ -713,7 +713,7 @@ section {
 	padding-top: 50px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.top-section {
 		padding-top: 100px;
 	}
