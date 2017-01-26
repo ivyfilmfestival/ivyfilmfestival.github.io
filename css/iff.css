@@ -253,14 +253,21 @@ a:active {
 
 @media (min-width: 768px) {
 	.container {
-		width: 70%;
+		width: 80%;
 	}
 }
+
 
 @media (min-width: 768px) {
     .news-section, .about-section {
         padding-top: 100px;
     }
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 70%;
+	}
 }
 
 /* NAVBAR */
