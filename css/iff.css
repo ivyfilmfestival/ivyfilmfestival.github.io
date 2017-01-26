@@ -1,18 +1,18 @@
 /* GENERAL */
-#mobile-bg-picture{
-	display:none;
+#mobile-bg-picture {
+	display: none;
 }
 
-.event-image{
+.event-image {
 	max-width: 300px;
-	margin-top:10px;
+	margin-top: 10px;
 	border-style: solid;
     border-width: 4px 4px 4px 4px;
     border-color: #EC5536;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .event-title{
@@ -21,37 +21,37 @@
 
 @media (min-width: 768px) { 
 	.event-title-left {
-		margin-top:25px;
-		float:right;
-		width:50%;
+		margin-top: 25px;
+		float: right;
+		width: 50%;
 	}
 
 	.event-title-right {
-		margin-top:350px;
-		float:left;
-		width:50%;
+		margin-top: 350px;
+		float: left;
+		width: 50%;
 	}
-	.event-image-left{
-		float:left;
-		margin-bottom:20px;
+	.event-image-left {
+		float: left;
+		margin-bottom: 20px;
 	}
-	.event-image-right{
-		float:right;
-		margin-bottom:20px;
+	.event-image-right {
+		float: right;
+		margin-bottom: 20px;
 	}
 }
 
 .events-icon {
-	border-bottom:0px; /* Remove hyperlink underline for events links */
+	border-bottom: 0px; /* Remove hyperlink underline for events links */
 }
 
 .events-icon i {
-	color:#42744D;	
+	color: #42744D;	
 }
 
 
-.event-image-offset{
-	padding-top:35%;
+.event-image-offset {
+	padding-top: 35%;
 }
 
 .mail-icon-link {
@@ -69,7 +69,7 @@
 
 .satellite-schools {
 	color: #EC5536;
-	text-align:center;
+	text-align: center;
 }
 #trailer-link {
 	color: #EC5536;
@@ -128,7 +128,8 @@ h3 {
 
 #index-satellite-learn {
 	float: right;
-	clear: both;position: relative;
+	clear: both;
+	position: relative;
 	z-index: 1;
 	margin-top: -180px;
 }
@@ -236,7 +237,7 @@ a:visited {
 section a:hover {
     text-decoration: none;
     background-color: #FAD2C1; 
-    box-shadow:2px -10px 0 #FAD2C1, -2px -10px 0 #FAD2C1,
+    box-shadow: 2px -10px 0 #FAD2C1, -2px -10px 0 #FAD2C1,
     2px 2px 0 #FAD2C1, -2px 2px 0 #FAD2C1;
 }
 
