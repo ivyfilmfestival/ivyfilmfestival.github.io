@@ -87,6 +87,36 @@
 			"image_url": "assets/posters/the-mask-you-live-in.jpg"
 		}
 	],
+	"sponsors": {
+		"platinum": [
+			"assets/sponsors/PLATINUM/ufb-logo.png"
+		],
+		"gold": [
+			"assets/sponsors/GOLD/Trojan.png", "assets/sponsors/GOLD/fileYDsTJM.png"
+		],
+		"silver": [
+			"assets/sponsors/SILVER/BH_logo NO TAG_CMYK.PNG",
+			"assets/sponsors/SILVER/DHARMA-LOGO-copy.png",
+			"assets/sponsors/SILVER/fb twitter.jpg",
+			"assets/sponsors/SILVER/SVA-MPS-Tagline-Final.png",
+			"assets/sponsors/SILVER/logo.png",
+			"assets/sponsors/SILVER/PAN-Primary Logo-Square.png",
+			"assets/sponsors/SILVER/PEMB Center Logo_1clr.png",
+			"assets/sponsors/SILVER/TFA.Color.COATED.jpg",
+			"assets/sponsors/SILVER/FW Circle_Logo.png",
+			"assets/sponsors/SILVER/ben-and-jerrys-logo (1).png",
+			"assets/sponsors/SILVER/Bloomingdale's_Logo.svg.png",
+			"assets/sponsors/SILVER/caclogo.jpg",
+			"assets/sponsors/SILVER/download.jpeg",
+			"assets/sponsors/SILVER/filmic_logo1-300x129.png",
+			"assets/sponsors/SILVER/image.png",
+			"assets/sponsors/SILVER/RUNA-Just-Text-Logo.jpg",
+			"assets/sponsors/SILVER/seven-star-logo.png",
+			"assets/sponsors/SILVER/image1.PNG",
+			"assets/sponsors/SILVER/BC Mockups-02.png",
+			"assets/sponsors/SILVER/COFX Logo - Square 500x500px.jpg"
+		]
+	},
 	"press": [
 		{"link": "http://www.nytimes.com/2016/04/08/movies/beyond-tribeca-film-festival-more-new-york-film-festival-in-april.html?_r=0", "title": "Beyond Tribeca: New York\u2019s Many Other Film Fests in April (New York Times)"}, 
 		{"link": "http://www.providencejournal.com/article/20160407/NEWS/160409379", "title": "De Niro gives his father starring role at Brown film festival (Providence Journal)"}, 
