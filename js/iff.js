@@ -18,7 +18,9 @@ $('#newsletter-button').click(function(){
 		$.ajax({
 			url: "https://formspree.io/iffweb2017@gmail.com",  
 		    method: "POST",
-		    data: {message: "hello!"},
+		    data: {
+		    	message: $('#newsletter-email').val(),
+		    },
 		    dataType: "json"
 		});
 
