@@ -12,3 +12,19 @@ $(document).ready(function(){
 	}
 });
 
+$('#newsletter-button').click(function(){
+	if($('#newsletter-email').val()){
+		// AJAX POST to Formspree
+		$.ajax({
+			url: "https://formspree.io/iffweb2017@gmail.com",  
+		    method: "POST",
+		    data: {message: "hello!"},
+		    dataType: "json"
+		});
+
+
+		$('#newsletter-container').replaceWith("Thanks! We've added you to our mailing list.");
+	}
+
+
+});
