@@ -12,14 +12,15 @@
 
 
 
-    <section>
+    <section id='about'>
         <div class="container top-section">
 
-            <div class='sidenav xs-hidden'>
+            <div class='sidenav visible-lg'>
                 <ul>
-                    <li>number 1</li>
-                    <li><a href='#team'>number 2</a></li>
-                    <li>number 3</li>
+                    <li><a class='sidenav-link' href='#about'>about us</a></li>
+                    <li><a class='sidenav-link' href='#team'>our team</a></li>
+                    <li><a class='sidenav-link' href='#keynotes'>past keynotes</a></li>
+                    <li><a class='sidenav-link' href='#satellite'>satellite festival</a></li>
                 </ul>
             </div>
 <!--             <h1>our mission<h1> 
@@ -157,7 +158,7 @@
     </section>
 
     <!-- History Section -->
-    <section>
+    <section id='keynotes'>
         <div class="container">
             <h1>past keynotes &amp; advanced screenings</h1>
             <br/>
@@ -254,7 +255,7 @@
 
     </section>
 
-    <section>
+    <section id='satellite'>
         <div class="container">
             <h1>satellite film festival</h1>
             <p>IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2017 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions, creating an intercollegiate network of emerging filmmakers.</p>    

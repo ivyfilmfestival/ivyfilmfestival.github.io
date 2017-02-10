@@ -1,10 +1,25 @@
 /* GENERAL */
 .sidenav {
-	color: #42744D;
-	font-family: "Basis Grotesque Bold", sans-serif;
 	position:fixed;
-	top:200px;
-	left:35px;
+	top:150px;
+	left:30px;
+	line-height: 140%;
+}
+
+.sidenav ul {
+	list-style-type: none;
+}
+
+.sidenav-link {
+	color: #EC5536;
+	font-family: "Basis Grotesque Bold", sans-serif;
+	border-bottom: none;
+}
+
+.sidenav-link:hover {
+	color: #EC5536;
+    background-color: transparent; 
+    box-shadow: none;
 }
 
 #mobile-bg-picture{
