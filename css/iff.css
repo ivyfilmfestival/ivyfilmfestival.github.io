@@ -1,6 +1,14 @@
 /* GENERAL */
-#mobile-bg-picture {
-	display: none;
+.sidenav {
+	color: #42744D;
+	font-family: "Basis Grotesque Bold", sans-serif;
+	position:fixed;
+	top:200px;
+	left:35px;
+}
+
+#mobile-bg-picture{
+	display:none;
 }
 
 .event-image {

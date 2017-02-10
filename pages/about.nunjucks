@@ -7,8 +7,21 @@
     {{nav.active('about')}}
 
     <!-- About Section -->
+
+
+
+
+
     <section>
         <div class="container top-section">
+
+            <div class='sidenav xs-hidden'>
+                <ul>
+                    <li>number 1</li>
+                    <li><a href='#team'>number 2</a></li>
+                    <li>number 3</li>
+                </ul>
+            </div>
 <!--             <h1>our mission<h1> 
                 <h1 id="mission">             To be the world's foremost film festival for students, by students.</h1> -->
 <!--             <p></p> -->
@@ -20,7 +33,7 @@
     </section>
 
     <!-- Our Team Section -->
-    <section>
+    <section id="team">
         <div class="container">
             <h1>our team</h1>
             <p>Ivy Film Festival is made up of 95 students from Brown University and Rhode Island School of Design (RISD), and divided into 9 different internal departments.</p>
