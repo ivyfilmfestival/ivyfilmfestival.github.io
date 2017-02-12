@@ -7,11 +7,6 @@
     {{nav.active('about')}}
 
     <!-- About Section -->
-
-
-
-
-
     <section id='about'>
         <div class="container top-section">
 
@@ -51,11 +46,13 @@
                 Sasha Lieblein,
                 Quinn Schoen,
                 Allison Meakem,
-                Becca Gever,
-                Emerson Tenney</p>
+                Paige Parsons,
+                Emerson Tenney,
+                Isabel Tejera
+                </p>
 
 
-            <h4>events and tech</h4>
+            <h4>events</h4>
             <p><b>Coordinators:</b> Gus Esselstyn <br>
                 <b>Staff:</b> 
                 Ian Sherman,
@@ -103,7 +100,6 @@
                 Devika Girish,
                 Alexander Fredman,
                 Isabela Lovelace,
-                Rashad Saleh,
                 Allegra Chapman,
                 Clementine Quittner,
                 Rex Provost,
@@ -152,7 +148,9 @@
                 Claire Sapan,
                 Misha Gehring,
                 Evan Boyd,
-                Maddie Gibson</p>
+                Maddie Gibson,
+                Claire Sapan
+                </p>
 
         </div>
     </section>
