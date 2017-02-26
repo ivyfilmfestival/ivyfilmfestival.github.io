@@ -94,9 +94,11 @@
 	color: #EC5536;
 	text-align: center;
 }
+
 #trailer-link {
 	color: #EC5536;
-	line-height: 20px;
+	font-size: 35px;
+	line-height: 35px;
 	border-bottom: 4px solid #EC5536;
 }
 
