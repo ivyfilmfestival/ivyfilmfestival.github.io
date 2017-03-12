@@ -11,13 +11,13 @@
 }
 
 .sidenav-link {
-	color: #D7E5ED;
+	color: #EC5536;
 	font-family: "Basis Grotesque Bold", sans-serif;
 	border-bottom: none;
 }
 
 .sidenav-link:hover {
-	color: #D7E5ED;
+	color: #EC5536;
     background-color: transparent; 
     box-shadow: none;
 }
@@ -31,7 +31,7 @@
 	margin-top: 10px;
 	border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: #D7E5ED;
+    border-color: #EC5536;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +69,7 @@
 }
 
 .events-icon i {
-	color: #E8616A;	
+	color: #42744D;	
 }
 
 
@@ -79,11 +79,11 @@
 
 .mail-icon-link {
 	
-	border-bottom: 0px solid #D7E5ED;
+	border-bottom: 0px solid #EC5536;
 }
 
 .mail-icon {
-	color: #E8616A;
+	color: #42744D;
 }
 
 .about-intro-section {
@@ -91,22 +91,22 @@
 }
 
 .satellite-schools {
-	color: #8BA4CC;
+	color: #EC5536;
 	text-align: center;
 }
 
 #trailer-link {
-	color: #D7E5ED;
+	color: #EC5536;
 	font-size: 35px;
 	line-height: 35px;
-	border-bottom: 4px solid #D7E5ED;
+	border-bottom: 4px solid #EC5536;
 }
 
 #now-closed {
 	font-family: "Kazimir Light", Georgia, serif;
 	font-size: 100px;
 	line-height: 60px;
-	color: #D7E5ED;
+	color: #EC5536;
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
@@ -214,7 +214,7 @@ h3 {
 h1 {
 	font-size: 43px;
 	font-family: "Basis Grotesque Bold", sans-serif;
-	color: #E8616A;
+	color: #42744D;
 }
 
 h2 {
@@ -223,12 +223,12 @@ h2 {
 
 h3 {
 	font-size: 24px;
-	color: #D7E5ED;
+	color: #EC5536;
 	font-family: "Basis Grotesque Bold", sans-serif;
 }
 
 h4 {
-	color: #E8616A;
+	color: #42744D;
 	font-family: "Basis Grotesque Bold", sans-serif;
 }
 
@@ -239,7 +239,7 @@ p {
 
 a {
 	text-decoration: none;
-    border-bottom: 7px solid #D7E5ED;
+    border-bottom: 7px solid #FAD2C1;
     text-underline-position: under;
     -webkit-text-underline-position: under;
   	-ms-text-underline-position: below;
@@ -261,9 +261,9 @@ a:visited {
 
 section a:hover {
     text-decoration: none;
-    background-color: #D7E5ED; 
-    box-shadow: 2px -10px 0 #D7E5ED, -2px -10px 0 #D7E5ED,
-    2px 2px 0 #D7E5ED, -2px 2px 0 #D7E5ED;
+    background-color: #FAD2C1; 
+    box-shadow: 2px -10px 0 #FAD2C1, -2px -10px 0 #FAD2C1,
+    2px 2px 0 #FAD2C1, -2px 2px 0 #FAD2C1;
 }
 
 .submit-section a:hover {
@@ -300,7 +300,7 @@ a:active {
 	font-size: 13px;
 	font-family: "Basis Grotesque Bold", sans-serif;
 	transition: 0.4s;
-	color: #E8616A;
+	color: #333;
 	background:white;
 }
 
@@ -369,7 +369,7 @@ a:active {
 	  bottom: 0;
 	  left: 0;
 	  width: 0%;
-	  border-bottom: 2px solid #D7E5ED;
+	  border-bottom: 2px solid #EC5536;
 	  transition: 0.4s;
 	}
 
@@ -379,7 +379,7 @@ a:active {
 	  bottom: 0;
 	  left: 0;
 	  width: 0%;
-	  border-bottom: 2px solid #D7E5ED;
+	  border-bottom: 2px solid #EC5536;
 	}
 }
 
@@ -459,13 +459,13 @@ section {
 	text-align: center;
 }
 .intro-section h1 {
-    color: #E8616A;
+    color: #EC5536;
     text-align: center;
 }
 
 #intro-desc {
     display: inline-block;
-    color: #E8616A;
+    color: #EC5536;
     text-align: center;
 }
 
@@ -510,7 +510,7 @@ section {
     transform: rotate(-90deg);
     transform-origin: 100% 100%;
     margin-top: -35px;
-    color: #D7E5ED;
+    color: #EC5536;
     display: block;
 	float: left;
 }
@@ -518,7 +518,7 @@ section {
 .news-image img {
 	border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: #D7E5ED;
+    border-color: #EC5536;
     display: inline-block;
     float: right;
 }
@@ -555,12 +555,12 @@ section {
 #submit-button {
 	width: 300px;
 	font-size: 43px;
-	color: #D7E5ED;
+	color: #EC5536;
 	font-family: "Kazimir Light";
 	padding: 20px 30px 20px 30px;
 	border-style: double;
     border-width: 8px 8px 8px 8px;
-	border-color: #D7E5ED;
+	border-color: #EC5536;
 	display: inline-block;
 	transition: 0.4s;
 	padding-top: 40px;
@@ -623,7 +623,7 @@ section {
 .footer {
 	border-style: solid;
     border-width: 6px 6px 6px 6px;
-    border-color: #E8616A;
+    border-color: #42744D;
     min-height: 300px;
     background-image: url('../assets/logo_footer.png');
     background-repeat:   no-repeat;
@@ -720,7 +720,7 @@ section {
 .year {
 	font-size: 26px;
 	font-family: "Basis Grotesque Regular", sans-serif;
-	color: #D7E5ED;
+	color: #C2E5C9;
 }
 
 .submissions-section {
@@ -738,7 +738,7 @@ section {
 }
 
 .deadline {
-	color: #D7E5ED;
+	color: #EC5536;
 }
 
 #gate {

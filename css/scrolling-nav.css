@@ -34,7 +34,7 @@
 }
 
 .selection-container {
-    background-color: #D7E5ED;
+    background-color: #d3d3d3;
     height: 100px;
     outline: 1px solid black;
 }
@@ -57,11 +57,11 @@
 
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #8BA4CC;
+    color: #EC5536;
 }
 
 #selected-nav {
-    color: #8BA4CC;
+    color: #EC5536;
 }
 
 @media (max-width: 767px) {
