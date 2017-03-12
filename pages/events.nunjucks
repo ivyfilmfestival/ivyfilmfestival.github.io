@@ -37,9 +37,9 @@
                 <div class='event-title event-title-right'>
                 <h4>{{event.title}}</h4>
                 <h4>{{event.date}}</h4>
-                <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg" style='color:#42744D;text-decoration:none;'></i></a>
+                <a class='events-icon' href= "{{event.facebook_url}}" ><i class="social-media-icon fa fa-facebook fa-lg" style='color:#E8616A;text-decoration:none;'></i></a>
                 {% if event.tickets_url %}
-                    <a class='events-icon' href= "{{event.tickets_url}}" ><i class="social-media-icon fa fa-ticket fa-lg" style='color:#42744D;text-decoration-none;'></i></a>
+                    <a class='events-icon' href= "{{event.tickets_url}}" ><i class="social-media-icon fa fa-ticket fa-lg" style='color:#E8616A;text-decoration-none;'></i></a>
                 {% endif %}
                 </div>
             </div>
