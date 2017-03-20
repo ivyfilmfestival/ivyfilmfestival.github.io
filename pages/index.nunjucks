@@ -10,7 +10,7 @@
     <!-- Intro Section -->
     <section class="intro-section module parallax parallax-1"> 
     <div id="video-frame">
-            <img class="bg-video" id='mobile-bg-picture'  src='assets/home.jpg'></img>
+            <img class="bg-video" id='mobile-bg-picture'  src='assets/home.png' width="100%"></img>
             <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/pZXftf51KIs?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=pZXftf51KIs" frameborder="0" allowfullscreen></iframe>
             <div id="intro-text"> 
             <h1>april 10-16, 2017</h1>
