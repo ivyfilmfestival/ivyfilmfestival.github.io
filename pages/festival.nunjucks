@@ -12,7 +12,13 @@
             <h1>the 2017 schedule</h1>
 <!--             <h1 id="now-closed">coming soon</h1> -->
 <img src="assets/schedule_digital.jpg" width='100%'>
+
+    <h3>Looking for more information?</h3>
+    <br/>
+        <p>Check out our event on <a href="https://www.facebook.com/events/357385101329022/?active_tab=about">Facebook</a></p>
         </div>
+
+
     </section>
     <!-- Footer -->
     {% include "partials/footer.nunjucks" %}
