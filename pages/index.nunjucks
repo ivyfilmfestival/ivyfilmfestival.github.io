@@ -6,23 +6,31 @@
     {% import 'partials/nav.nunjucks' as nav %}
     {{nav.active('index')}}
 
-
     <!-- Intro Section -->
-    <section class="intro-section module parallax parallax-1"> 
-    <div id="video-frame">
-            <img class="bg-video" id='mobile-bg-picture'  src='assets/home.png' width="100%"></img>
-            <iframe class="bg-video" id="youtube-bg-iframe" width="640" height="360" src="https://www.youtube.com/embed/pZXftf51KIs?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=pZXftf51KIs" frameborder="0" allowfullscreen></iframe>
-            <div id="intro-text"> 
-            <h1>april 10-16, 2017</h1>
-            <br/>
-                        <p>
-                <a id="trailer-link" target="_blank" href="https://www.facebook.com/events/357385101329022/?active_tab=about">Festival Details on Facebook</a>
-            </p>
-          </br>
-            <div id="intro-desc"><p>Ivy Film Festival is among the largest student-run film festivals in the world hosted annually at Brown University.</p></div>
+    <section class="intro-section module parallax parallax-1">
+        <div id="video-frame">
+            <img class="bg-video" id='mobile-bg-picture' src='assets/home.png' width="100%"></img>
+            <iframe
+                class="bg-video"
+                id="youtube-bg-iframe"
+                width="640"
+                height="360"
+                src="https://www.youtube.com/embed/pZXftf51KIs?autoplay=1&amp;rel=0&amp;loop=1&amp;controls=0&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;playlist=pZXftf51KIs"
+                frameborder="0"
+                allowfullscreen></iframe>
+            <div id="intro-text">
+                <h1>april 10-16, 2017</h1>
+                <br>
+                    <p>
+                        <a id="trailer-link" target="_blank" href="https://www.facebook.com/events/357385101329022/?active_tab=about">Festival Details on Facebook</a>
+                    </p>
+                </br>
+                <div id="intro-desc">
+                    <p>Ivy Film Festival is among the largest student-run film festivals in the world hosted annually at Brown University.</p>
+                </div>
 
+            </div>
         </div>
-   </div>
     </section>
 
     <!-- Footer -->
@@ -31,11 +39,19 @@
 {% endblock %}
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        },
+        i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-75834814-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-75834814-1', 'auto');
+    ga('send', 'pageview');
 </script>

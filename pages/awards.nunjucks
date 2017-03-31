@@ -11,32 +11,40 @@
             <h1>awards</h1>
 
             <h3>Best Undergraduate Comedy: Conversation Between Emperor + Explorer</h3>
-            <br><p>Felipe Di Poi</p>
+            <br>
+            <p>Felipe Di Poi</p>
 
             <h3>Best Undergraduate Documentary: The Reenactors</h3>
-            <br><p>Alistair Wilson</p>
+            <br>
+            <p>Alistair Wilson</p>
 
             <h3>Best Undergraduate Drama: Folds</h3>
-            <br><p>Matthew Brown</p>
+            <br>
+            <p>Matthew Brown</p>
 
             <h3>Best Undergraduate Experimental: Shark Shit</h3>
-            <br><p>Lola Katan Kourako</p>
+            <br>
+            <p>Lola Katan Kourako</p>
 
             <h3>Best Graduate Film: Pitter Patter Goes My Heart</h3>
-            <br><p>Christoph Rainer</p>
+            <br>
+            <p>Christoph Rainer</p>
 
             <h3>Best International Film: Into Us and Ours</h3>
-            <br><p>Chase Musslewhite</p>
+            <br>
+            <p>Chase Musslewhite</p>
 
             <h3>Audience Choice Award: Handjob</h3>
-            <br><p>Alex Heller</p>
+            <br>
+            <p>Alex Heller</p>
 
             <h3>Grand Jury Award: Everything Will Be Okay</h3>
-            <br><p>Patrick Vollrath</p>
+            <br>
+            <p>Patrick Vollrath</p>
 
         </div>
     </section>
-    
+
     <!-- Footer -->
     {% include "partials/footer.nunjucks" %}
 
