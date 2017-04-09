@@ -27,7 +27,9 @@
             <div class="container">
                 <h1>sponsors 2016</h1>
 
-                <h3 class="sponsors-heading">platinum</h3>
+                <img src="assets/sponsors.png" width="80%" style='margin:auto'>
+
+                {# <h3 class="sponsors-heading">platinum</h3>
                 <div class='row'>
                     {% for sponsor in sponsors.platinum %}
                         <img class='sponsor-image' src='{{sponsor}}'>
@@ -45,7 +47,7 @@
                 <div class='row'>
                     {% for sponsor in sponsors.silver %}
                         <img class='sponsor-image' src='{{sponsor}}'>
-                    {% endfor %}
+                    {% endfor %} #}
                 </div>
             </section>
 
