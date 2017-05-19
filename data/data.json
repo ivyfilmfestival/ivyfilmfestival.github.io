@@ -1,150 +1,211 @@
 {
-	"about": {
-		"satellite_schools": [
-			"Harvard University", 
-			"Cornell University",
-			"Columbia University",
-			"University of Chicago",
-			"Wesleyan University",
-			"School of Visual Arts",
-			"Princeton University",
-			"Cornell University", 
-			"University of Pennsylvania", 
-			"New York University", 
-			"Oberlin College", 
-			"Prague Film School",
-			"Yale University", 
-			"Dartmouth University", 
-			"Northwestern University", 
-			"University of California, Berkeley", 
-			"University of Texas at Austin"
-		]
-	},
-	"events": [
-		{
-			"title": "Table 19 (Advance Screening, Fox Searchlight)",
-			"date": "03.01.17",
-			"facebook_url": "https://www.facebook.com/events/1030088800469850/",
-			"tickets_url": "https://www.eventbrite.com/e/ivy-film-festival-presents-table-19-tickets-31358494100",
-			"image_url": "https://cdn.traileraddict.com/content/fox-searchlight/table-19-poster.jpg"
-		},
-		{
-			"title": "A United Kingdom (Advance Screening, Fox Searchlight)",
-			"date": "02.01.17",
-			"facebook_url": "https://www.facebook.com/events/1216683705046058/?active_tab=about",
-			"tickets_url": "https://www.eventbrite.com/e/ivy-film-festival-presents-a-united-kingdom-tickets-31340454142",
-			"image_url": "assets/posters/united-kingdom.jpg"
-		},
-		{
-			"title": "Lion (The Weinstein Company)",
-			"date": "12.05.16",
-			"facebook_url": "https://www.facebook.com/events/131941957285611/",
-			"tickets_url": "https://www.eventbrite.com/e/advanced-screening-of-lion-tickets-29304618904",
-			"image_url": "assets/posters/lion.jpg"
-		},
-		{
-			"title": "48 Hour Film Festival",
-			"date": "11.13.16",
-			"facebook_url": "https://www.facebook.com/events/1812766532339853/",
-			"image_url": "assets/posters/48hr.jpg"
-		},
-		{
-			"title": "After Spring (REACT to FILM)",
-			"date": "10.24.16",
-			"facebook_url": "https://www.facebook.com/events/1131658740262677/",
-			"tickets_url": "https://www.eventbrite.com/e/after-spring-presented-by-ivy-film-festival-and-react-to-film-tickets-28372171930",
-			"image_url": "assets/posters/after-spring.jpg"
-		},
-		{
-			"title": "The Birth of a Nation (Advance Screening, Fox Searchlight)",
-			"date": "10.05.16",
-			"facebook_url": "https://www.facebook.com/events/1147286645337520/",
-			"tickets_url": "https://iff-birth-of-a-nation.eventbrite.com/",
-			"image_url": "assets/posters/birth-of-a-nation.jpg"
-		},
-		{
-			"title": " Queen of Katwe (Advance Screening, Disney)",
-			"date": "9.15.16",
-			"facebook_url": "https://www.facebook.com/events/296829937341279",
-			"tickets_url": "https://docs.google.com/forms/d/e/1FAIpQLScscoqnN0Fii-kM4OvWDo29tPPwFg8aRQ0trlol77iY1005xQ/closedform",
-			"image_url": "assets/posters/queen_of_katwe.jpg"
-		},
-		{
-			"title": "How to Be Single (Advance Screening, Warner Bros)",
-			"date": "2.29.16",
-			"facebook_url": "https://www.facebook.com/events/1027058320669235/",
-			"image_url": "assets/posters/how-to-be-single.jpg"
-		},
-		{
-			"title": "Pride and Prejudice and Zombies (Advance Screening, Sony)",
-			"date": "12.10.15",
-			"facebook_url": "https://www.facebook.com/events/1490564557941111/",
-			"image_url": "assets/posters/pride-prejudice-zombies.jpg"
-		},
-		{
-			"title": "Brooklyn (Advance Screening, Fox Searchlight)",
-			"date": "10.28.15",
-			"facebook_url": "https://www.facebook.com/events/1049090261770098/",
-			"image_url": "assets/posters/brooklyn.jpg"
-		},
-		{
-			"title": "The Mask You Live In (REACT to FILM)",
-			"date": "10.27.15",
-			"facebook_url": "https://www.facebook.com/events/407170142825575/",
-			"image_url": "assets/posters/the-mask-you-live-in.jpg"
-		}
-	],
-	"sponsors": {
-		"platinum": [
-			"assets/sponsors/PLATINUM/ufb-logo.png"
-		],
-		"gold": [
-			"assets/sponsors/GOLD/Trojan.png", "assets/sponsors/GOLD/fileYDsTJM.png"
-		],
-		"silver": [
-			"assets/sponsors/SILVER/BH_logo NO TAG_CMYK.PNG",
-			"assets/sponsors/SILVER/DHARMA-LOGO-copy.png",
-			"assets/sponsors/SILVER/fb twitter.jpg",
-			"assets/sponsors/SILVER/SVA-MPS-Tagline-Final.png",
-			"assets/sponsors/SILVER/logo.png",
-			"assets/sponsors/SILVER/PAN-Primary Logo-Square.png",
-			"assets/sponsors/SILVER/PEMB Center Logo_1clr.png",
-			"assets/sponsors/SILVER/TFA.Color.COATED.jpg",
-			"assets/sponsors/SILVER/FW Circle_Logo.png",
-			"assets/sponsors/SILVER/ben-and-jerrys-logo (1).png",
-			"assets/sponsors/SILVER/Bloomingdale's_Logo.svg.png",
-			"assets/sponsors/SILVER/caclogo.jpg",
-			"assets/sponsors/SILVER/download.jpeg",
-			"assets/sponsors/SILVER/filmic_logo1-300x129.png",
-			"assets/sponsors/SILVER/image.png",
-			"assets/sponsors/SILVER/RUNA-Just-Text-Logo.jpg",
-			"assets/sponsors/SILVER/seven-star-logo.png",
-			"assets/sponsors/SILVER/image1.PNG",
-			"assets/sponsors/SILVER/BC Mockups-02.png",
-			"assets/sponsors/SILVER/COFX Logo - Square 500x500px.jpg"
-		]
-	},
-	"press": [
-		{"link": "https://www.bostonglobe.com/lifestyle/names/2017/03/16/ezra-edelman-night-shyamalan-and-barry-levinson-appear-ivy-film-festival/REBxMiQTDE6iAPZo7EaiPK/story.html", "title": "Ezra Edelman, M. Night Shyamalan, and Barry Levinson to appear at Ivy Film Festival (The Boston Globe)"},
-		{"link": "http://www.indiewire.com/2017/03/film-festival-roundup-sarasota-slate-sfiff-lineup-launch-program-1201794460/", "title": "Film Festival Roundup: Sarasota Announces Complete Slate, SFIFF Unveils Full Lineup and New Launch Program, and More (Indiewire)"},
-		{"link": "http://realscreen.com/2017/03/17/extra-c4-firms-up-gbbo-lineup-tyra-banks-returns-to-host-antm/", "title": "Extra: C4 firms up GBBO lineup; Tyra Banks returns to host ANTM (Realscreen)"},
-		{"link": "https://www.yahoo.com/movies/film-festival-roundup-sarasota-announces-180046709.html", "title": "Film Festival Roundup: Sarasota Announces Complete Slate, SFIFF Unveils Full Lineup and New Launch Program, and More (Yahoo! Movies)"},
-		{"link": "https://unseenfilms.blogspot.com/2017/03/ivy-film-festival-presents-ezra-edelman.html", "title": "Ivy Film Festival presents Ezra Edelman, Barry Levinson and M. Night Shyamalan, Planned Parenthood’s Virtual Reality film 'Across the Line,' 'She Scores' panel of women composers and more at Brown University, April 10-16, 2017 (Unseen Films)"},
-		{"link": "http://www.nytimes.com/2016/04/08/movies/beyond-tribeca-film-festival-more-new-york-film-festival-in-april.html?_r=0", "title": "Beyond Tribeca: New York\u2019s Many Other Film Fests in April (New York Times)"}, 
-		{"link": "http://www.providencejournal.com/article/20160407/NEWS/160409379", "title": "De Niro gives his father starring role at Brown film festival (Providence Journal)"}, 
-		{"link": "https://www.bostonglobe.com/lifestyle/names/2016/03/30/robert-niro-will-rhode-island-next-week-for-ivy-film-festival/0faE4KOpS3SEM4BMsNTtiK/story.html", "title": "Robert De Niro headed to Rhode Island for Ivy Film Festival (Boston Globe)"}, 
-		{"link": "http://www.browndailyherald.com/2016/04/06/jodie-foster-reflects-on-career-path-in-film-industry/", "title": "Jodie Foster reflects on career path in film industry (Brown Daily Herald)"}, 
-		{"link": "http://www.browndailyherald.com/2016/04/05/ivy-film-festival-reaches-campuses-nationwide/", "title": "Ivy Film Festival reaches campuses nationwide (Brown Daily Herald)"}, 
-		{"link": "http://blogs.indiewire.com/thompsononhollywood/todd-haynes-to-world-premiere-first-scenes-from-carol-at-ivy-film-fest-20150330", "title": "Ivy Film Fest Tributes Todd Haynes (IndieWire)"}, 
-		{"link": "http://www.forbes.com/sites/maddieberg/2015/04/13/in-exclusive-q-a-true-detective-producer-explains-how-tv-became-the-land-with-no-rules/#68300e992b97", "title": "True Detective' Producer Explains How TV Became The Land With No Rules (Forbes)"}, 
-		{"link": "http://www.browndailyherald.com/2015/04/10/end-of-the-tour-starts-off-ivy-film-festival/", "title": "End of the Tour starts off Ivy Film Festival (Brown Daily Herald)"}, 
-		{"link": "http://www.browndailyherald.com/2013/04/16/exclusive-qa-with-horror-director-wes-craven/", "title": "Exclusive Q&A with horror director Wes Craven (Brown Daily Herald)"}, 
-		{"link": "http://www.browndailyherald.com/2012/04/11/exclusive-qa-with-actress-laura-linney-86/", "title": "Exclusive Q&A with actress Laura Linney '86 (Brown Daily Herald)"}, 
-		{"link": "http://www.browndailyherald.com/2012/04/16/the-herald-gets-girly-with-lena-dunham/", "title": "The Herald gets girly with Lena Dunham (Brown Daily Herald)"}, 
-		{"link": "http://www.golocalprov.com/lifestyle/new-screenwriter-aaron-sorkin-coming-to-ivy-film-festival", "title": "NEW: Screenwriter Aaron Sorkin Coming to Ivy Film Festival (GoLocal Prov)"}, 
-		{"link": "http://variety.com/2009/film/features/ivy-film-festival-attracts-industry-pros-1118002508/", "title": "Ivy Film Festival attracts industry pros (Variety)"}, 
-		{"link": "http://variety.com/2007/film/markets-festivals/ivy-festival-for-film-business-advice-1117963142/", "title": "Ivy Film Festival for film business advice (Variety)"}, 
-		{"link": "http://www.thecrimson.com/article/2005/4/22/ivy-film-festival-unites-student-filmmakers/", "title": "Ivy Film Festival Unites Student Filmmakers (Harvard Crimson)"}, 
-		{"link": "http://variety.com/2004/film/markets-festivals/h-wood-trio-in-league-for-ivy-film-festival-1117902567/", "title": "H\u2019wood trio in league for Ivy Film Festival (Variety)"}
-	]
+  "about": {
+    "satellite_schools": [
+      "Harvard University",
+      "Cornell University",
+      "Columbia University",
+      "University of Chicago",
+      "Wesleyan University",
+      "School of Visual Arts",
+      "Princeton University",
+      "Cornell University",
+      "University of Pennsylvania",
+      "New York University",
+      "Oberlin College",
+      "Prague Film School",
+      "Yale University",
+      "Dartmouth University",
+      "Northwestern University",
+      "University of California, Berkeley",
+      "University of Texas at Austin"
+    ]
+  },
+  "events": [{
+      "title": "Table 19 (Advance Screening, Fox Searchlight)",
+      "date": "03.01.17",
+      "facebook_url": "https://www.facebook.com/events/1030088800469850/",
+      "tickets_url": "https://www.eventbrite.com/e/ivy-film-festival-presents-table-19-tickets-31358494100",
+      "image_url": "https://cdn.traileraddict.com/content/fox-searchlight/table-19-poster.jpg"
+    },
+    {
+      "title": "A United Kingdom (Advance Screening, Fox Searchlight)",
+      "date": "02.01.17",
+      "facebook_url": "https://www.facebook.com/events/1216683705046058/?active_tab=about",
+      "tickets_url": "https://www.eventbrite.com/e/ivy-film-festival-presents-a-united-kingdom-tickets-31340454142",
+      "image_url": "assets/posters/united-kingdom.jpg"
+    },
+    {
+      "title": "Lion (The Weinstein Company)",
+      "date": "12.05.16",
+      "facebook_url": "https://www.facebook.com/events/131941957285611/",
+      "tickets_url": "https://www.eventbrite.com/e/advanced-screening-of-lion-tickets-29304618904",
+      "image_url": "assets/posters/lion.jpg"
+    },
+    {
+      "title": "48 Hour Film Festival",
+      "date": "11.13.16",
+      "facebook_url": "https://www.facebook.com/events/1812766532339853/",
+      "image_url": "assets/posters/48hr.jpg"
+    },
+    {
+      "title": "After Spring (REACT to FILM)",
+      "date": "10.24.16",
+      "facebook_url": "https://www.facebook.com/events/1131658740262677/",
+      "tickets_url": "https://www.eventbrite.com/e/after-spring-presented-by-ivy-film-festival-and-react-to-film-tickets-28372171930",
+      "image_url": "assets/posters/after-spring.jpg"
+    },
+    {
+      "title": "The Birth of a Nation (Advance Screening, Fox Searchlight)",
+      "date": "10.05.16",
+      "facebook_url": "https://www.facebook.com/events/1147286645337520/",
+      "tickets_url": "https://iff-birth-of-a-nation.eventbrite.com/",
+      "image_url": "assets/posters/birth-of-a-nation.jpg"
+    },
+    {
+      "title": " Queen of Katwe (Advance Screening, Disney)",
+      "date": "9.15.16",
+      "facebook_url": "https://www.facebook.com/events/296829937341279",
+      "tickets_url": "https://docs.google.com/forms/d/e/1FAIpQLScscoqnN0Fii-kM4OvWDo29tPPwFg8aRQ0trlol77iY1005xQ/closedform",
+      "image_url": "assets/posters/queen_of_katwe.jpg"
+    },
+    {
+      "title": "How to Be Single (Advance Screening, Warner Bros)",
+      "date": "2.29.16",
+      "facebook_url": "https://www.facebook.com/events/1027058320669235/",
+      "image_url": "assets/posters/how-to-be-single.jpg"
+    },
+    {
+      "title": "Pride and Prejudice and Zombies (Advance Screening, Sony)",
+      "date": "12.10.15",
+      "facebook_url": "https://www.facebook.com/events/1490564557941111/",
+      "image_url": "assets/posters/pride-prejudice-zombies.jpg"
+    },
+    {
+      "title": "Brooklyn (Advance Screening, Fox Searchlight)",
+      "date": "10.28.15",
+      "facebook_url": "https://www.facebook.com/events/1049090261770098/",
+      "image_url": "assets/posters/brooklyn.jpg"
+    },
+    {
+      "title": "The Mask You Live In (REACT to FILM)",
+      "date": "10.27.15",
+      "facebook_url": "https://www.facebook.com/events/407170142825575/",
+      "image_url": "assets/posters/the-mask-you-live-in.jpg"
+    }
+  ],
+  "sponsors": {
+    "platinum": [
+      "assets/sponsors/PLATINUM/ufb-logo.png"
+    ],
+    "gold": [
+      "assets/sponsors/GOLD/Trojan.png", "assets/sponsors/GOLD/fileYDsTJM.png"
+    ],
+    "silver": [
+      "assets/sponsors/SILVER/BH_logo NO TAG_CMYK.PNG",
+      "assets/sponsors/SILVER/DHARMA-LOGO-copy.png",
+      "assets/sponsors/SILVER/fb twitter.jpg",
+      "assets/sponsors/SILVER/SVA-MPS-Tagline-Final.png",
+      "assets/sponsors/SILVER/logo.png",
+      "assets/sponsors/SILVER/PAN-Primary Logo-Square.png",
+      "assets/sponsors/SILVER/PEMB Center Logo_1clr.png",
+      "assets/sponsors/SILVER/TFA.Color.COATED.jpg",
+      "assets/sponsors/SILVER/FW Circle_Logo.png",
+      "assets/sponsors/SILVER/ben-and-jerrys-logo (1).png",
+      "assets/sponsors/SILVER/Bloomingdale's_Logo.svg.png",
+      "assets/sponsors/SILVER/caclogo.jpg",
+      "assets/sponsors/SILVER/download.jpeg",
+      "assets/sponsors/SILVER/filmic_logo1-300x129.png",
+      "assets/sponsors/SILVER/image.png",
+      "assets/sponsors/SILVER/RUNA-Just-Text-Logo.jpg",
+      "assets/sponsors/SILVER/seven-star-logo.png",
+      "assets/sponsors/SILVER/image1.PNG",
+      "assets/sponsors/SILVER/BC Mockups-02.png",
+      "assets/sponsors/SILVER/COFX Logo - Square 500x500px.jpg"
+    ]
+  },
+  "press": [{
+      "link": "https://www.bostonglobe.com/lifestyle/names/2017/03/16/ezra-edelman-night-shyamalan-and-barry-levinson-appear-ivy-film-festival/REBxMiQTDE6iAPZo7EaiPK/story.html",
+      "title": "Ezra Edelman, M. Night Shyamalan, and Barry Levinson to appear at Ivy Film Festival (The Boston Globe)"
+    },
+    {
+      "link": "http://www.indiewire.com/2017/03/film-festival-roundup-sarasota-slate-sfiff-lineup-launch-program-1201794460/",
+      "title": "Film Festival Roundup: Sarasota Announces Complete Slate, SFIFF Unveils Full Lineup and New Launch Program, and More (Indiewire)"
+    },
+    {
+      "link": "http://realscreen.com/2017/03/17/extra-c4-firms-up-gbbo-lineup-tyra-banks-returns-to-host-antm/",
+      "title": "Extra: C4 firms up GBBO lineup; Tyra Banks returns to host ANTM (Realscreen)"
+    },
+    {
+      "link": "https://www.yahoo.com/movies/film-festival-roundup-sarasota-announces-180046709.html",
+      "title": "Film Festival Roundup: Sarasota Announces Complete Slate, SFIFF Unveils Full Lineup and New Launch Program, and More (Yahoo! Movies)"
+    },
+    {
+      "link": "https://unseenfilms.blogspot.com/2017/03/ivy-film-festival-presents-ezra-edelman.html",
+      "title": "Ivy Film Festival presents Ezra Edelman, Barry Levinson and M. Night Shyamalan, Planned Parenthood’s Virtual Reality film 'Across the Line,' 'She Scores' panel of women composers and more at Brown University, April 10-16, 2017 (Unseen Films)"
+    },
+    {
+      "link": "http://www.nytimes.com/2016/04/08/movies/beyond-tribeca-film-festival-more-new-york-film-festival-in-april.html?_r=0",
+      "title": "Beyond Tribeca: New York\u2019s Many Other Film Fests in April (New York Times)"
+    },
+    {
+      "link": "http://www.providencejournal.com/article/20160407/NEWS/160409379",
+      "title": "De Niro gives his father starring role at Brown film festival (Providence Journal)"
+    },
+    {
+      "link": "https://www.bostonglobe.com/lifestyle/names/2016/03/30/robert-niro-will-rhode-island-next-week-for-ivy-film-festival/0faE4KOpS3SEM4BMsNTtiK/story.html",
+      "title": "Robert De Niro headed to Rhode Island for Ivy Film Festival (Boston Globe)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2016/04/06/jodie-foster-reflects-on-career-path-in-film-industry/",
+      "title": "Jodie Foster reflects on career path in film industry (Brown Daily Herald)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2016/04/05/ivy-film-festival-reaches-campuses-nationwide/",
+      "title": "Ivy Film Festival reaches campuses nationwide (Brown Daily Herald)"
+    },
+    {
+      "link": "http://blogs.indiewire.com/thompsononhollywood/todd-haynes-to-world-premiere-first-scenes-from-carol-at-ivy-film-fest-20150330",
+      "title": "Ivy Film Fest Tributes Todd Haynes (IndieWire)"
+    },
+    {
+      "link": "http://www.forbes.com/sites/maddieberg/2015/04/13/in-exclusive-q-a-true-detective-producer-explains-how-tv-became-the-land-with-no-rules/#68300e992b97",
+      "title": "True Detective' Producer Explains How TV Became The Land With No Rules (Forbes)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2015/04/10/end-of-the-tour-starts-off-ivy-film-festival/",
+      "title": "End of the Tour starts off Ivy Film Festival (Brown Daily Herald)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2013/04/16/exclusive-qa-with-horror-director-wes-craven/",
+      "title": "Exclusive Q&A with horror director Wes Craven (Brown Daily Herald)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2012/04/11/exclusive-qa-with-actress-laura-linney-86/",
+      "title": "Exclusive Q&A with actress Laura Linney '86 (Brown Daily Herald)"
+    },
+    {
+      "link": "http://www.browndailyherald.com/2012/04/16/the-herald-gets-girly-with-lena-dunham/",
+      "title": "The Herald gets girly with Lena Dunham (Brown Daily Herald)"
+    },
+    {
+      "link": "http://www.golocalprov.com/lifestyle/new-screenwriter-aaron-sorkin-coming-to-ivy-film-festival",
+      "title": "NEW: Screenwriter Aaron Sorkin Coming to Ivy Film Festival (GoLocal Prov)"
+    },
+    {
+      "link": "http://variety.com/2009/film/features/ivy-film-festival-attracts-industry-pros-1118002508/",
+      "title": "Ivy Film Festival attracts industry pros (Variety)"
+    },
+    {
+      "link": "http://variety.com/2007/film/markets-festivals/ivy-festival-for-film-business-advice-1117963142/",
+      "title": "Ivy Film Festival for film business advice (Variety)"
+    },
+    {
+      "link": "http://www.thecrimson.com/article/2005/4/22/ivy-film-festival-unites-student-filmmakers/",
+      "title": "Ivy Film Festival Unites Student Filmmakers (Harvard Crimson)"
+    },
+    {
+      "link": "http://variety.com/2004/film/markets-festivals/h-wood-trio-in-league-for-ivy-film-festival-1117902567/",
+      "title": "H\u2019wood trio in league for Ivy Film Festival (Variety)"
+    }
+  ]
 }
