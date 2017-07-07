@@ -4,12 +4,12 @@ var nunjucksRender = require('gulp-nunjucks-render');
 
 
 gulp.task('default', function() {
-	return gulp.src('pages/*.nunjucks') 
+	return gulp.src('src/pages/*.nunjucks')
 	.pipe(data(function() {
-      return require('./data/data.json');
+      return require('./src/data/data.json');
     }))
 	.pipe(nunjucksRender({
-	path: ['pages/', 'templates/'] // String or Array
+	path: ['src/pages/', 'src/templates/'] // String or Array
 	}))
 	.pipe(gulp.dest('.'));
 });
