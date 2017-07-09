@@ -54,7 +54,7 @@
     float: right;
     margin-bottom: 20px; } }
 .events-icon {
-  border-bottom: 0px;
+  border-bottom: 0;
   /* Remove hyperlink underline for events links */ }
 
 .events-icon i {
@@ -64,7 +64,7 @@
   padding-top: 35%; }
 
 .mail-icon-link {
-  border-bottom: 0px solid #D7E5ED; }
+  border-bottom: 0 solid #D7E5ED; }
 
 .mail-icon {
   color: #E8616A; }
@@ -122,7 +122,7 @@ p + p {
   padding-top: 20px; }
 
 h3 {
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
 
 #index-satellite-learn {
   float: right;
@@ -200,7 +200,10 @@ a {
   display: inline-block;
   line-height: 100%; }
 
-a:link, a:visited, a:hover, a:active {
+a:active,
+a:hover,
+a:link,
+a:visited {
   color: black; }
 
 a:link {
@@ -216,7 +219,7 @@ section a:hover {
 
 .submit-section a:hover {
   color: #fff;
-  box-shadow: 0px 0px 0px transparent;
+  box-shadow: 0 0 0 transparent;
   background-color: transparent; }
 
 a:active {
@@ -226,7 +229,8 @@ a:active {
   .container {
     width: 80%; } }
 @media (min-width: 768px) {
-  .news-section, .about-section {
+  .about-section,
+  .news-section {
     padding-top: 100px; } }
 @media (min-width: 1200px) {
   .container {
@@ -241,7 +245,7 @@ a:active {
 
 @media (min-width: 768px) {
   .navbar {
-    border-width: 0px;
+    border-width: 0;
     background: transparent;
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(100%, transparent));
     background-image: -webkit-linear-gradient(270deg, transparent 0%, transparent 100%);
@@ -270,8 +274,8 @@ a:active {
   min-height: 80px; }
 
 .navbar-nav > li > a {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   line-height: 80px;
   color: #333; }
 
@@ -288,7 +292,7 @@ a:active {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0%;
+    width: 0;
     border-bottom: 2px solid #D7E5ED;
     transition: 0.4s; }
 
@@ -297,7 +301,7 @@ a:active {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0%;
+    width: 0;
     border-bottom: 2px solid #D7E5ED; } }
 .navbar-nav > li > a:hover:after {
   width: 100%; }
@@ -318,7 +322,7 @@ a:active {
     margin-top: -5px; } }
 .navbar a {
   text-decoration: none;
-  border-bottom: 0px; }
+  border-bottom: 0; }
 
 /* INTRO */
 section {
@@ -438,7 +442,7 @@ section {
   font-size: 43px;
   color: #D7E5ED;
   font-family: "Kazimir Light";
-  padding: 20px 30px 20px 30px;
+  padding: 20px 30px;
   border-style: double;
   border-width: 8px 8px 8px 8px;
   border-color: #D7E5ED;
@@ -529,10 +533,7 @@ section {
 @media (max-width: 768px) {
   #newsletter-container {
     width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 15px;
-    margin-top: 10px; } }
+    margin: 10px auto 15px; } }
 @media (min-width: 768px) {
   #footer-container {
     width: 75%; }
