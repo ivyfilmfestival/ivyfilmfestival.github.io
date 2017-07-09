@@ -1,3 +1,13 @@
+/* FONTS */
+@font-face {
+  font-family: "Kazimir Light";
+  src: url("../assets/fonts/Kazimir_Light.woff") format("woff"); }
+@font-face {
+  font-family: "Basis Grotesque Bold";
+  src: url("../assets/fonts/basis_grotesque_bold.otf") format("opentype"); }
+@font-face {
+  font-family: "Basis Grotesque Regular";
+  src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype"); }
 /* GENERAL */
 .sidenav {
   position: fixed;
@@ -160,15 +170,6 @@ h3 {
   padding-left: 5px;
   padding-right: 5px; }
 
-@font-face {
-  font-family: "Kazimir Light";
-  src: url("../assets/fonts/Kazimir_Light.woff") format("woff"); }
-@font-face {
-  font-family: "Basis Grotesque Bold";
-  src: url("../assets/fonts/basis_grotesque_bold.otf") format("opentype"); }
-@font-face {
-  font-family: "Basis Grotesque Regular";
-  src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype"); }
 h1 {
   font-size: 43px;
   font-family: "Basis Grotesque Bold", sans-serif;
@@ -441,7 +442,7 @@ section {
   width: 300px;
   font-size: 43px;
   color: #D7E5ED;
-  font-family: "Kazimir Light";
+  font-family: "Kazimir Light", Georgia, serif;
   padding: 20px 30px;
   border-style: double;
   border-width: 8px 8px 8px 8px;

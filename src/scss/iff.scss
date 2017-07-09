@@ -1,3 +1,22 @@
+// Variables
+$primary-color: #E8616A; // Light pink
+$secondary-color: #D7E5ED; // Light blue
+$header-font: "Basis Grotesque Bold", sans-serif;
+$text-font: "Kazimir Light", Georgia, serif;
+$year-font: "Basis Grotesque Regular", sans-serif;
+/* FONTS */
+@font-face {
+  font-family: "Kazimir Light";
+  src: url("../assets/fonts/Kazimir_Light.woff") format('woff');
+}
+@font-face {
+  font-family: "Basis Grotesque Bold";
+  src: url("../assets/fonts/basis_grotesque_bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Basis Grotesque Regular";
+  src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype");
+}
 /* GENERAL */
 .sidenav {
   position: fixed;
@@ -11,13 +30,13 @@
 }
 
 .sidenav-link {
-  color: #D7E5ED;
-  font-family: "Basis Grotesque Bold", sans-serif;
+  color: $secondary-color;
+  font-family: $header-font;
   border-bottom: none;
 }
 
 .sidenav-link:hover {
-  color: #D7E5ED;
+  color: $secondary-color;
   background-color: transparent;
   box-shadow: none;
 }
@@ -31,7 +50,7 @@
   margin-top: 10px;
   border-style: solid;
   border-width: 4px 4px 4px 4px;
-  border-color: #D7E5ED;
+  border-color: $secondary-color;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -71,7 +90,7 @@
 }
 
 .events-icon i {
-  color: #E8616A;
+  color: $primary-color;
 }
 
 .event-image-offset {
@@ -79,11 +98,11 @@
 }
 
 .mail-icon-link {
-  border-bottom: 0 solid #D7E5ED;
+  border-bottom: 0 solid $secondary-color;
 }
 
 .mail-icon {
-  color: #E8616A;
+  color: $primary-color;
 }
 
 .about-intro-section {
@@ -96,24 +115,24 @@
 }
 
 #trailer-link {
-  color: #E8616A;
+  color: $primary-color;
   font-size: 25px;
   line-height: 35px;
-  border-bottom: 4px solid #D7E5ED;
+  border-bottom: 4px solid $secondary-color;
 }
 
 #now-closed {
-  font-family: "Kazimir Light", Georgia, serif;
+  font-family: $text-font;
   font-size: 100px;
   line-height: 60px;
-  color: #D7E5ED;
+  color: $secondary-color;
   padding-top: 40px;
   padding-bottom: 30px;
 }
 
 #mission {
   color: black;
-  font-family: "Kazimir Light", Georgia, serif;
+  font-family: $text-font;
   font-size: 29px;
 }
 
@@ -194,23 +213,11 @@ h3 {
   padding-left: 5px;
   padding-right: 5px;
 }
-@font-face {
-  font-family: "Kazimir Light";
-  src: url("../assets/fonts/Kazimir_Light.woff") format('woff');
-}
-@font-face {
-  font-family: "Basis Grotesque Bold";
-  src: url("../assets/fonts/basis_grotesque_bold.otf") format("opentype");
-}
-@font-face {
-  font-family: "Basis Grotesque Regular";
-  src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype");
-}
 
 h1 {
   font-size: 43px;
-  font-family: "Basis Grotesque Bold", sans-serif;
-  color: #E8616A;
+  font-family: $header-font;
+  color: $primary-color;
 }
 
 h2 {
@@ -219,23 +226,23 @@ h2 {
 
 h3 {
   font-size: 24px;
-  color: #D7E5ED;
-  font-family: "Basis Grotesque Bold", sans-serif;
+  color: $secondary-color;
+  font-family: $header-font;
 }
 
 h4 {
-  color: #E8616A;
-  font-family: "Basis Grotesque Bold", sans-serif;
+  color: $primary-color;
+  font-family: $header-font;
 }
 
 p {
-  font-family: "Kazimir Light", Georgia, serif;
+  font-family: $text-font;
   font-size: 18px;
 }
 
 a {
   text-decoration: none;
-  border-bottom: 7px solid #D7E5ED;
+  border-bottom: 7px solid $secondary-color;
   text-underline-position: under;
   -webkit-text-underline-position: under;
   -ms-text-underline-position: below;
@@ -261,8 +268,8 @@ a:visited {
 
 section a:hover {
   text-decoration: none;
-  background-color: #D7E5ED;
-  box-shadow: 2px -10px 0 #D7E5ED, -2px -10px 0 #D7E5ED, 2px 2px 0 #D7E5ED, -2px 2px 0 #D7E5ED;
+  background-color: $secondary-color;
+  box-shadow: 2px -10px 0 $secondary-color, -2px -10px 0 $secondary-color, 2px 2px 0 $secondary-color, -2px 2px 0 $secondary-color;
 }
 
 .submit-section a:hover {
@@ -293,9 +300,9 @@ a:active {
 /* NAVBAR */
 .navbar {
   font-size: 13px;
-  font-family: "Basis Grotesque Bold", sans-serif;
+  font-family: $header-font;
   transition: 0.4s;
-  color: #E8616A;
+  color: $primary-color;
   background: white;
 }
 @media (min-width: 768px) {
@@ -319,7 +326,7 @@ a:active {
 
 .navbar-brand h3 {
   font-size: 43px;
-  font-family: "Kazimir Light", Georgia, serif;
+  font-family: $text-font;
 }
 /*!
  * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
@@ -357,7 +364,7 @@ a:active {
     bottom: 0;
     left: 0;
     width: 0;
-    border-bottom: 2px solid #D7E5ED;
+    border-bottom: 2px solid $secondary-color;
     transition: 0.4s;
   }
 
@@ -367,7 +374,7 @@ a:active {
     bottom: 0;
     left: 0;
     width: 0;
-    border-bottom: 2px solid #D7E5ED;
+    border-bottom: 2px solid $secondary-color;
   }
 }
 
@@ -446,13 +453,13 @@ section {
 }
 
 .intro-section h1 {
-  color: #E8616A;
+  color: $primary-color;
   text-align: center;
 }
 
 #intro-desc {
   display: inline-block;
-  color: #E8616A;
+  color: $primary-color;
   text-align: center;
 }
 /* LATEST NEWS */
@@ -494,7 +501,7 @@ section {
   transform: rotate(-90deg);
   transform-origin: 100% 100%;
   margin-top: -35px;
-  color: #D7E5ED;
+  color: $secondary-color;
   display: block;
   float: left;
 }
@@ -502,7 +509,7 @@ section {
 .news-image img {
   border-style: solid;
   border-width: 4px 4px 4px 4px;
-  border-color: #D7E5ED;
+  border-color: $secondary-color;
   display: inline-block;
   float: right;
 }
@@ -534,12 +541,12 @@ section {
 #submit-button {
   width: 300px;
   font-size: 43px;
-  color: #D7E5ED;
-  font-family: "Kazimir Light";
+  color: $secondary-color;
+  font-family: $text-font;
   padding: 20px 30px;
   border-style: double;
   border-width: 8px 8px 8px 8px;
-  border-color: #D7E5ED;
+  border-color: $secondary-color;
   display: inline-block;
   transition: 0.4s;
   padding-top: 40px;
@@ -600,7 +607,7 @@ section {
 .footer {
   border-style: solid;
   border-width: 6px 6px 6px 6px;
-  border-color: #E8616A;
+  border-color: $primary-color;
   min-height: 300px;
   background-image: url('../assets/logo_footer.png');
   background-repeat: no-repeat;
@@ -690,8 +697,8 @@ section {
 
 .year {
   font-size: 26px;
-  font-family: "Basis Grotesque Regular", sans-serif;
-  color: #D7E5ED;
+  font-family: $year-font;
+  color: $secondary-color;
 }
 
 .submissions-section {
@@ -709,7 +716,7 @@ section {
 }
 
 .deadline {
-  color: #D7E5ED;
+  color: $secondary-color;
 }
 
 #gate {
