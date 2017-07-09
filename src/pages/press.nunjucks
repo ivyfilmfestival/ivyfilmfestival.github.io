@@ -2,34 +2,34 @@
 
 {% block content %}
 
-    <!-- Navigation -->
-    {% import 'partials/nav.nunjucks' as nav %}
-    {{nav.active('press')}}
+  <!-- Navigation -->
+  {% import 'partials/nav.nunjucks' as nav %}
+  {{nav.active('press')}}
 
-    <!-- History Section -->
-    <section>
-        <div class="container events-section">
-            <div class="col-lg-12">
-                <h1>press</h1>
-                <br/>
-                {% for item in press %}
-                    <div class="row">
-                        <!--             <div class="col-md-2 year">{{ item.date }}</div> -->
-                        <div class="col-md-12">
-                            <p>
-                                <a href="{{ item.link }}">
-                                    {{item.title}}
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <hr>
-                {% endfor %}
+  <!-- History Section -->
+  <section>
+    <div class="container events-section">
+      <div class="col-lg-12">
+        <h1>press</h1>
+        <br/>
+        {% for item in press %}
+          <div class="row">
+            <!--             <div class="col-md-2 year">{{ item.date }}</div> -->
+            <div class="col-md-12">
+              <p>
+                <a href="{{ item.link }}">
+                  {{item.title}}
+                </a>
+              </p>
             </div>
-        </div>
-    </section>
+          </div>
+          <hr>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    {% include "partials/footer.nunjucks" %}
+  <!-- Footer -->
+  {% include "partials/footer.nunjucks" %}
 
 {% endblock %}

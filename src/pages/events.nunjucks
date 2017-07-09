@@ -2,65 +2,65 @@
 
 {% block content %}
 
-    <!-- Navigation -->
-    {% import 'partials/nav.nunjucks' as nav %}
-    {{nav.active('events')}}
+  <!-- Navigation -->
+  {% import 'partials/nav.nunjucks' as nav %}
+  {{nav.active('events')}}
 
-    <!-- Events Seciont -->
-    <section>
-        <div class="container top-section">
-            <h1>events</h1>
-        </div>
-        {% for event in events %}
-            <div class='row' style='margin:20px'>
-                <!--  RIGHT SIDE EVENTS -->
-                {% if loop.index0 % 2 == 0 %}
-                    <div class='col-0 col-sm-1'></div>
-                    <div class='col-12 col-sm-5'>
-                        <div class='event-title event-title-left'>
-                            <h4>{{event.title}}</h4>
-                            <h4>{{event.date}}</h4>
-                            <a class='events-icon' href="{{event.facebook_url}}">
-                                <i class="social-media-icon fa fa-facebook fa-lg"></i>
-                            </a>
-                            {% if event.tickets_url %}
-                                <a class='events-icon' href="{{event.tickets_url}}">
-                                    <i class="social-media-icon fa fa-ticket fa-lg"></i>
-                                </a>
-                            {% endif %}
-                        </div>
-                    </div>
-                    <div class='col-12 col-sm-5'>
-                        <img class='event-image event-image-left' src="{{event.image_url}}">
-                    </div>
-                    <div class='col-0 col-sm-1'></div>
-                    <!-- LEFT SIDE EVENTS -->
-                {% else %}
-                    <div class='col-0 col-sm-1'></div>
-                    <div class='col-12 col-sm-5 col-sm-push-5'>
-                        <div class='event-title event-title-right'>
-                            <h4>{{event.title}}</h4>
-                            <h4>{{event.date}}</h4>
-                            <a class='events-icon' href="{{event.facebook_url}}">
-                                <i class="social-media-icon fa fa-facebook fa-lg" style='color:#E8616A;text-decoration:none;'></i>
-                            </a>
-                            {% if event.tickets_url %}
-                                <a class='events-icon' href="{{event.tickets_url}}">
-                                    <i class="social-media-icon fa fa-ticket fa-lg" style='color:#E8616A;text-decoration-none;'></i>
-                                </a>
-                            {% endif %}
-                        </div>
-                    </div>
-                    <div class='col-12 col-sm-5 col-sm-pull-5'>
-                        <img class='event-image event-image-right' src="{{event.image_url}}">
-                    </div>
-                    <div class='col-0 col-sm-1'></div>
-                {% endif %}
+  <!-- Events Seciont -->
+  <section>
+    <div class="container top-section">
+      <h1>events</h1>
+    </div>
+    {% for event in events %}
+      <div class='row' style='margin:20px'>
+        <!--  RIGHT SIDE EVENTS -->
+        {% if loop.index0 % 2 == 0 %}
+          <div class='col-0 col-sm-1'></div>
+          <div class='col-12 col-sm-5'>
+            <div class='event-title event-title-left'>
+              <h4>{{event.title}}</h4>
+              <h4>{{event.date}}</h4>
+              <a class='events-icon' href="{{event.facebook_url}}">
+                <i class="social-media-icon fa fa-facebook fa-lg"></i>
+              </a>
+              {% if event.tickets_url %}
+                <a class='events-icon' href="{{event.tickets_url}}">
+                  <i class="social-media-icon fa fa-ticket fa-lg"></i>
+                </a>
+              {% endif %}
             </div>
-        {% endfor %}
-    </section>
+          </div>
+          <div class='col-12 col-sm-5'>
+            <img class='event-image event-image-left' src="{{event.image_url}}">
+          </div>
+          <div class='col-0 col-sm-1'></div>
+          <!-- LEFT SIDE EVENTS -->
+        {% else %}
+          <div class='col-0 col-sm-1'></div>
+          <div class='col-12 col-sm-5 col-sm-push-5'>
+            <div class='event-title event-title-right'>
+              <h4>{{event.title}}</h4>
+              <h4>{{event.date}}</h4>
+              <a class='events-icon' href="{{event.facebook_url}}">
+                <i class="social-media-icon fa fa-facebook fa-lg" style='color:#E8616A;text-decoration:none;'></i>
+              </a>
+              {% if event.tickets_url %}
+                <a class='events-icon' href="{{event.tickets_url}}">
+                  <i class="social-media-icon fa fa-ticket fa-lg" style='color:#E8616A;text-decoration-none;'></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+          <div class='col-12 col-sm-5 col-sm-pull-5'>
+            <img class='event-image event-image-right' src="{{event.image_url}}">
+          </div>
+          <div class='col-0 col-sm-1'></div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
 
-    <!-- Footer -->
-    {% include "partials/footer.nunjucks" %}
+  <!-- Footer -->
+  {% include "partials/footer.nunjucks" %}
 
 {% endblock %}
