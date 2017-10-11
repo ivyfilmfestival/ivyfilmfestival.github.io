@@ -21,6 +21,13 @@
     ]
   },
   "events": [{
+      "title": "The Florida Project (Advance Screening)",
+      "date": "10.10.17",
+      "facebook_url": "https://www.facebook.com/events/148829815722920/",
+      "tickets_url": "https://www.eventbrite.com/e/iff-presents-the-florida-project-advanced-screening-tickets-38483847223?aff=utm_source%3Deb_email%26utm_medium%3Demail%26utm_campaign%3Dnew_event_email&utm_term=eventurl_text#",
+      "image_url": "assets/posters/florida-project.jpg"
+    },
+    {
       "title": "Table 19 (Advance Screening, Fox Searchlight)",
       "date": "03.01.17",
       "facebook_url": "https://www.facebook.com/events/1030088800469850/",
