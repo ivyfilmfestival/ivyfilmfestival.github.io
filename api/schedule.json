@@ -1,0 +1,139 @@
+{
+  "schedule": [{
+      "day": "Monday",
+      "date": "April 10",
+      "events": [{
+        "title": "Across the Line",
+        "type": "VR Screenings",
+        "when": "4-7pm",
+        "where": "Granoff Studio 1"
+      }]
+    },
+    {
+      "day": "Tuesday",
+      "date": "April 11",
+      "events": [{
+        "title": "Menashe",
+        "type": "Screening",
+        "when": "5-7pm",
+        "where": "Granoff Martinos"
+      }]
+    },
+    {
+      "day": "Wednesday",
+      "date": "April 12",
+      "events": [{
+        "title": "M. Night Shyamalan",
+        "type": "Keynote",
+        "when": "6-7pm",
+        "where": "Salomon DECI Auditorium"
+      }]
+    },
+    {
+      "day": "Thursday",
+      "date": "April 13",
+      "events": [{
+        "title": "Ezra Edelman",
+        "type": "Keynote",
+        "when": "12-1pm",
+        "where": "Granoff Studio 1"
+      }, {
+        "title": "Barry Levinson",
+        "type": "Keynote",
+        "when": "7-8pm",
+        "where": "Granoff Martinos"
+      }]
+    },
+    {
+      "day": "Friday",
+      "date": "April 14",
+      "events": [{
+          "title": "Virtual Reality Arcade",
+          "type": "",
+          "when": "2-4pm",
+          "where": "Granoff Studio 4"
+        }, {
+          "title": "She Scores: Women in the Musical and Cinematic Arts",
+          "type": "Keynote",
+          "when": "4-5pm",
+          "where": "Granoff Martinos"
+        },
+        {
+          "title": "Virtual Reality Arcade",
+          "type": "Keynote",
+          "when": "5-7pm",
+          "where": "Granoff Studio 4"
+        },
+        {
+          "title": "IFF Official Selection Block 1",
+          "type": "Keynote",
+          "when": "7-8:30pm",
+          "where": "Granoff Martinos"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "April 15",
+      "events": [{
+          "title": "Screenplay Reading and Brunch",
+          "type": "",
+          "when": "10:30-12:30pm",
+          "where": "Granoff Studio 1"
+        }, {
+          "title": "IFF Official Selection Block 2",
+          "type": "",
+          "when": "1-3pm",
+          "where": "Avon Cinema, 260 Thayer St."
+        },
+        {
+          "title": "Virtual Reality Arcade",
+          "type": "",
+          "when": "3-4pm",
+          "where": "Granoff Studio 4"
+        },
+        {
+          "title": "Story Telling in Virtual Reality",
+          "type": "",
+          "when": "4-5pm",
+          "where": "Granoff Martinos"
+        },
+        {
+          "title": "Virtual Reality Arcade",
+          "type": "",
+          "when": "5-7pm",
+          "where": "Granoff Studio 4"
+        },
+        {
+          "title": "IFF Official Selection Block 3",
+          "type": "",
+          "when": "6-7:30pm",
+          "where": "Granoff Martinos"
+        },
+        {
+          "title": "IFF Sweet 16",
+          "type": "",
+          "when": "9pm-1am",
+          "where": "Machines with Magnets"
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "date": "April 16",
+      "events": [{
+          "title": "Awards Ceremony",
+          "type": "",
+          "when": "2-3pm",
+          "where": "Granoff Martinos"
+        },
+        {
+          "title": "The Immortal Life of Henrietta Lacks",
+          "type": "Screening",
+          "when": "4-6pm",
+          "where": "Salomon DECI Auditorium"
+        }
+      ]
+    }
+  ]
+}
