@@ -42,6 +42,9 @@
                 <li>
                     <a class="page-scroll" id="{%if activePage == 'sponsors' %}selected-nav{% endif %}" href="sponsors.html">sponsors</a>
                 </li>
+                <li>
+                    <a class="page-scroll" id="{%if activePage == 'donate' %}selected-nav{% endif %}" href="donate.html">donate</a>
+                </li>
             </ul>
             <div id="social-media">
                 <a href="https://www.facebook.com/ivyfilmfestival/"><i class="social-media-icon fa fa-facebook"></i></a>

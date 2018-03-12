@@ -1,0 +1,32 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+  <!-- Navigation -->
+  {% import 'partials/nav.nunjucks' as nav %}
+  {{nav.active('donate')}}
+
+  <section>
+    <div class="container top-section">
+      <h1>donate</h1>
+
+      <p>Please consider donating to the Ivy Film Festival. We use donations to help fund ... (short blurb here?)</p>
+
+      <h4>how to donate</h4>
+
+      <p>We accept donations though the official Brown Giving website. To donate to the Ivy Film Festival, please follow the steps below:</p>
+      <ol>
+        <li><p>Visit the <a href='https://brunonia.brown.edu/giving'>Brown Giving website</a></p></li>
+        <li><p>Click "Give Now" in the top right corner</p></li>
+        <li><p>Select "Other". If "Other" is not visible, search for "Ivy Film Festival".</p></li>
+        <li><p>Once you have selected "Other", in the section where it asks to specify your gift, please type "Ivy Film Festival, SAC638795"</p></li>
+      </ol>
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  {% include "partials/footer.nunjucks" %}
+
+{% endblock %}
