@@ -1,6 +1,6 @@
 // Variables
-$primary-color: #E8616A; // Light pink
-$secondary-color: #D7E5ED; // Light blue
+$primary-color: #E52D3D; // Rose Madder (Red)
+$secondary-color: #EAC5A6; // Desert Sand (light peach color)
 $header-font: "Basis Grotesque Bold", sans-serif;
 $text-font: "Kazimir Light", Georgia, serif;
 $year-font: "Basis Grotesque Regular", sans-serif;
@@ -110,7 +110,7 @@ $year-font: "Basis Grotesque Regular", sans-serif;
 }
 
 .satellite-schools {
-  color: #8BA4CC;
+  color: $primary-color;
   text-align: center;
 }
 
@@ -309,7 +309,7 @@ a:active {
   .navbar {
     border-width: 0;
     background: transparent;
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0% , rgba(0,0,0,0.00)),color-stop(100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
   }
@@ -609,7 +609,7 @@ section {
   border-width: 6px 6px 6px 6px;
   border-color: $primary-color;
   min-height: 300px;
-  background-image: url('../assets/logo_footer.png');
+  background-image: url("../assets/logo_footer.png");
   background-repeat: no-repeat;
   background-position: 40px 20px;
   overflow: hidden;
