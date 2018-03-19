@@ -22,6 +22,19 @@
   },
   "events": [
     {
+      "title": "Ivy Film Festival and BUFF present: The Room",
+      "date": "11.30.17",
+      "facebook_url": "https://www.facebook.com/events/190160041556175/",
+      "image_url": "assets/posters/theroom.jpg"
+    },
+    {
+      "title": "Ivy Film Festival and React to Film present: Abacus",
+      "date": "11.29.17",
+      "facebook_url": "https://www.facebook.com/events/177798342799590/",
+      "tickets_url": "https://www.eventbrite.com/e/ivy-film-festival-and-react-to-film-present-abacus-tickets-40081033450",
+      "image_url": "assets/posters/abacus.jpg"
+    },
+    {
       "title": "Three Billboards Outside Ebbing, Missouri (Advance Screening, Fox Searchlight)",
       "date": "11.13.17",
       "facebook_url": "https://www.facebook.com/events/255288234999742/",
