@@ -22,10 +22,19 @@
   },
   "events": [
     {
-      "title": "Ivy Film Festival and BUFF present: The Room",
-      "date": "11.30.17",
-      "facebook_url": "https://www.facebook.com/events/190160041556175/",
-      "image_url": "assets/posters/theroom.jpg"
+      "title": "Ivy Film Festival & React to Film Present: The Workers Cup",
+      "date": "03.21.18",
+      "facebook_url": "https://www.facebook.com/events/423959194732854/",
+      "image_url": "assets/posters/workerscup.jpg",
+      "tickets_url": "https://www.facebook.com/events/423959194732854/permalink/426293567832750/"
+    },
+    {
+      "title": "Ivy Film Festival presents: Game Night!",
+      "date": "02.15.18",
+      "facebook_url": "https://www.facebook.com/events/143481546323006/",
+      "image_url": "assets/posters/gamenight.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-presents-game-night-advance-screening-tickets-42753490842"
+
     },
     {
       "title": "Ivy Film Festival and React to Film present: Abacus",
