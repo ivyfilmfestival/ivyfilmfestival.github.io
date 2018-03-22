@@ -48,7 +48,7 @@
             upcoming consummation of their marriage. Afterwards, join us for a
             Q&A with director Dominic Cooke (The Hollow Crown).</p>
 
-            <h3> “More Than Scream Queens”: Women in Horror Panel<br>
+            {# <h3> “More Than Scream Queens”: Women in Horror Panel<br>
             ft. Abigail Breslin, Isabelle Fuhrman, Victoria Tennant</h3>
             <br>
             <p>Isabelle Fuhrman (The Orphan), Abigail Breslin (Scream Queens),
@@ -58,7 +58,7 @@
             These actors have all been involved in horror/sci-fi films. They
             will talk about their time in the industry, their thoughts on the
             genre, how it treated them, and how it treats them. There will be a
-            moderated portion, as well as a Q&A.</p>
+            moderated portion, as well as a Q&A.</p> #}
 
             <h3>Student Official Selection</h3>
             <br>
@@ -126,7 +126,7 @@
             <p>IFF is proud to announce its first-ever partnership with the Aegean
             Film Festival, based in Patmos, Greece. IFF will feature the Aegean
             Film Festival’s Short Program, made up of
-            award-winning short films from across Europe. A program of IFF’s
+            award-winning short films from across the world. A program of IFF’s
             official selection will be screened at the Aegean Film Festival
             this summer. This partnership aims to build lasting relationships
             between IFF and the international film community and provide new
