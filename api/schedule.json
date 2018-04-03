@@ -1,43 +1,43 @@
 {
   "results": [{
       "day": "Monday",
-      "date": "April 10",
-      "title": "Across the Line",
-      "type": "VR Screenings",
-      "when": "4-7pm",
-      "where": "Granoff Studio 1"
+      "date": "April 9",
+      "title": "Screening: #TAKEMEANYWHERE & Keynote: LaBeouf, Rönkkö & Turner",
+      "type": "Screening & Keynote",
+      "when": "6-8pm",
+      "where": "Salomon DECI Auditorium"
     },
     {
       "day": "Tuesday",
-      "date": "April 11",
-      "title": "Menashe",
+      "date": "April 10",
+      "title": "Aegean Film Festival Short Program",
       "type": "Screening",
-      "when": "5-7pm",
-      "where": "Granoff Martinos"
+      "when": "7-8:30pm",
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Wednesday",
       "date": "April 12",
-      "title": "M. Night Shyamalan",
-      "type": "Keynote",
-      "when": "6-7pm",
-      "where": "Salomon DECI Auditorium"
+      "title": "IFF 2018 x The Pembroke Center present: An Advanced Screening of \"RBG\"",
+      "type": "Screening",
+      "when": "7:30-10pm",
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Thursday",
-      "date": "April 13",
-      "title": "Ezra Edelman",
-      "type": "Keynote",
-      "when": "12-1pm",
-      "where": "Granoff Studio 1"
+      "date": "April 12",
+      "title": "Screening: On Chesil Beach & Keynote: Dominic Cooke",
+      "type": "Screening & Keynote",
+      "when": "6-9pm",
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Thursday",
-      "date": "April 13",
-      "title": "Barry Levinson",
-      "type": "Keynote",
-      "when": "7-8pm",
-      "where": "Granoff Martinos"
+      "date": "April 12",
+      "title": "Cocktail Reception",
+      "type": "",
+      "when": "9-10pm",
+      "where": "Granoff Lobby"
     },
     {
       "day": "Friday",
@@ -49,99 +49,107 @@
     },
     {
       "day": "Friday",
-      "date": "April 14",
-      "title": "She Scores: Women in the Musical and Cinematic Arts",
-      "type": "Keynote",
-      "when": "4-5pm",
-      "where": "Granoff Martinos"
-    },
-    {
-      "day": "Friday",
-      "date": "April 14",
-      "title": "Virtual Reality Arcade",
-      "type": "Keynote",
-      "when": "5-7pm",
+      "date": "April 13",
+      "title": "A-Frame VR Workshop with Patrick Raleigh",
+      "type": "Workshop",
+      "when": "2:30-4:30pm/6-7pm",
       "where": "Granoff Studio 4"
     },
     {
       "day": "Friday",
-      "date": "April 14",
+      "date": "April 13",
       "title": "IFF Official Selection Block 1",
-      "type": "Keynote",
+      "type": "",
+      "when": "4:30-6pm",
+      "where": "Granoff Martinos Auditorium"
+    },
+    {
+      "day": "Friday",
+      "date": "April 13",
+      "title": "Advanced Screening of \"We The Animals\" Followed by a converstion with Justin Torres",
+      "type": "",
       "when": "7-8:30pm",
-      "where": "Granoff Martinos"
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
+      "date": "April 14",
       "title": "Screenplay Reading and Brunch",
       "type": "",
-      "when": "10:30-12:30pm",
-      "where": "Granoff Studio 1"
+      "when": "11am-1pm",
+      "where": "Granoff Martinos Auditorium and Lobby"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
-      "title": "IFF Official Selection Block 2",
+      "date": "April 14",
+      "title": "The Future (of film) is Female Speaker Series pt. 1: Victoria Tennant",
       "type": "",
-      "when": "1-3pm",
-      "where": "Avon Cinema, 260 Thayer St."
+      "when": "1-2pm",
+      "where": "Granoff Studio 2"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
+      "date": "April 14",
       "title": "Virtual Reality Arcade",
       "type": "",
-      "when": "3-4pm",
+      "when": "2-3pm/4:30-6:30pm",
       "where": "Granoff Studio 4"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
-      "title": "Story Telling in Virtual Reality",
+      "date": "April 14",
+      "title": "Student Official Selection: Block 2",
       "type": "",
-      "when": "4-5pm",
-      "where": "Granoff Martinos"
+      "when": "3-5pm",
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
-      "title": "Virtual Reality Arcade",
+      "date": "April 14",
+      "title": "Advanced Screening of “Blindspotting” Followed by Q&A with Daveed Diggs",
       "type": "",
-      "when": "5-7pm",
-      "where": "Granoff Studio 4"
+      "when": "6:30-9pm",
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Saturday",
-      "date": "April 15",
-      "title": "IFF Official Selection Block 3",
-      "type": "",
-      "when": "6-7:30pm",
-      "where": "Granoff Martinos"
-    },
-    {
-      "day": "Saturday",
-      "date": "April 15",
-      "title": "IFF Sweet 16",
+      "date": "April 14",
+      "title": "IFF Seventeen Again Party",
       "type": "",
       "when": "9pm-1am",
-      "where": "Machines with Magnets"
+      "where": "Dusk to Dawn"
     },
     {
       "day": "Sunday",
-      "date": "April 16",
-      "title": "Awards Ceremony",
+      "date": "April 15",
+      "title": "Student Official Selection: Block 3",
       "type": "",
       "when": "2-3pm",
-      "where": "Granoff Martinos"
+      "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Sunday",
-      "date": "April 16",
-      "title": "The Immortal Life of Henrietta Lacks",
+      "date": "April 15",
+      "title": "Awards Ceremony",
+      "type": "",
+      "when": "2:30-4pm",
+      "where": "Granoff Studio 2"
+    },
+    {
+      "day": "Sunday",
+      "date": "April 15",
+      "title": "The Future (of film) is Female Speaker Series pt. 2: Isabelle Furhman",
+      "type": "",
+      "when": "5-6pm",
+      "where": "Granoff Studio 2"
+    },
+    {
+      "day": "Sunday",
+      "date": "April 15",
+      "title": "Advanced Screening of “Eighth Grade”",
       "type": "Screening",
       "when": "4-6pm",
-      "where": "Salomon DECI Auditorium"
+      "where": "Granoff Martinos Auditorium"
     }
   ]
 }
