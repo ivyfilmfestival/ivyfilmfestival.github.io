@@ -3,15 +3,15 @@
       "day": "Monday",
       "date": "April 9",
       "title": "Screening: #TAKEMEANYWHERE & Keynote: LaBeouf, Rönkkö & Turner",
-      "type": "Screening & Keynote",
+      "type": "",
       "when": "6-8pm",
       "where": "Salomon DECI Auditorium"
     },
     {
       "day": "Tuesday",
       "date": "April 10",
-      "title": "Aegean Film Festival Short Program",
-      "type": "Screening",
+      "title": "Screening: Aegean Film Festival Short Program",
+      "type": "",
       "when": "7-8:30pm",
       "where": "Granoff Martinos Auditorium"
     },
@@ -19,15 +19,15 @@
       "day": "Wednesday",
       "date": "April 12",
       "title": "IFF 2018 x The Pembroke Center present: An Advanced Screening of \"RBG\"",
-      "type": "Screening",
+      "type": "",
       "when": "7:30-10pm",
       "where": "Granoff Martinos Auditorium"
     },
     {
       "day": "Thursday",
       "date": "April 12",
-      "title": "Screening: On Chesil Beach & Keynote: Dominic Cooke",
-      "type": "Screening & Keynote",
+      "title": "Screening: On Chesil Beach &\n Keynote: Dominic Cooke",
+      "type": "",
       "when": "6-9pm",
       "where": "Granoff Martinos Auditorium"
     },
@@ -51,7 +51,7 @@
       "day": "Friday",
       "date": "April 13",
       "title": "A-Frame VR Workshop with Patrick Raleigh",
-      "type": "Workshop",
+      "type": "",
       "when": "2:30-4:30pm/6-7pm",
       "where": "Granoff Studio 4"
     },
