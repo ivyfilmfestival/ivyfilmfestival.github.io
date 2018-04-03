@@ -132,32 +132,28 @@
   ],
   "sponsors": {
     "platinum": [
-      "assets/sponsors/PLATINUM/ufb-logo.png"
+      "assets/sponsors_18/platinum/UFB.png"
     ],
     "gold": [
-      "assets/sponsors/GOLD/Trojan.png", "assets/sponsors/GOLD/fileYDsTJM.png"
+      "assets/sponsors_18/gold/the_dean.png"
     ],
     "silver": [
-      "assets/sponsors/SILVER/BH_logo NO TAG_CMYK.PNG",
-      "assets/sponsors/SILVER/DHARMA-LOGO-copy.png",
-      "assets/sponsors/SILVER/fb twitter.jpg",
-      "assets/sponsors/SILVER/SVA-MPS-Tagline-Final.png",
-      "assets/sponsors/SILVER/logo.png",
-      "assets/sponsors/SILVER/PAN-Primary Logo-Square.png",
-      "assets/sponsors/SILVER/PEMB Center Logo_1clr.png",
-      "assets/sponsors/SILVER/TFA.Color.COATED.jpg",
-      "assets/sponsors/SILVER/FW Circle_Logo.png",
-      "assets/sponsors/SILVER/ben-and-jerrys-logo (1).png",
-      "assets/sponsors/SILVER/Bloomingdale's_Logo.svg.png",
-      "assets/sponsors/SILVER/caclogo.jpg",
-      "assets/sponsors/SILVER/download.jpeg",
-      "assets/sponsors/SILVER/filmic_logo1-300x129.png",
-      "assets/sponsors/SILVER/image.png",
-      "assets/sponsors/SILVER/RUNA-Just-Text-Logo.jpg",
-      "assets/sponsors/SILVER/seven-star-logo.png",
-      "assets/sponsors/SILVER/image1.PNG",
-      "assets/sponsors/SILVER/BC Mockups-02.png",
-      "assets/sponsors/SILVER/COFX Logo - Square 500x500px.jpg"
+      "assets/sponsors_18/silver/brown_logo.gif",
+      "assets/sponsors_18/silver/Brown-Arts-Initiative-Logo.png",
+      "assets/sponsors_18/silver/EURO_LOGO_FINALE.png",
+      "assets/sponsors_18/silver/pembroke_logo.jpeg",
+      "assets/sponsors_18/silver/ProvidenceTourismCouncil.jpg",
+      "assets/sponsors_18/silver/SellAScript.jpg",
+      "assets/sponsors_18/silver/ursa_minor.jpg",
+      "assets/sponsors_18/silver/VA_Logo.png"
+    ],
+    "in_kind": [
+      "assets/sponsors_18/in_kind/BienaLogoBLUE.png",
+      "assets/sponsors_18/in_kind/chipotle.png",
+      "assets/sponsors_18/in_kind/CoffeeExchange.jpg",
+      "assets/sponsors_18/in_kind/KneadLogo.jpg",
+      "assets/sponsors_18/in_kind/olgaslogo.png",
+      "assets/sponsors_18/in_kind/PieZonis_logo.png"
     ]
   },
   "press": [{
