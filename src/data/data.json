@@ -20,8 +20,7 @@
       "University of Texas at Austin"
     ]
   },
-  "events": [
-    {
+  "events": [{
       "title": "Ivy Film Festival & React to Film Present: The Workers Cup",
       "date": "03.21.18",
       "facebook_url": "https://www.facebook.com/events/423959194732854/",
@@ -131,29 +130,67 @@
     }
   ],
   "sponsors": {
-    "platinum": [
-      "assets/sponsors_18/platinum/UFB.png"
-    ],
-    "gold": [
-      "assets/sponsors_18/gold/the_dean.png"
-    ],
+    "platinum": [{
+      "image": "assets/sponsors_18/platinum/UFB.png",
+      "url": "http://www.brownucs.org/about-ufb/"
+    }],
+    "gold": [{
+      "image": "assets/sponsors_18/gold/the_dean.png",
+      "url": "https://thedeanhotel.com"
+    }],
     "silver": [
-      "assets/sponsors_18/silver/brown_logo.gif",
-      "assets/sponsors_18/silver/Brown-Arts-Initiative-Logo.png",
-      "assets/sponsors_18/silver/EURO_LOGO_FINALE.png",
-      "assets/sponsors_18/silver/pembroke_logo.jpeg",
-      "assets/sponsors_18/silver/ProvidenceTourismCouncil.jpg",
-      "assets/sponsors_18/silver/SellAScript.jpg",
-      "assets/sponsors_18/silver/ursa_minor.jpg",
-      "assets/sponsors_18/silver/VA_Logo.png"
+      {
+        "image":"assets/sponsors_18/silver/brown_logo.gif",
+        "url": "https://www.brown.edu"
+      },
+      {
+        "image": "assets/sponsors_18/silver/Brown-Arts-Initiative-Logo.png",
+        "url": "http://arts.brown.edu"
+      },
+      {
+        "image":"assets/sponsors_18/silver/EURO_LOGO_FINALE.png",
+        "url": "http://www.eurochannel.com/en/"
+      },
+      {
+        "image":"assets/sponsors_18/silver/pembroke_logo.jpeg",
+        "url": "https://www.brown.edu/research/pembroke-center/"
+      },
+      {
+        "image": "assets/sponsors_18/silver/ProvidenceTourismCouncil.jpg",
+        "url": "http://www.providencetourismcouncil.org"
+      },
+      {
+        "image": "assets/sponsors_18/silver/SellAScript.jpg",
+        "url": "https://www.scriptdelivery.net"
+      },
+      {
+        "image": "assets/sponsors_18/silver/ursa_minor.jpg",
+        "url":"https://www.brown.edu/academics/modern-culture-and-media/"
+      },
+      {
+        "image":"assets/sponsors_18/silver/VA_Logo.png",
+        "url": "https://www.brown.edu/academics/visual-art/home"
+      }
     ],
     "in_kind": [
-      "assets/sponsors_18/in_kind/BienaLogoBLUE.png",
-      "assets/sponsors_18/in_kind/chipotle.png",
-      "assets/sponsors_18/in_kind/CoffeeExchange.jpg",
-      "assets/sponsors_18/in_kind/KneadLogo.jpg",
-      "assets/sponsors_18/in_kind/olgaslogo.png",
-      "assets/sponsors_18/in_kind/PieZonis_logo.png"
+      {
+        "image": "assets/sponsors_18/in_kind/BienaLogoBLUE.png"
+      },
+      {
+        "image": "assets/sponsors_18/in_kind/chipotle.png"
+      },
+      {
+        "image":"assets/sponsors_18/in_kind/CoffeeExchange.jpg"
+      },
+      {
+        "image":"assets/sponsors_18/in_kind/KneadLogo.jpg"
+      },
+      {
+        "image": "assets/sponsors_18/in_kind/olgaslogo.png"
+      },
+      {
+        "image": "assets/sponsors_18/in_kind/PieZonis_logo.png"
+      }
     ]
   },
   "press": [{
