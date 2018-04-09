@@ -137,7 +137,10 @@
     "gold": [{
       "image": "assets/sponsors_18/gold/the_dean.png",
       "url": "https://thedeanhotel.com"
-    }],
+    }, {
+      "image": "assets/sponsors_18/gold/hbo.png",
+      "url": "https://play.hbogo.com"
+      }],
     "silver": [
       {
         "image":"assets/sponsors_18/silver/brown_logo.gif",
