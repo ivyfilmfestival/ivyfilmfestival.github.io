@@ -29,10 +29,54 @@
 
         {# <img src="assets/sponsors.png" width="80%" style='margin:auto'> #}
 
-        <h3 class="sponsors-heading">platinum</h3> <div class='row'> {% for sponsor in sponsors.platinum %} <img class='sponsor-image' src='{{sponsor}}'> {% endfor %} </div> <h3 class="sponsors-heading">gold</h3> <div class='row'> {% for sponsor in
-        sponsors.gold %} <img class='sponsor-image' src='{{sponsor}}'> {% endfor %} </div> <h3 class="sponsors-heading">silver</h3> <div class='row'> {% for sponsor in sponsors.silver %} <img class='sponsor-image' src='{{sponsor}}'> {% endfor %}
-      </div> <h3 class="sponsors-heading">in kind</h3> <div class='row'> {% for sponsor in sponsors.in_kind %} <img class='sponsor-image' src='{{sponsor}}'> {% endfor %}
-    </div>
+        <h3 class="sponsors-heading">platinum</h3>
+        <div class='row'>
+          {% for sponsor in sponsors.platinum %}
+            {% if sponsor.url %}
+              <a href={{sponsor.url}} class='sponsor-link'>
+            {% endif %}
+            <img class='sponsor-image' src='{{sponsor.image}}'>
+            {% if sponsor.url %}
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <h3 class="sponsors-heading">gold</h3>
+          <div class='row'>
+            {% for sponsor in sponsors.gold %}
+              {% if sponsor.url %}
+                <a href={{sponsor.url}} class='sponsor-link'>
+              {% endif %}
+              <img class='sponsor-image' src='{{sponsor.image}}'>
+              {% if sponsor.url %}
+              </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        <h3 class="sponsors-heading">silver</h3>
+          <div class='row'>
+            {% for sponsor in sponsors.silver %}
+              {% if sponsor.url %}
+                <a href={{sponsor.url}} class='sponsor-link'>
+              {% endif %}
+              <img class='sponsor-image' src='{{sponsor.image}}'>
+              {% if sponsor.url %}
+              </a>
+              {% endif %}
+             {% endfor %}
+          </div>
+        <h3 class="sponsors-heading">in kind</h3>
+        <div class='row'>
+          {% for sponsor in sponsors.in_kind %}
+            {% if sponsor.url %}
+              <a href={{sponsor.url}} class='sponsor-link'>
+            {% endif %}
+            <img class='sponsor-image' src='{{sponsor.image}}'>
+            {% if sponsor.url %}
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
     </section>
 
     <section>

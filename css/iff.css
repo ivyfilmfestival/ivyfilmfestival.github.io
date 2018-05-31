@@ -495,8 +495,14 @@ section {
   padding-bottom: 80px;
   padding-right: 40px;
   display: inline-block;
-  width: 175px;
+  max-width: 250px;
+  max-height: 250px;
   height: auto; }
+  .sponsor-image a {
+    border-bottom: 0; }
+
+.sponsor-link {
+  border-bottom: 0; }
 
 /* FOOTER */
 .footer {

@@ -18,7 +18,7 @@
     {
       "day": "Wednesday",
       "date": "April 12",
-      "title": "IFF 2018 x The Pembroke Center present: An Advanced Screening of \"RBG\"",
+      "title": "IFF 2018 x The Pembroke Center present: An Advanced Screening of \"RBG\"\nFollowed by a Q&A with Director Betsy West",
       "type": "",
       "when": "7:30-10pm",
       "where": "Granoff Martinos Auditorium"
@@ -26,7 +26,7 @@
     {
       "day": "Thursday",
       "date": "April 12",
-      "title": "Screening: On Chesil Beach &\n Keynote: Dominic Cooke",
+      "title": "Screening: On Chesil Beach &\nKeynote: Dominic Cooke",
       "type": "",
       "when": "6-9pm",
       "where": "Granoff Martinos Auditorium"
@@ -42,15 +42,15 @@
     {
       "day": "Friday",
       "date": "April 14",
-      "title": "Virtual Reality Arcade",
+      "title": "Workshop: A-Frame VR Workshop with Patrick Raleigh",
       "type": "",
-      "when": "2-4pm",
+      "when": "1-2pm",
       "where": "Granoff Studio 4"
     },
     {
       "day": "Friday",
       "date": "April 13",
-      "title": "A-Frame VR Workshop with Patrick Raleigh",
+      "title": "Virtual Reality Arcade",
       "type": "",
       "when": "2:30-4:30pm/6-7pm",
       "where": "Granoff Studio 4"
@@ -68,7 +68,7 @@
       "date": "April 13",
       "title": "Advanced Screening of \"We The Animals\" Followed by a converstion with Justin Torres",
       "type": "",
-      "when": "7-8:30pm",
+      "when": "7-9:30pm",
       "where": "Granoff Martinos Auditorium"
     },
     {
@@ -124,7 +124,7 @@
       "date": "April 15",
       "title": "Student Official Selection: Block 3",
       "type": "",
-      "when": "2-3pm",
+      "when": "1-2:30pm",
       "where": "Granoff Martinos Auditorium"
     },
     {
@@ -148,7 +148,7 @@
       "date": "April 15",
       "title": "Advanced Screening of “Eighth Grade”",
       "type": "Screening",
-      "when": "4-6pm",
+      "when": "7-8:30pm",
       "where": "Granoff Martinos Auditorium"
     }
   ]
