@@ -51,7 +51,8 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
+  var trailer =  iframe.getElementById('youtube-bg-iframe');
+  trailer.mute();
   ga('create', 'UA-75834814-1', 'auto');
   ga('send', 'pageview');
 </script>
