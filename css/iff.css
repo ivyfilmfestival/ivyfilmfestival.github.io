@@ -21,6 +21,9 @@
 #fb-day-event {
   color: #E52D3D; }
 
+#fb-day-event:hover {
+  color: #EAC5A6; }
+
 .sidenav-link {
   color: #EAC5A6;
   font-family: "Basis Grotesque Bold", sans-serif;
@@ -196,7 +199,7 @@ p {
 
 a {
   text-decoration: none;
-  border-bottom: 7px solid #EAC5A6;
+  border-bottom: 2px solid #EAC5A6;
   text-underline-position: under;
   -webkit-text-underline-position: under;
   -ms-text-underline-position: below;
@@ -218,8 +221,7 @@ a:visited {
 
 section a:hover {
   text-decoration: none;
-  background-color: #EAC5A6;
-  box-shadow: 2px -10px 0 #EAC5A6, -2px -10px 0 #EAC5A6, 2px 2px 0 #EAC5A6, -2px 2px 0 #EAC5A6; }
+  color: #EAC5A6; }
 
 .submit-section a:hover {
   color: #fff;
