@@ -377,6 +377,24 @@ section {
   color: #E52D3D;
   text-align: center; }
 
+.intro-events-button {
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Basis Grotesque Bold", sans-serif;
+  font-size: 16.5px;
+  margin: 30px 5px 0;
+  padding: 12px 20px;
+  border: 0;
+  background: #E52D3D;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.intro-events-button:hover {
+  background: #ec7063;
+}
+
 /* LATEST NEWS */
 .news-section {
   min-height: 1100px;
