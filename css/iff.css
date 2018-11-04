@@ -470,6 +470,23 @@ section {
   background: #ec7063;
 }
 
+.nav-button {
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Basis Grotesque Bold", sans-serif;
+  margin: 22px 5px 0;
+  padding: 8px 15px;
+  border: 0;
+  background: #E52D3D;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.nav-button:hover {
+  background: #ec7063;
+}
+
 /* LATEST NEWS */
 .news-section {
   min-height: 1100px;
