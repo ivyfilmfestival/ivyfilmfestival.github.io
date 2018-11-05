@@ -179,6 +179,14 @@
   padding-top: 40px;
   padding-bottom: 30px; }
 
+#schedule-coming {
+  font-family: "Kazimir Light", Georgia, serif;
+  font-size: 75px;
+  line-height: 60px;
+  color: #EAC5A6;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
 #mission {
   color: black;
   font-family: "Kazimir Light", Georgia, serif;
