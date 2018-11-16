@@ -16,8 +16,9 @@
           <div class="row">
             <!--             <div class="col-md-2 year">{{ item.date }}</div> -->
             <div class="col-md-12">
-              <p>
-                <a href="{{ item.link }}">
+              <h5> {{item.pub}} </h5>
+                <p>
+                  <a class = "press" href="{{ item.link }}">
                   {{item.title}}
                 </a>
               </p>

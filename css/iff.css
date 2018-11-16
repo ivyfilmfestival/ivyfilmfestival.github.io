@@ -121,7 +121,7 @@
   .mobile-description {
     margin: 0;
   }
-  
+
 }
 
 @media (min-width: 768px) {
@@ -274,6 +274,10 @@ h4 {
   color: #E52D3D;
   font-family: "Basis Grotesque Bold", sans-serif; }
 
+h5 {
+  font-family: "Kazimir Bold", Georgia, serif;
+  font-size: 18px; }
+
 p {
   font-family: "Kazimir Light", Georgia, serif;
   font-size: 18px; }
@@ -311,6 +315,17 @@ section a:hover {
 
 a:active {
   text-decoration: none; }
+
+a.press {
+  text-decoration: none;
+  border-bottom: none;
+  color: #EAC5A6;
+  display: inline-block;
+  line-height: 100%;
+}
+a.press:hover {
+  text-decoration: none;
+}
 
 @media (min-width: 768px) {
   .container {

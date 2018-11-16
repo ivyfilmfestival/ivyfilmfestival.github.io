@@ -8,12 +8,13 @@ if len(sys.argv) != 2:
 
 press = []
 with open(sys.argv[1], 'rb') as csvfile:
-	rows = csv.reader(csvfile, delimiter=',', quotechar='|')
+	rows = csv.reader(csvfile, delimiter=',', quotechar='"')
 	for row in rows:
-		if len(row) == 2:		
+		if len(row) == 3:
 			press_event = {}
 			press_event['title'] = row[0]
 			press_event['link'] = row[1]
+			press_event['pub'] = row[2]
 			press.append(press_event)
 		else:
 			'Found row of incorrect size'
