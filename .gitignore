@@ -6,3 +6,5 @@ js/.DS_Store
 node_modules/
 .sass-cache/
 *.css.map
+
+\.idea/
