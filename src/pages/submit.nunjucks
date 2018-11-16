@@ -10,25 +10,16 @@
   <section>
     <div class="container top-section">
       <h1>submissions</h1>
-      <h1 id="now-closed">now closed</h1>
-      {# <h4>films &amp; screenplay</h4>
+      <h1 id="now-closed">now open!</h1>
+      <h4>films &amp; screenplay</h4>
       <p>Submissions are processed through Withoutabox and FilmFreeway. Withoutabox account holders get a $5 discount on all submission fees.
       </p>
       <div class="row" style='padding-top:60px'>
                 <div class=col-md-6>
-                    <p style='text-align:center'><a href="https://www.withoutabox.com/03film/03t_fin/03t_fin_fest_01over.php?festival_id=5430">Submit with Withoutabox here.</a></p></div>
+                    <p style='text-align:center'><a href="https://www.withoutabox.com/03film/03t_fin/03t_fin_app.php?festival_id=5430&film_id=">Submit with Withoutabox here.</a></p></div>
                 <div class=col-md-6>
-                    <p style='text-align:center'><a href='https://filmfreeway.com/festival/IvyFilmFestival'>Submit with FilmFreeway here.</a></p></div>
+                    <p style='text-align:center'><a href='https://filmfreeway.com/IvyFilmFestival'>Submit with FilmFreeway here.</a></p></div>
       </div>
-    <h4>new media</h4>
-    <p>The New Media (VR/AR/Sound) Category is for all 360° films and VR applications compatible with Unity/HTC Vive. Submission to the New Media (VR/AR/Sound) category is free.</p>
-    <div class="row" style='padding-top:60px'>
-              <div class=col-md-4></div>
-              <div class=col-md-4>
-                  <p style='text-align:center'><a href="https://docs.google.com/forms/d/e/1FAIpQLScyaF4mcqa1HcXZ1X2jNIQiznAQo6GIB5C_-NRqcs2GzzSnFg/viewform?usp=send_form">Submit for new media here. </a></p></div>
-              <div class=col-md-4></div>
-    </div> #}
-
     </section>
 
     <section>
