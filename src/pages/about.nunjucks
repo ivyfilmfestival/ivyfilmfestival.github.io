@@ -31,7 +31,7 @@
       <!--             <h1>what we do and why?</h1> -->
       <!--             <br/> -->
       <h1>about us</h1>
-      <p>Founded in 2001 at Brown University by David Peck '03 and Justin Slosky '03, Ivy Film Festival has become one of the world’s largest film festivals for students, by students. We are dedicated to showcasing student filmmakers from around the world,
+      <p> Founded in 2001 at Brown University by David Peck '03 and Justin Slosky '03, Ivy Film Festival has become one of the world’s largest film festivals for students, by students. We are dedicated to showcasing student filmmakers from around the world,
         creating channels for students to learn about the industry’s emerging discourses and innovations, and building a network between today’s pioneers and the next generation.</p>
     </div>
   </section>
@@ -40,16 +40,20 @@
   <section id="team">
     <div class="container">
       <h1>our team</h1>
-      <p>Ivy Film Festival is made up of 95 students from Brown University and Rhode Island School of Design (RISD), and divided into 9 different internal departments.</p>
+      <p>Ivy Film Festival is made up of 106 students from Brown University and Rhode Island School of Design (RISD), and divided into 9 different internal departments.</p>
       <br/>
       <h4>executive directors
         <a class="mail-icon-link" class="mail-icon-link" href="mailto:director@ivyfilmfestival.org">
           <i class="mail-icon fa fa-envelope"></i>
         </a>
       </h4>
-      <p>Mackenzie Carlson, Matthew Jackett</p>
-      <h4>managing directors</h4>
-      <p>Jake Anderson, Misha Gehring</p>
+      <p>Misha Gehring, Kripa Venkatesh</p>
+      <h4>managing directors
+        <a class="mail-icon-link" class="mail-icon-link" href="mailto:director@ivyfilmfestival.org">
+          <i class="mail-icon fa fa-envelope"></i>
+        </a>
+      </h4>
+      <p>Abby Levy-Westhead, Chautauqua Ordway</p>
 
       <h4>outreach
         <a class="mail-icon-link" class="mail-icon-link" href="mailto:outreach@ivyfilmfestival.org">
@@ -58,10 +62,10 @@
       </h4>
       <p>
         <b>Coordinators:</b>
-        Becca Gever, Ginny Liberto
+        Jeewon Shin, Annalie Brody
         <br>
         <b>Staff:</b>
-        Allison Meakem, Michael Mireles, Annalie Brody, Will Berry, Naomi Altman, Rea Yoh, Jeewon Shin
+        Naomi Altman, Jack Nelson, Sofie Jimenez, Lara Weyns, Isabel Guarnieri
       </p>
 
       <h4>events &amp; tech
@@ -71,9 +75,9 @@
       </h4>
       <p>
         <b>Coordinators:</b>
-        Chelsea Cohn<br/>
+        Sasha Pinto, Sam Fredericks<br/>
         <b>Staff:</b>
-        Claire Sapan, Pauline Blondiaux, Sam Fredricks, Sasha Pinto, William Pate, Sarah Migliori, Amanda Keogh, Kara Perusse
+        Emily Pluhar, Nikolai Stambler, Gabriel Boyd, Michael Abela, Alisa Caira, Isabella Di Rita
         <br>
         <h4>business
           <a class="mail-icon-link" href="mailto:business@ivyfilmfestival.org">
@@ -82,9 +86,9 @@
         </h4>
         <p>
           <b>Coordinators:</b>
-          Abigail Levy-Westhead, Sea-Jay Van Der Ploeg, Chloe So<br>
+          Chloe So, Sea-Jay Van der Ploeg<br>
           <b>Staff:</b>
-          Jesse Atlas, Sam Altschuler, Audrey Wilson, Sophie de Menil, Rainy Duan, Raffaella Gorenflos
+          Bennett Reisner, Claire Zhang, Paty Garza, Ellie Koschik, Dikshita Khullar
         </p>
         <h4>programming
           <a class="mail-icon-link" href="mailto:programming@ivyfilmfestival.org">
@@ -93,10 +97,12 @@
         </h4>
         <p>
           <b>Coordinators:</b>
-          Cristina Ballarini, Kripa Venkatesh<br>
+          Adam Malkin, Caleb O'Brien, Karina Rotenstreich<br>
           <b>Staff:</b>
-          Caleb O'Brien, Chris Packs, Isa Lovelace, Karina Rotenstreich Rob Capron, Clem Quittner, Allegra Chapman, Querube Suarez-Weirlen Tal Frieden, Alex Fredman, Angelica Johnsen, Cody Duane-Mcglashan Oliver Goodman-Waters, Rex Provost, Jack Ross, Adam
-          Malkin, Yurema Perez-Hinojosa, Ellen Ling, Gus Stephens, Yuhe Ma, Liza Edwards-Levin, Jeremy Leary, Alex Westfall
+          Robert Capron, Jeremy Leary, Yurema Perez-Hinojosa, Isabela Lovelace, Ellen Ling, Yuhe Ma, Isobel McCrum,
+          Kaela Hines, Ethan Valdes, Jeremy Roth-Rose, Stella Binion, Chloe Khosrowshahi, Nitya Velakacharla,
+          Alyssa Romo, Lena Cohen, Matt Vigilante, Emily Miller, Jack Waters, West Duchovny, Fiona Campbell, Stefan Peyron,
+          Jack Brook, Zach Zuckerman
         </p>
         <h4>screenplay
           <a class="mail-icon-link" href="mailto:screenplay@ivyfilmfestival.org">
@@ -105,10 +111,11 @@
         </h4>
         <p>
           <b>Coordinators:</b>
-          Daniel Wayland, Dominique Pariso<br>
+          Nora Graham, Mimi Li<br>
           <b>Staff:</b>
-          Luke Perrotta, Ben Guggenheim, Mimi Li, Eveline Liu, Hannah Maier-Katkin, Baylor Knobloch, Mari Herrema, Maddie Mahoney, Zander Kim, Nicolaia Rips, Emerson Tenney, Katherine Ore-Giron, Nora Graham, Andrew Robbin, Clara Devine-Golub, Isabel
-          Tejera-Sindell
+          Daniel Wayland, Clara Devine-Golub, Nicolaia Rips, Luke Perrotta, Alexander Kim, Eveline Liu, Emerson Tenney,
+          Mari Herrema, Joshua Danielson, Nathaniel Kublin, Rebecca Benoit, Emma Weiss, Evan Ehrhardt, Julia Bennani-Smires,
+          Kitra Sundaram, Catherine Kasparyan, Elena Levin
           <h4>industry
             <a class="mail-icon-link" href="mailto:industry@ivyfilmfestival.org">
               <i class="mail-icon fa fa-envelope"></i>
@@ -117,9 +124,9 @@
           <p>
             <b>Coordinators:
             </b>
-            Zach Smolar, Chautauqua Ordway<br>
+            Katya Stambler, Maddy Lygo<br>
             <b>Staff:</b>
-            Katya Stambler, Molly Chambers, Madison Lygo, Ginevra Bulgari, Lena Renshaw
+            Ginevra Bulgari, Molly Chambers, Joe Suddleson, Sidney Schwartz, Becca Wachter, Amanda Keogh
           </p>
           <h4>new media
             <a class="mail-icon-link" href="mailto:newmedia@ivyfilmfestival.org">
@@ -128,9 +135,9 @@
           </h4>
           <p>
             <b>Coordinators:</b>
-            Adam Hersko-Ronatas<br>
+            Hannah Seckendorf<br>
             <b>Staff:</b>
-            Brett Halperin, Chonghui Chen, Christian Cianfarani, Hannah Seckendorf, Tessa Jarden
+            Tessa Jarden, Christian Cianfarani, Ambika Miglani, Keiichiro Kinoshita, Gregory Harris, Rachel Okin, Michael Bass
           </p>
           <h4>marketing
             <a class="mail-icon-link" href="mailto:marketing@ivyfilmfestival.org">
@@ -140,16 +147,22 @@
           <p>
             <b>Coordinators:
             </b>
-            Nadim Silverman, Emma Margulies<br>
+            Kyra Goldstein, Grace Attanasio<br>
             <b>Staff:</b>
-            Evan Boyd, Elizabeth Falkenberg, Ryan Miller, Joey Han, Liana Chaplain, Grace Attanasio, Teak Sittipunt, Zenzele Ojore, Kyra Goldstein
+            Alex Westfall, Manon Crespin, Zola Anderson, Polina Zakharova, Jacob Lee,
+            Megan Kasselberg, Alex Reice, Alison Sneader, Abby Barton, Elizabeth Falkenberg, Teak Sittipunt
           </p>
-          <h4>web</h4>
+          <h4>web
+            <a class="mail-icon-link" href="mailto:ivyfilmfestival.web@gmail.com">
+              <i class="mail-icon fa fa-envelope"></i>
+            </a>
+          </h4>
           <p>
             <b>Coordinators:</b>
-            Sean Segal, Ansel Vahle<br/>
+            Katie Friis
+            <br/>
             <b>Staff:</b>
-            Annabel Strauss</p>
+            Yusuf Karim, Erin Simshauser, Luna Ito-Fisher, Ryan Choi</p>
 
         </div>
 
@@ -160,6 +173,16 @@
         <div class="container">
           <h1>past keynotes &amp; advanced screenings</h1>
           <br/>
+          <div class="row">
+            <div class="col-md-2 year">2018</div>
+            <div class="col-md-8">
+              <p>
+                <i>Screenings: #TAKEMEANYWHERE</i>
+                <br/>Guests: Shia LaBeouf, Nastja Säde Rönkkö, &amp; Luke Turner
+                </p>
+            </div>
+          </div>
+          <hr>
           <div class="row">
             <div class="col-md-2 year">2017</div>
             <div class="col-md-8">
@@ -312,13 +335,77 @@
               <p>IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2017 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions,
                 creating an intercollegiate network of emerging filmmakers.</p>
               <div class='row' style='padding=top:20px;'>
-                {% for school in about.satellite_schools %}
+
                   <div class='col-xs-12 col-sm-6 col-md-4'>
-                    <p class='satellite-schools'>{{school}}</p>
+                    <p class='satellite-schools'>Harvard University</p>
                   </div>
-                {% endfor %}
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Cornell University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Columbia University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>University of Chicago</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Wesleyan University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>School of Visual Arts</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Princeton University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Cornell University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>University of Pennsylvania</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>New York University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Oberlin College</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Prague Film School</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Yale University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Dartmouth University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>Northwestern University</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>University of California, Berkeley</p>
+                  </div>
+
+                  <div class='col-xs-12 col-sm-6 col-md-4'>
+                    <p class='satellite-schools'>University of Texas at Austin</p>
+                  </div>
+
               </div>
-            </section>
+</section>
 
             <!-- Footer -->
             {% include "partials/footer.nunjucks" %}
