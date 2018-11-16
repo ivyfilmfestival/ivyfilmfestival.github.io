@@ -26,6 +26,7 @@
     </div>
   </section>
 
+
   <!-- Footer -->
   {% include "partials/footer.nunjucks" %}
 
