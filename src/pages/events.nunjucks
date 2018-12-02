@@ -7,58 +7,242 @@
   {{nav.active('events')}}
 
   <!-- Events Seciont -->
-  <section>
+<section>
     <div class="container top-section">
       <h1>events</h1>
     </div>
-    {% for event in events %}
-      <div class='row' style='margin:20px'>
-        <!--  RIGHT SIDE EVENTS -->
-        {% if loop.index0 % 2 == 0 %}
+      <div class= 'event-label'>
+        <span style = "opacity: 0.8"> upcoming</span>
+      </div>
+
+      <div class='row'>
+        <div class= 'event-label'>
+          <p style = "font-family: Basis Grotesque, sans-serif;"><i>No upcoming events at the moment!</i></p>
+        </div>
+        
+
+
+          {#
           <div class='col-0 col-sm-1'></div>
           <div class='col-12 col-sm-5'>
             <div class='event-title event-title-left'>
-              <h4>{{event.title}}</h4>
-              <h4>{{event.date}}</h4>
-              <a class='events-icon' href="{{event.facebook_url}}">
+              <h3 style ="color: #252628;">Vox Lux</h3>
+
+              <p style = "font-family: Basis Grotesque, sans-serif;"><i>Advanced Screening</i></p>
+              <p id= "mobile-description" style = "font-family: Basis Grotesque Bold, sans-serif;">11.28.2018</p>
+              <p style = "font-family: Basis Grotesque, sans-serif; padding-top: 0; margin: 0">7pm-10:30pm</p>
+              <p style = "font-family: Basis Grotesque, sans-serif; padding-top: 0; margin-top: 0">Salomon DECI</p>
+
+              <a class='events-icon' href= "https://www.facebook.com/events/289347948364087/" target = _> 
+                <!-- insert href in the a -->
                 <i class="social-media-icon fa fa-facebook fa-lg"></i>
               </a>
-              {% if event.tickets_url %}
-                <a class='events-icon' href="{{event.tickets_url}}">
+              
+                <a class='events-icon' href = "https://www.eventbrite.com/e/iffxneon-present-vox-lux-advanced-screening-qa-tickets-52961383925" target = _>
                   <i class="social-media-icon fa fa-ticket fa-lg"></i>
                 </a>
-              {% endif %}
+              
             </div>
           </div>
           <div class='col-12 col-sm-5'>
-            <img class='event-image event-image-left' src="{{event.image_url}}">
+            <img class='event-image event-image-left' src="assets/posters/vox_lux.jpg" style= "margin-top: 5em">
           </div>
-          <div class='col-0 col-sm-1'></div>
-          <!-- LEFT SIDE EVENTS -->
-        {% else %}
-          <div class='col-0 col-sm-1'></div>
-          <div class='col-12 col-sm-5 col-sm-push-5'>
-            <div class='event-title event-title-right'>
-              <h4>{{event.title}}</h4>
-              <h4>{{event.date}}</h4>
-              <a class='events-icon' href="{{event.facebook_url}}">
-                <i class="social-media-icon fa fa-facebook fa-lg" style='color:#E8616A;text-decoration:none;'></i>
+          <div class='col-0 col-sm-1'></div> 
+         #}
+      </div>
+      
+
+      <div class= 'event-label' style= "display: inline-block; margin-top: 6em; margin-bottom: 2em;">
+        <span style = "opacity: 0.8"> past screenings</span>
+      </div>
+    <!-- </div> -->
+
+
+  <div class= "past-events-block"> 
+  <div class= "past-events-center">
+  {% for event in events %}
+       <div class= "img-container">
+            <img class='event-image past-events-image' src="{{event.image_url}}">
+            
+            <span class= "blur-description">
+              <a class='events-icon' style= "position: absolute; margin-top: -10em; margin-left: 5.5em;" href="{{event.image_url}}">
+                <i class="social-media-icon fa fa-facebook fa-lg"></i>
+              </a>            
+              <a class='events-icon' style= "position: absolute; margin-top: -10em; margin-left: 3.5em;" href="{{event.tickets_url}}">
+                <i class="social-media-icon fa fa-ticket fa-lg"></i>
               </a>
-              {% if event.tickets_url %}
-                <a class='events-icon' href="{{event.tickets_url}}">
-                  <i class="social-media-icon fa fa-ticket fa-lg" style='color:#E8616A;text-decoration-none;'></i>
-                </a>
-              {% endif %}
-            </div>
-          </div>
-          <div class='col-12 col-sm-5 col-sm-pull-5'>
-            <img class='event-image event-image-right' src="{{event.image_url}}">
-          </div>
-          <div class='col-0 col-sm-1'></div>
-        {% endif %}
+            </span>
+          
       </div>
     {% endfor %}
-  </section>
+
+    </div>
+   </div>
+
+       <div class= 'event-label' style = "margin-top: 4em;">
+        <span style = "opacity: 0.8"> past keynotes</span>
+      </div>
+
+      <section id='keynotes' style= "padding-top: 0;">
+          <div class="container">
+            <!-- <h1>past keynotes &amp; advanced screenings</h1> -->
+            <br/>
+            <div class="row">
+              <div class="col-md-2 year">2018</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: #TAKEMEANYWHERE</i>
+                  <br/>Guests: Shia LaBeouf, Nastja Säde Rönkkö, &amp; Luke Turner
+                  </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2017</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: The Immortal Life of Henrietta Lacks</i>
+                  <br/>Guests: M. Night Shyamalan, Ezra Edelman, &amp; Barry Levinson</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2016</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: Krisha, Remember the Artist</i>
+                  <br/>Guests: Jodie Foster, Robert De Niro &amp; Trey Edward Schults</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2015</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: The End of the Tour, Trainwreck</i>
+                  <br/>Guests: Todd Haynes and Jason Schwartzman</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2014</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: The Grand Budapest Hotel, Inside Llewyn Davis</i>
+                  <br/>Guests: Wes Anderson, Ushio &amp; Noriko Shinohara</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2013</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: Searching for Sugar Man, Sons of the Clouds</i>
+                  <br/>Guests: Wes Craven, Mira Nair</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2012</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: HBO series Girls, The Invisible War</i>
+                  <br/>Guests: Lena Dunham, Laura Linney</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2011</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: The Social Network, Bobby Fischer Against the World</i>
+                  <br/>Guests: Aaron Sorkin, James Franco</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2010</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: Waiting for Superman</i>
+                  <br/>Guests: Davis Guggenheim and Andrew Renzi</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2009</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: (500) Days of Summer</i>
+                  <br/>Guests: Jack Nicholson and Robert Evans</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2008</div>
+              <div class="col-md-8">
+                <p>
+                  <i>People: Martin Scorsese and Michael Costigan</i>
+                  <br/>Guests: Lena Dunham, Laura Linney</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2007</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Eagle vs. Shark</i>
+                  <br/>Guests: Park Chan-wook and Doug Liman</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2006</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Brick, Half Nelson</i>
+                  <br/>Guests: Michael Showalter and Richard Heller</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2005</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Murderball, The Aristocrats</i>
+                  <br/>Guests: John Hamburg, Ellen Kuras</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2004</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Mean Girls, Supersize Me</i>
+                  <br/>Guests: Wes Craven and Adrien Brody</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2003</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Roger Dodger</i>
+                  <br/>Guests: Tim Robbins and Julia Stiles</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-2 year">2001</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screening: Harvard Man</i>
+                  <br/>Guests: Oliver Stone and Henry Bean
+                </div>
+              </div>
+  
+   </section>
+  
 
   <!-- Footer -->
   {% include "partials/footer.nunjucks" %}

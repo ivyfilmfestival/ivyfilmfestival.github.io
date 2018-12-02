@@ -21,6 +21,49 @@
     ]
   },
   "events": [{
+      "title": "Advanced Screening + Q&A: Vox Lux",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/289347948364087/",
+      "image_url": "assets/posters/vox lux.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iffxneon-present-vox-lux-advanced-screening-qa-tickets-52961383925"
+    }, 
+    {
+      "title": "Advanced Screening + Q&A: Wild Nights with Emily ",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/361168287969401/",
+      "image_url": "assets/posters/wild nights with emily.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-presents-wild-nights-with-emily-advanced-screening-and-qa-tickets-52410322686"
+    }, 
+
+    {
+      "title": "Advanced Screening: Green Book",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/513669999042666/",
+      "image_url": "assets/posters/green book.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-x-universal-pictures-present-green-book-advanced-screening-tickets-52327969365"
+    },
+    {
+      "title": "Advanced Screening: Mid 90s",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/293649551249977/",
+      "image_url": "assets/posters/mid 90s.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-x-a24-present-mid90s-advanced-screening-tickets-51275147346?fbclid=IwAR3Yfig8UEDl9KyXoKD_U2UYaeJx1dviP2FzU-vdtcDVnu7DK0Yb-mhuhrI"
+    },
+    {
+      "title": "Advanced Screening: First Man",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/1932643666805318/",
+      "image_url": "assets/posters/first man.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-x-universal-pictures-present-first-man-advanced-screening-tickets-50599875590"
+    },
+    {
+      "title": "Advanced Screening: A Star is Born",
+      "date": "",
+      "facebook_url": "https://www.facebook.com/events/458936264616590/",
+      "image_url": "assets/posters/a star is born.jpg",
+      "tickets_url": "https://www.eventbrite.com/e/iff-spotify-present-a-star-is-born-advanced-screening-tickets-50316949350?fbclid=IwAR2VfdHJGqYp3is6a8DavEIEHo_lQ5cFa5eVtPOgKyzisPbn_1QV9BEtfQ8"
+    },
+    {
       "title": "Ivy Film Festival & React to Film Present: The Workers Cup",
       "date": "03.21.18",
       "facebook_url": "https://www.facebook.com/events/423959194732854/",
@@ -115,18 +158,6 @@
       "date": "12.10.15",
       "facebook_url": "https://www.facebook.com/events/1490564557941111/",
       "image_url": "assets/posters/pride-prejudice-zombies.jpg"
-    },
-    {
-      "title": "Brooklyn (Advance Screening, Fox Searchlight)",
-      "date": "10.28.15",
-      "facebook_url": "https://www.facebook.com/events/1049090261770098/",
-      "image_url": "assets/posters/brooklyn.jpg"
-    },
-    {
-      "title": "The Mask You Live In (REACT to FILM)",
-      "date": "10.27.15",
-      "facebook_url": "https://www.facebook.com/events/407170142825575/",
-      "image_url": "assets/posters/the-mask-you-live-in.jpg"
     }
   ],
   "sponsors": {
