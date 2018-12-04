@@ -49,6 +49,7 @@
           </div>
           <div class='col-0 col-sm-1'></div> 
          #}
+
       </div>
       
 
@@ -65,7 +66,7 @@
             <img class='event-image past-events-image' src="{{event.image_url}}">
             
             <span class= "blur-description">
-              <a class='events-icon' style= "position: absolute; margin-top: -10em; margin-left: 5.5em;" href="{{event.image_url}}">
+              <a class='events-icon' style= "position: absolute; margin-top: -10em; margin-left: 5.5em;" href="{{event.facebook_url}}">
                 <i class="social-media-icon fa fa-facebook fa-lg"></i>
               </a>            
               <a class='events-icon' style= "position: absolute; margin-top: -10em; margin-left: 3.5em;" href="{{event.tickets_url}}">
