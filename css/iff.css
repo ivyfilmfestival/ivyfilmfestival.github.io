@@ -251,6 +251,7 @@ h3 {
   display: inline-block;
   float: right;
   top: 50%;
+  transform: scale(1.3);
   line-height: 80px; }
 
 .social-media-icon {
