@@ -1,11 +1,29 @@
 // Variables
-$primary-color: #E52D3D; // Rose Madder (Red) #E52D3D
-$secondary-color: #EAC5A6; // Desert Sand (light peach color) #EAC5A6
-$header-font: "Basis Grotesque Bold", sans-serif;
-$text-font: "Kazimir Light", Georgia, serif;
+$primary-color: #0e3737; // Rose Madder (Red) #E52D3D
+$secondary-color: #ee5956; // Desert Sand (light peach color) #EAC5A6
+$third-color: #eff472; // yellow
+$header-font: "Kazimir Black", sans-serif; //"Basis Grotesque Bold", sans-serif;
+$text-font: "Graphik-Light", sans-serif; //"Kazimir Light", Georgia, serif;
 $year-font: "Basis Grotesque Regular", sans-serif;
+$nav-font: "Kazimir Medium", sans-serif;
 
 /* FONTS */
+// @font-face {
+//   font-family: "Kazimir Medium";
+//   src: url("../assets/fonts/Kazimir_Medium.woff") format("woff"); }
+@font-face {
+  font-family: "Kazimir Black";
+  src: url("../assets/fonts/Kazimir Black.otf") format("opentype");}
+@font-face {
+  font-family: "Kazimir Regular";
+  src: url("../assets/fonts/Kazimir.otf") format("opentype");}
+@font-face {
+  font-family: "Kazimir Medium";
+  src: url("../assets/fonts/Kazimir Medium.otf") format("opentype");}
+
+@font-face {
+  font-family: "Graphik-Light";
+  src: url("../assets/fonts/Graphik-Regular.otf") format("opentype");}
 @font-face {
   font-family: "Kazimir Light";
   src: url("../assets/fonts/Kazimir_Light.woff") format("woff"); }
@@ -16,28 +34,25 @@ $year-font: "Basis Grotesque Regular", sans-serif;
   font-family: "Basis Grotesque Regular";
   src: url("../assets/fonts/basis_grotesque_regular.otf") format("opentype"); }
 
-
-/*
-h1 + p {
-  padding-top: 10px; }
-
-p + p {
-  padding-top: 20px; } */
-
-
+/* TEXT */
 h1 {
+  font-size: 32px;
+  font-family: $header-font;
+  color: $primary-color;  
+  text-transform: uppercase;
+}
+
+h2 {
   font-size: 43px;
   font-family: $header-font;
   color: $primary-color; 
-  margin-top: 0;}
-
-h2 {
-  font-size: 32px; }
+  margin-top: 0;
+  text-transform: uppercase;}
 
 h3 {
   font-size: 24px;
   color: $secondary-color;
-  font-family: $header-font; 
+  font-family: $nav-font; 
   margin-bottom: 0; }
 
 h4 {
@@ -45,8 +60,9 @@ h4 {
   font-family: $header-font; }
 
 h5 {
-  font-family: "Kazimir Bold", Georgia, serif;
-  font-size: 18px; }
+  font-family: $text-font;//"Kazimir Bold", Georgia, serif;
+  font-size: 18px; 
+  color: $secondary-color;}
 
 p {
   font-family: $text-font;
@@ -58,6 +74,7 @@ p.list {
 }
 
 a {
+  font-family: $nav-font; 
   text-decoration: none;
   border-bottom: 2px solid $secondary-color;
   text-underline-position: under;
@@ -94,12 +111,15 @@ a:active {
 a.press {
   text-decoration: none;
   border-bottom: none;
-  color: $secondary-color;
+  color: $primary-color;
   display: inline-block;
   line-height: 100%;
+  font-family:"Kazimir Light", sans-serif;
 }
 a.press:hover {
-  text-decoration: none;
+  //text-decoration: none;
+  border-bottom: 2px solid $secondary-color;
+  color: $primary-color;
 }
 
 @media (min-width: 768px) {
@@ -142,7 +162,7 @@ a.press:hover {
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
-  color: #333; }
+  color: $primary-color; }
 
 .navbar-fixed-top {
   min-height: 80px; }
@@ -151,14 +171,14 @@ a.press:hover {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 80px;
-  color: #333; }
+  color: $primary-color; }
 
 .navbar-default .navbar-brand {
-  color: #333; }
+  color: $primary-color; }
 
 /* link */
 .navbar-default .navbar-nav > li > a {
-  color: #333; }
+  color: $primary-color; }
 
 @media (min-width: 768px) {
   .navbar-nav > li > a:after {
@@ -168,14 +188,16 @@ a.press:hover {
     left: 0;
     width: 0;
     border-bottom: 2px solid $secondary-color;
+    color: $secondary-color;
     transition: 0.4s; }
 
-  .selected::after {
+  .selected:after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
+    color: $secondary-color;
     border-bottom: 2px solid $secondary-color; } }
 .navbar-nav > li > a:hover:after {
   width: 100%; }
@@ -201,18 +223,26 @@ a.press:hover {
 .nav-button {
   display: inline-block;
   border-radius: 6px;
-  font-family: $header-font;
+  font-family: $nav-font;
   margin: 22px 5px 0;
   padding: 8px 15px;
   border: 0;
   background: $primary-color;
-  color: #FFF;
+  color: $third-color;
   cursor: pointer;
   outline: 0;
 }
 
 .nav-button:hover {
-  background: #ec7063;
+  background: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: $secondary-color;
+}
+
+#selected-nav {
+  color: $secondary-color;
 }
 
 
@@ -226,15 +256,9 @@ a.press:hover {
 .sidenav ul {
   list-style-type: none; }
 
-#fb-day-event {
-  color: $primary-color; }
-
-#fb-day-event:hover {
-  color: $secondary-color; }
-
 .sidenav-link {
-  color: $secondary-color;
-  font-family: $header-font;
+  color: $primary-color;
+  font-family: $nav-font;
   border-bottom: none; }
 
 .sidenav-link:hover {
@@ -243,14 +267,21 @@ a.press:hover {
   box-shadow: none; }
 
 
+/* FESTIVAL WEEK */
+#fb-day-event {
+  color: $primary-color; }
+
+#fb-day-event:hover {
+  color: $secondary-color; }
+  
 
 /* EVENTS */
 .event-image {
   max-width: 300px;
   margin-top: 10px;
   border-style: solid;
-  border-width: 4px 4px 4px 4px;
-  border-color: $secondary-color;
+  border-width: 2px 2px 2px 2px;
+  border-color: $primary-color;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -298,7 +329,7 @@ a.press:hover {
 }
 
 .blur-description {
-  color: white;
+  color: black;
   opacity: 0;
   -webkit-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
@@ -346,7 +377,7 @@ a.press:hover {
   /* Remove hyperlink underline for events links */ }
 
 .events-icon i {
-  color: $primary-color; }
+  color: $third-color; }
 
 .event-image-offset {
   padding-top: 35%; }
@@ -404,19 +435,19 @@ section {
 .intro-events-button {
   display: inline-block;
   border-radius: 6px;
-  font-family: $header-font;
+  font-family: $nav-font;
   font-size: 16.5px;
   margin: 30px 5px 0;
   padding: 12px 20px;
   border: 0;
   background: $primary-color;
-  color: #FFF;
+  color: $third-color;
   cursor: pointer;
   outline: 0;
 }
 
 .intro-events-button:hover {
-  background: #ec7063;
+  background: #fff;
 }
 
 
@@ -436,11 +467,11 @@ section {
   text-align: center; }
 
 #schedule-coming {
-  font-family: $text-font;
-  font-size: 75px;
-  line-height: 60px;
-  color: $secondary-color;
-  padding-top: 20px;
+  //font-family: $text-font;
+  //font-size: 75px;
+  //line-height: 60px;
+  color: $secondary-color; 
+  //padding-top: 20px;
   padding-bottom: 30px; }
 
 #mission {
@@ -565,7 +596,7 @@ section {
 
 .submit-section p {
   text-align: left;
-  color: #FCB596; }
+  color: $secondary-color; }
 
 #submit-button {
   width: 300px;
@@ -678,9 +709,6 @@ section {
 #fees-and-deadlines .row {
   padding-top: 10px;
   padding-bottom: 10px; }
-
-#fees-and-deadlines .cost {
-  color: #7EB389; }
 
 .deadline {
   color: $secondary-color; }
