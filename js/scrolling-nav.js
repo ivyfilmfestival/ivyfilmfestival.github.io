@@ -33,9 +33,9 @@ $(function() {
 var $logo1 = $('.navbar');
 $(document).scroll(function() {
     if(window.location.href.endsWith('/') || window.location.href.endsWith('index.html')){
-        $logo1.css({background: $(this).scrollTop() > 150? "white":"transparent"});
+        $logo1.css({background: $(this).scrollTop() > 150? "transparent":"transparent"});
     } else{
-        $logo1.css({background: $(this).scrollTop() > 150? "white":"white"});
+        $logo1.css({background: $(this).scrollTop() > 150? "#fff":"#fff"});
     }
     $logo1.css({"-webkit-box-shadow": $(this).scrollTop() > 150? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
 });

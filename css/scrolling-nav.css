@@ -1,4 +1,4 @@
-/*
+
 @media(min-width:767px) {
     .navbar {
         padding: 10px 0;
@@ -9,9 +9,12 @@
 
     .top-nav-collapse {
         padding: 0;
+        background-color: #fff;
+
+
     }
 }
-*/
+
 
 .news-section {
   text-align: center;
@@ -32,7 +35,7 @@
 }
 
 .selection-container {
-  background-color: #D7E5ED;
+  background-color: #fff;
   height: 100px;
   outline: 1px solid black;
 }
@@ -42,8 +45,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-/*.navbar-nav>li {
+.navbar-nav>li {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -53,11 +55,11 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #EAC5A6;
+  color: #fff;
 }
 
 #selected-nav {
-  color: #EAC5A6;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -73,8 +75,7 @@
     margin-top: -5px;
   }
 }
-*/
-/*
+
 .brand {
     @elementHeight: 20px;
     padding: ((@navbarHeight - @elementHeight) / 2 - 2) 20px ((@navbarHeight - @elementHeight) / 2 + 2);

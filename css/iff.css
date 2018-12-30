@@ -53,6 +53,8 @@ h3 {
 h4 {
   color: #0e3737;
   font-family: "Kazimir Black", sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
 h5 {
@@ -80,7 +82,6 @@ a {
   -ms-text-underline-position: below;
   text-underline-position: under;
   display: inline-block;
-  line-height: 100%;
 }
 
 a:active,
@@ -149,7 +150,7 @@ a.press:hover {
   font-family: "Kazimir Black", sans-serif;
   transition: 0.4s;
   color: #0e3737;
-  background: white;
+  background: #fff;
 }
 
 @media (min-width: 768px) {
@@ -159,11 +160,6 @@ a.press:hover {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(100%, transparent));
     background-image: -webkit-linear-gradient(270deg, transparent 0%, transparent 100%);
     background-image: linear-gradient(180deg, transparent 0%, transparent 100%);
-  }
-}
-@media (max-width: 768px) {
-  .navbar {
-    background-color: #fff;
   }
 }
 .navbar img {
@@ -179,6 +175,7 @@ a.press:hover {
   padding-left: 10px;
   padding-right: 10px;
   color: #0e3737;
+  /*  background-color: $primary-color; */
 }
 
 .navbar-fixed-top {
@@ -189,16 +186,19 @@ a.press:hover {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 80px;
+  /* background-color: $primary-color; */
   color: #0e3737;
 }
 
 .navbar-default .navbar-brand {
   color: #0e3737;
+  /* background-color: $primary-color; */
 }
 
 /* link */
 .navbar-default .navbar-nav > li > a {
   color: #0e3737;
+  /* background-color: $primary-color; */
 }
 
 @media (min-width: 768px) {
@@ -208,8 +208,12 @@ a.press:hover {
     bottom: 0;
     left: 0;
     width: 0;
+    /* text-decoration: underline; */
+    /* background-color: $primary-color; */
     border-bottom: 2px solid #ee5956;
-    color: #ee5956;
+    display: inline-block;
+    line-height: 0.1;
+    color: #0e3737;
     transition: 0.4s;
   }
 
@@ -219,8 +223,12 @@ a.press:hover {
     bottom: 0;
     left: 0;
     width: 0;
-    color: #ee5956;
+    color: #0e3737;
+    /*text-decoration: underline;*/
+    /* background-color: $primary-color;*/
     border-bottom: 2px solid #ee5956;
+    display: inline-block;
+    line-height: 0.1;
   }
 }
 .navbar-nav > li > a:hover:after {
@@ -233,9 +241,7 @@ a.press:hover {
 
 @media (max-width: 768px) {
   .navbar-nav > li > a {
-    line-height: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .navbar-fixed-top {
@@ -828,7 +834,7 @@ section {
 
 @media (min-width: 768px) {
   .top-section {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 /* FOOTER */
