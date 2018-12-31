@@ -20,6 +20,168 @@
       "University of Texas at Austin"
     ]
   },
+  "festival": [{
+      "category":"U.S. Graduate",
+      "winners": [{
+          "title":"Ming",
+          "artist":"Danski Tang",
+          "school":"CalArts"
+          },
+          {
+          "title":"Life After",
+          "artist":"Ria Tobaccowala",
+          "school":"NYU Tisch"
+          },
+          {
+          "title":"A View from the Window",
+          "artist":"Chris Filippone, Azar Kafaei",
+          "school":"Stanford University"
+          },
+          {
+          "title":"*Sin Cielo",
+          "artist":"Jianna Maarten",
+          "school":"AFI"
+          },
+          {
+          "title":"Iron Hands",
+          "artist":"Johnson Cheng",
+          "school":"Columbia University"
+          },
+          {
+          "title":"Still Water Runs Deep",
+          "artist":"Abbesi Akhamie",
+          "school":"NYU Tisch"
+          },
+          {
+          "title":"Scrap",
+          "artist":"Chris Filippone",
+          "school":"Stanford University"
+          }]
+      },
+      {
+      "category":"U.S. Undergraduate - Drama",
+      "winners": [{
+          "title":"*Artificial",
+          "artist":"Nate Burke",
+          "school":"Brown University"
+          }]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Comedy",
+      "winners": [{
+          "title":"*Don’t Mind Alice",
+          "artist":"Maude Apatow, Olivia Rosenbloom",
+          "school":"Northwestern University"
+          },
+          {
+          "title":"Klarinet Klub",
+          "artist":"Federico Busciglio",
+          "school":"Chapman University- Dodge College of Film and Media Arts"
+          }]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Documentary",
+      "winners": [{
+          "title":"*Breaking the Cycle",
+          "artist":"Indi Jackson, Vincent Augusto",
+          "school":"University of Notre Dame"
+          },
+          {
+          "title":"No Such Sunrise",
+          "artist":"Jingyi (Laura) Li, Dana Brandes-Simon, Celestina (Cella) Wright",
+          "school":"Oberlin College"
+          }]
+      },
+
+
+      {
+      "category":"U.S. Undergraduate - Animation",
+      "winners": [{
+          "title":"The Paper Tiger",
+          "artist":"Hannah S. Kim",
+          "school":"Rhode Island School of Design"
+          },
+          {
+          "title":"*Cry Baby",
+          "artist":"Xiner Jiang",
+          "school":"Rhode Island School of Design"
+          },
+          {
+          "title":"Lotus Lantern",
+          "artist":"Xingpei Shen",
+          "school":"Rhode Island School of Design"
+          },
+          {
+          "title":"The Little Giraffe",
+          "artist":"Anna Kamoroff",
+          "school":"University of North Carolina School of the Arts"
+          }
+
+        ]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Experimental",
+      "winners": [{
+          "title":"Matter Out of Place",
+          "artist":"Oona Taper",
+          "school":"School of the Museum of Fine Arts in Boston"
+          },
+          {
+          "title":"*Sober Octaves",
+          "artist":"Felege Gebru",
+          "school":"Brown University"
+          }]
+      },
+
+      {
+      "category":"48-Hour Film Festival Winner",
+      "winners": [
+          {
+          "title":"*Grapefruit",
+          "artist":"Colter Fellows, Leopold Brekke, and Kaori Yasunaga ",
+          "school":"Rhode Island School of Design"
+          }]
+      },
+      
+      {
+      "category":"International",
+      "winners": [{
+          "title":"*Silvia in the Waves",
+          "artist":"Giovana Olmos",
+          "school":"Concordia University"
+          },
+          {
+          "title":"Pause",
+          "artist":"Pegah Ansari",
+          "school":"Tehran University of Art"
+          },
+          {
+          "title":"National Pride",
+          "artist":"Víctor Ruiz Junquera",
+          "school":"Escuela de Cinematografía y del Audiovisual de la Comunidad de Madrid"
+          },
+          {
+          "title":"PUP",
+          "artist":"Jesús Rivera Soriano",
+          "school":"Escuela de Cinematografía y del Audiovisual de la Comunidad de Madrid"
+          },
+          {
+          "title":"The Little Dictator",
+          "artist":"Nurith Cohn",
+          "school":"Maaleh School of Television, Film and the Arts"
+          },
+          {
+          "title":"Schoolyard Blues",
+          "artist":"Maria Eriksson-Hecht",
+          "school":"Stockholm Academy of Dramatic Arts"
+          }
+        ]
+      }
+
+  ],
   "events": [{
       "title": "Advanced Screening + Q&A: Vox Lux",
       "date": "",
@@ -28,7 +190,7 @@
       "tickets_url": "https://www.eventbrite.com/e/iffxneon-present-vox-lux-advanced-screening-qa-tickets-52961383925"
     }, 
     {
-      "title": "Advanced Screening + Q&A: Wild Nights with Emily ",
+      "title": "Advanced Screening + Q&A: Wild Nights with Emily",
       "date": "",
       "facebook_url": "https://www.facebook.com/events/361168287969401/",
       "image_url": "assets/posters/wild nights with emily.jpg",

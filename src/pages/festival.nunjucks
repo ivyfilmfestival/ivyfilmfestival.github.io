@@ -7,254 +7,95 @@
     {{nav.active('festival')}}
 
    <!-- About Section -->
-    <section style="padding-bottom:100px;min-height:600px">
+    <section id = "2019-festival" style="padding-bottom:-10px">
         <div class="container top-section">
+            <div class='sidenav visible-lg'>
+                <ul>
+                  <li>
+                    <a class='sidenav-link' href='#2019-festival'>festival week</a>
+                  </li>
+                  <li>
+                    <a class='sidenav-link' href='#past-festivals'>past festivals</a>
+                  </li>
+                  <li>
+                    <a class='sidenav-link' href='#2018-selection'>2018 selection</a>
+                  </li>
+                </ul>
+            </div>
             <h1>festival week</h1>
-        
-        <h3><i>2019 schedule coming soon!</i></h3>
-        <h1>the 2018 schedule</h1>
-            <p>The 2018 Ivy Film Festival took place at Brown University from April 9-15, 2018. All events
-            were free and open to the public. </p>
-
-            <h1><a id="fb-day-event" href="https://www.facebook.com/events/202107907231926/">Monday, April 9th</a></h1>
-
-            <h3>Screening: #TAKEMEANYWHERE<br>
-            Keynote:  LaBeouf, Rönkkö & Turner<br>
-            6-8pm @ Salomon DECI Auditorium</h3>
-            <br>
-            <p>In mid-2016, Shia LaBeouf (<a href="https://twitter.com/thecampaignbook">@thecampaignbook</a>), 
-            Nastja Säde Rönkkö (<a href="https://twitter.com/nastjaronkko">@nastjaronkko</a>),
-            and Luke Turner (<a href="https://twitter.com/Luke_Turner">@luke_turner</a>)
-            tweeted out their GPS coordinates, asking the public to pick them
-            up and take them anywhere they chose. This launched #TAKEMEANYWHERE,
-            an art project that would yield a film of staggering scale and beauty,
-            as the artists took a cross-country trip that illuminated the beauty
-            of humanity. It’s a film about the artists, about the participants,
-            about the country. It’s a film about all of us.</p>
-
-            <p>For the Keynote event, we screened #TAKEMEANYWHERE. Afterwards,
-            Mr. LaBeouf and Mr. Turner conducted a Q&A (with Ms. Ronkko Skyping in). </p>
-
-            <h1><a id="fb-day-event" href="https://www.facebook.com/events/2041036746177185/">Tuesday, April 10th</a></h1>
-
-            <h3>Screening: Aegean Film Festival Short Program<br>
-            7-8:30pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>IFF is proud to announce its first-ever partnership with the Aegean
-            Film Festival, based in Patmos, Greece. IFF featured the Aegean
-            Film Festival’s Short Program, made up of
-            award-winning short films from across the world. A program of IFF’s
-            official selection was screened at the Aegean Film Festival
-            this summer. This partnership aims to build lasting relationships
-            between IFF and the international film community and provide new
-            opportunities for students to engage with the globally-practiced
-            craft of short filmmaking.</p>
-
-            <h1><a id="fb-day-event"  href="https://www.facebook.com/events/580699515621652/">Wednesday, April 11th</a></h1>
-
-            <h3>IFF 2018 x The Pembroke Center present: An Advanced Screening of “RBG”<br>
-            Followed by a Q&A with Director Betsy West<br>
-            7:30-10pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>RBG, an intimate portrait of the life and work of Justice Ruth Bader
-             Ginsburg, premiered at Sundance earlier this year and was released in
-             theaters on May 4th. With unprecedented access, the film explores
-             how her early legal battles changed the world for women. This
-             revelatory documentary screening was followed by a dynamic
-             Q&A with Director Betsy West.</p>
-
-            <h1><a id="fb-day-event"  href="https://www.facebook.com/events/788263641363088/">Thursday, April 12th</a></h1>
-
-            <h3>Screening: On Chesil Beach<br>
-            Keynote: Dominic Cooke<br>
-            6-9pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>Based on the beloved Ian McEwan novel, “On Chesil Beach” is a
-            beautiful and important new film due in theaters on May 18th. In
-            1962, newlyweds Florence (Academy Award nominee Saoirse Ronan)
-            and Edward (Billy Howle), both in their early 20s and also both
-            virgins, spend their honeymoon preoccupied and terrified by the
-            upcoming consummation of their marriage. Afterwards, we held a
-            Q&A with director Dominic Cooke (The Hollow Crown).</p>
-
-            <h3>Cocktail Reception<br>
-            9-10pm @ Granoff Lobby</h3>
-
-            <p>Refreshments were served in the lobby of the Granoff after the screening
-            and discussion!</p>
-
-            <h1><a id="fb-day-event"  href="https://www.facebook.com/events/609033389446218/">Friday, April 13th</a></h1>
-
-            <h3>Workshop: A-Frame VR Workshop with Patrick Raleigh<br>
-            1-2pm @ Granoff Studio 4</h3>
-            <br>
-            <p>Patrick Raleigh, the Data Visualization of Coordinator of the
-            Brown University Library, led a crash course in creating
-            simple VR content that can be posted to the web and is
-            cardboard-ready.</p>
-
-
-            <h3>Virtual Reality Arcade<br>
-            2:30-4:30pm // 6-7pm @ Granoff Studio 4</h3>
-            <br>
-            <p>As one of the first student-run film festivals in the world to
-            pioneer an initiative geared towards virtual reality, IFF’s New
-            Media Initiative aims to foster the next generation’s dialogue
-            around VR storytelling. This year, IFF showcased student-made
-            VR and AR projects on Google Daydream and HTC Vive, as well as
-            providing a hands-on environment for attendees to explore cutting-edge
-            new media technologies.</p>
-
-
-            <h3> Student Official Selection: Block 1<br>
-            4:30-6pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>IFF’s 2018 Official Selection of undergraduate and graduate student
-            films features a curated program of 25 of the strongest films. This
-            year’s Official Selection of screenplays honored the top three
-            scripts from four categories: undergraduate short, graduate short,
-            features and TV pilots. The students on our programming and
-            screenplay departments created these selections from over 500
-            submissions, representing a total of 27 countries around the world.</p>
-
-            <h3>Advanced Screening of “We The Animals”<br>
-            Followed by a converstion with Justin Torres<br>
-            7-9:30pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>“This year’s “Moonlight.” That’s what IndieWire had to say about
-            this deeply moving Sundance standout. Starring Raul Castillo and
-            Josiah Gabriel, and directed by documentary veteran Jeremiah Zagar,
-            this film follows three brothers through their troubled and
-            formative childhood in upstate New York. Based on the novel by
-            Justin Torres.</p>
-
-            <h1><a id="fb-day-event"  href="https://www.facebook.com/events/176204286352698/">Saturday, April 14th</a></h1>
-
-            <h3> Student Official Selection: Screenplay Reading and Brunch<br>
-            11am-1pm @ Granoff Martinos Auditorium and Lobby</h3>
-            <br>
-            <p>This year we received 100+ screenplays to our year-long Screenplay
-            Contest, including shorts, features and pilots written by undergraduate
-            and graduate students from all over the world. This year’s Final
-            Selection honored the top 3 scripts from 4 categories: undergraduate
-            short, graduate short, features and TV pilots. This year’s
-            screenplays stood out for their high quality writing and storytelling,
-            making this one of the most competitive submission pools to date.</p>
-
-            <h3> The Future (of film) is Female Speaker Series pt. 1: Victoria Tennant<br>
-            1-2pm @ Granoff Studio 2</h3>
-            <br>
-            <p>From the impact of the #MeToo movement, to the success of films
-            like Lady Bird, Wonder Woman, and Mudbound, it is impossible to deny
-            that the future of film is female.
-            We featured two incredible actors to talk and answer questions about
-            their lives in front of the camera in this two-day event.</p>
-            <p>Victoria Tennant trained at the Elmhurst Ballet School and at the
-            Central School for Speech and Drama in London. In her first film,
-            she starred in the title role of The Ragman’s Daughter. Subsequent
-            films include All of Me with Steve Martin and Lily Tomlin, LA Story
-            with Steve Martin, Stranger’s Kiss, The Plague, The Handmaid’s Tale
-            with Natasha Richardson and Robert Duvall, The Holcroft Covenant
-            with Michael Caine, and Louder Than Words with David Duchovny and
-            Timothy Hutton. Ms. Tennant has also worked extensively in television
-            including the miniseries and television movies The Winds of War and
-            War and Remembrance, Chiefs, Dempsey, Under Siege, and The Man From
-            Snowy River. She also wrote and co-produced the film Edie and Pen
-            for HBO and produced Sister Mary Explains It All with Diane Keaton
-            for Showtime.</p>
-
-            <h3>Virtual Reality Arcade<br>
-            2-3pm // 4:30-6:30pm @ Granoff Studio 4</h3>
-            <br>
-            <p>As one of the first student-run film festivals in the world to
-            pioneer an initiative geared towards virtual reality, IFF’s New
-            Media Initiative aims to foster the next generation’s dialogue
-            around VR storytelling. This year, IFF showcased student-made
-            VR and AR projects on Google Daydream and HTC Vive, as well as
-            providing a hands-on environment for attendees to explore cutting-edge
-            new media technologies.</p>
-
-            <h3> Student Official Selection: Block 2<br>
-            3-5pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>IFF’s 2018 Official Selection of undergraduate and graduate student
-            films features a curated program of 25 of the strongest films. This
-            year’s Official Selection of screenplays honored the top three
-            scripts from four categories: undergraduate short, graduate short,
-            features and TV pilots. The students on our programming and
-            screenplay departments created these selections from over 500
-            submissions, representing a total of 27 countries around the world.</p>
-
-            <h3>Advanced Screening of “Blindspotting”<br>
-            Followed by Q&A with Daveed Diggs<br>
-            6:30-9pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>Written and starring lifelong friends Daveed Diggs (Hamilton) and
-            Rafael Casal, Blindspotting is about the intersection of race and
-            class in increasingly-gentrified Oakland. It’ll make you laugh and
-            shudder, and it’ll stay with you long after it’s over.</p>
-            <p>Daveed Diggs (Collin/Co-Writer/Producer) is a Tony Award®, GRAMMY®,
-             and Lucille Lortel Award-winning actor and rapper who is widely
-             known for originating the dual roles of Thomas Jefferson and Marquis
-             de Lafayette in the Broadway sensation, Hamilton. Diggs most recently
-             appeared in the hit Lionsgate feature "Wonder", opposite Julia Roberts
-             and Jacob Tremblay. On television, Diggs will next star in TNT’s
-             Snowpiercer and lend his voice to Fox’s Bob’s Burgers, Netflix’s
-             Bojack Horseman, and Josh Gad’s new animated musical comedy for
-             Apple TV, Central Park. Most recently he was seen on ABC’s
-             Emmy®-nominated series, Black-ish, and Netflix’s hit comedy,
-             Unbreakable Kimmy Schmidt. He also starred in HBO’s Tour de Pharmacy,
-             alongside Andy Samberg and Orlando Bloom. Diggs executive produced
-             ABC’s The Mayor and is creating original content for ESPN.</p>
-
-            <h3>IFF Seventeen Again Party<br>
-            9pm-1am @ Dusk to Dawn</h3>
-            <br>
-            <p>Celebrating the 2018 Ivy Film Festival!</p>
-
-            <h1><a href="https://www.facebook.com/events/168878210437464/" id="fb-day-event">Sunday, April 15th</a></h1>
-
-            <h3>Student Official Selection: Block 3<br>
-            1-2:30pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>IFF’s 2018 Official Selection of undergraduate and graduate student
-            films features a curated program of 25 of the strongest films. This
-            year’s Official Selection of screenplays honored the top three
-            scripts from four categories: undergraduate short, graduate short,
-            features and TV pilots. The students on our programming and
-            screenplay departments created these selections from over 500
-            submissions, representing a total of 27 countries around the world.</p>
-
-            <h3> Awards Ceremony<br>
-            2:30-4pm @ Granoff Studio 2</h3>
-            <br>
-            <p><i>Come one, come all!</i></p>
-
-            <h3> The Future (of film) is Female Speaker Series pt. 2: Isabelle Furhman<br>
-            5-6pm @ Granoff Studio 2</h3>
-            <br>
-            <p>From the impact of the #MeToo movement, to the success of films
-            like Lady Bird, Wonder Woman, and Mudbound, it is impossible to deny
-            that the future of film is female.
-            We featured two incredible actors to talk and answer questions about
-            their lives in front of the camera in this two-day event.</p>
-            <p>Isabelle Fuhrman is best known for her roles in films like "The Hunger Games" and "Orphan", and the critically acclaimed Showtime TV series, "Masters of Sex". Considered one of her generation’s most promising young talents, the versatile performer also writes and directs her own material. Upcoming, Isabelle will star in Lionsgate’s "Down A Dark Hall" opposite AnnaSophia Robb and Uma Thurman, and the much-buzzed about indie "Shoplifters of the World" opposite Sasha Lane. Isabelle began her career at the age of seven and received her training at the highly selective Shakespeare and Contemporary Drama summer programs at the Royal Academy of Dramatic Art in London.</p>
-
-
-            <h3>Advanced Screening of “Eighth Grade”<br>
-            7-8:30pm @ Granoff Martinos Auditorium</h3>
-            <br>
-            <p>Bo Burnham’s directorial debut premiered at the 2018 Sundance
-            Film Festival to audience and critical acclaim, featuring breakout
-            star Elsie Fisher. The story follows thirteen-year-old Kayla as she
-            endures the tidal wave of contemporary suburban adolescence as she
-            makes her way through the last week of middle school--the end of her
-            thus far disastrous eighth grade year before she begins high school.
-            Eighth Grade was the final screening of IFF 2018.</p>
-
-
+            <h3><i>2019 schedule coming soon!</i></h3>
         </div>
+
     </section>
+
+    <section id="past-festivals">
+        <div class="container">
+
+        <h1>past festivals</h1>
+        <div class= "past-events-center">
+            <div class='row'>
+                <a class = 'festival' href='assets/2018-program.pdf' target='_blank'>
+                    <img class='festival-image' src='assets/2018-cover.jpg'>
+                </a>
+                
+                <a class = 'festival' href='assets/2017-program.pdf' target='_blank'>    
+                    <img class='festival-image' src='assets/2017-cover.jpg'>       
+                </a>
+            </div>
+
+            <div class='row'>
+                <a class = 'festival' href='assets/2016-program.pdf' target='_blank'>
+                    <img class='festival-image' src='assets/2016-cover.jpg'>
+                </a>
+
+                <a class = 'festival' href='assets/2015-program.pdf' target='_blank'>
+                    <img class='festival-image' src='assets/2015-cover.jpg'> 
+                </a>    
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="2018-selection">
+        <div class="container">
+            <h1>2018 official selection</h1> 
+            <div class= "past-events-center">
+
+            <div class='row'>
+                <div class='column'>
+                    {% for c in festival %}
+                        {% if loop.index0 % 2 == 0 %}
+                            <h3> {{c.category}} </h3>
+                            {% for w in c.winners %}
+                                <a class="festival"> {{w.title}} </a>
+                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class='column'>
+                    {% for c in festival %}
+                        {% if loop.index0 % 2 != 0 %}
+                            <h3> {{c.category}} </h3>
+                            {% for w in c.winners %}
+                                <a class="festival"> {{w.title}} </a>
+                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
+
+                    {% endfor %}
+                </div>
+
+            </div>
+
+        </div> 
+        <a class="festival">* indicates a best in category winner</a>
+        </div> 
+    </section>
+
     <!-- Footer -->
     {% include "partials/footer.nunjucks" %}
 
