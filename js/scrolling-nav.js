@@ -31,13 +31,17 @@ $(function() {
 /* */
 
 var $logo1 = $('.navbar');
+var $home = $('.navbar-home');
+var $logo2 = $('.navbar-home img');
 $(document).scroll(function() {
     if(window.location.href.endsWith('/') || window.location.href.endsWith('index.html')){
-        $logo1.css({background: $(this).scrollTop() > 150? "transparent":"transparent"});
+        $home.css({background: $(this).scrollTop() > 150? "#transparent":"#ffffffA6"});
+        $logo2.css(scale: 0.8);
     } else{
-        $logo1.css({background: $(this).scrollTop() > 150? "#fff":"#fff"});
+        $logo1.css({background: $(this).scrollTop() > 150? "#0e3737":"#0e3737"});
     }
     $logo1.css({"-webkit-box-shadow": $(this).scrollTop() > 150? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
+    $home.css({"-webkit-box-shadow": $(this).scrollTop() > 150? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
 });
 
 var $logo = $('#navbar-index');
