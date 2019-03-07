@@ -32,11 +32,11 @@ $(function() {
 
 var $logo1 = $('.navbar');
 var $home = $('.navbar-home');
-var $logo2 = $('.navbar-home img');
+//var $logo2 = $('.navbar-home img');
 $(document).scroll(function() {
     if(window.location.href.endsWith('/') || window.location.href.endsWith('index.html')){
         $home.css({background: $(this).scrollTop() > 150? "#transparent":"#ffffffA6"});
-        $logo2.css(scale: 0.8);
+       // $logo2.css(scale: 0.8);
     } else{
         $logo1.css({background: $(this).scrollTop() > 150? "#0e3737":"#0e3737"});
     }
