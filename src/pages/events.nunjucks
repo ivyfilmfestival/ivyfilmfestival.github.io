@@ -16,39 +16,47 @@
       </div>
 
       <div class='row'>
-        <div class= 'event-label'>
+       {# <div class= 'event-label'>
           <p style = "font-family: Basis Grotesque, sans-serif;"><i>No upcoming events at the moment!</i></p>
-        </div>
+        </div> #}
         
 
 
-          {#
+        
           <div class='col-0 col-sm-1'></div>
           <div class='col-12 col-sm-5'>
             <div class='event-title event-title-left'>
-              <h3 style ="color: #252628;">Vox Lux</h3>
+              <h3 style ="color: #252628;">IFF x New York Screening</h3>
 
-              <p style = "font-family: Basis Grotesque, sans-serif;"><i>Advanced Screening</i></p>
-              <p id= "mobile-description" style = "font-family: Basis Grotesque Bold, sans-serif;">11.28.2018</p>
-              <p style = "font-family: Basis Grotesque, sans-serif; padding-top: 0; margin: 0">7pm-10:30pm</p>
-              <p style = "font-family: Basis Grotesque, sans-serif; padding-top: 0; margin-top: 0">Salomon DECI</p>
+              <p style = "font-family: Basis Grotesque, sans-serif;"><i>Screening & Reception</i></p>
 
-              <a class='events-icon' href= "https://www.facebook.com/events/289347948364087/" target = _> 
+              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-top: 25px; ">4.2.2019</p>
+              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-bottom: 25px">7pm-10:30pm EDT</p>
+
+              <p style = " font-size: 16px; line-height: 1.4; margin-top: 5">Anthony Film Archives <br/> 32 Second Avenue <br/> New York, NY 10003</p>
+          
+
+
+              {# <a class='events-icon' href= "https://www.facebook.com/events/289347948364087/" target = _> 
                 <!-- insert href in the a -->
                 <i class="social-media-icon fa fa-facebook fa-lg"></i>
-              </a>
+              </a> #}
               
-                <a class='events-icon' href = "https://www.eventbrite.com/e/iffxneon-present-vox-lux-advanced-screening-qa-tickets-52961383925" target = _>
+                <a class="no-underline" href = "https://www.eventbrite.com/e/iff-x-new-york-screening-tickets-58457877084" target = _>
                   <i class="social-media-icon fa fa-ticket fa-lg"></i>
                 </a>
+                <a href = "https://www.eventbrite.com/e/iff-x-new-york-screening-tickets-58457877084"> tickets & info </a>
+
+
+
               
             </div>
           </div>
           <div class='col-12 col-sm-5'>
-            <img class='event-image event-image-left' src="assets/posters/vox_lux.jpg" style= "margin-top: 5em">
+            <img class='event-image event-image-left' src="assets/posters/ny_cover.jpg" style= "margin-top: 5em">
           </div>
           <div class='col-0 col-sm-1'></div> 
-         #}
+        
 
       </div>
       
