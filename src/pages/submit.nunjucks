@@ -10,7 +10,7 @@
   <section>
     <div class="container top-section">
       <h1>submissions</h1>
-      <!-- <h1 id="now-closed">now open!</h1> -->
+      <h2>Submissions for the 2019 festival are now closed.</h1>
       <h3>films &amp; screenplay</h3>
       <p>Submissions are processed through Withoutabox and FilmFreeway. Withoutabox account holders get a $5 discount on all submission fees.
       </p>
@@ -20,7 +20,7 @@
                 <div class=col-md-6>
                     <p style='text-align:center'><a href='https://filmfreeway.com/IvyFilmFestival'>Submit with FilmFreeway here.</a></p></div>
       </div>
-    </section>
+    </section> 
 
     <section>
       <div class='container'>
@@ -121,4 +121,4 @@
       <!-- Footer -->
       {% include "partials/footer.nunjucks" %}
 
-    {% endblock %}
+{% endblock %}
