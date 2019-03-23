@@ -75,6 +75,12 @@ p {
 p.list {
   line-height: 1.4;
 }
+h3.green {
+  color: $primary-color;
+  //display: inline-block;
+  //transform: rotate(-90deg);
+  //text-align: center;
+}
 
 a {
   font-family: $nav-font; 
@@ -158,6 +164,14 @@ a.press:hover {
   width: 50%;
   padding-left: 15px;
 }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding: 0 4px;
+//   justify-content: center;
+// }
+
 .row:after {
   content: "";
   display: table;
@@ -390,7 +404,34 @@ a.press:hover {
   opacity: 1;
 }
 
+.festival-event{
+  //padding-bottom: 0px;
+  //padding-right: 40px;
+  display: inline-block;
+  width: 320px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+ // width: auto;
+ // height: auto; 
+
+  //margin: 10px auto;
+  padding-top: 10;
+}
   
+.festival-event:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-filter: blur(1.7px);
+  -moz-filter: blur(1.7px);
+  -ms-filter: blur(1.7px);
+  -o-filter: blur(1.7px);
+  filter: blur(1.7px);
+  transform: scale(1.03);
+   -webkit-opacity: 1;
+  opacity: 1;
+}
 
 /* EVENTS */
 .event-image {
@@ -421,7 +462,7 @@ a.press:hover {
   width: 150px;
   max-height: 210px;
   margin: 10px auto;
-  margin-top: 0;
+  margin-top: 10;
 }
 .img-container {
   padding: 0 10px 10px 10px;

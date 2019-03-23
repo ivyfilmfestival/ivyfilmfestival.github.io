@@ -20,6 +20,46 @@
       "University of Texas at Austin"
     ]
   },
+
+  "festivalweek":[
+    {
+      "day": "Monday",
+      "date": "4/8",
+      "event_imgs": [["assets/festivalweek/mon1.jpg"]]
+    },
+    {
+      "day": "Tuesday",
+      "date": "4/9",
+      "event_imgs": [["assets/festivalweek/tues1.jpg", "assets/festivalweek/tues2.jpg"]]
+    },
+    {
+      "day": "Wednesday",
+      "date": "4/10",
+      "event_imgs": [["assets/festivalweek/wed1.jpg", "assets/festivalweek/wed2.jpg"]]
+    },
+    {
+      "day": "Thursday",
+      "date": "4/11",
+      "event_imgs": [["assets/festivalweek/thurs1.jpg", "assets/festivalweek/thurs2.jpg"]]
+    },
+    {
+      "day": "Friday",
+      "date": "4/12",
+      "event_imgs": [["assets/festivalweek/fri1.jpg", "assets/festivalweek/fri2.jpg"], ["assets/festivalweek/fri3.jpg"]]
+    },
+    {
+      "day": "Saturday",
+      "date": "4/13",
+      "event_imgs": [["assets/festivalweek/sat1.jpg", "assets/festivalweek/sat2.jpg"], ["assets/festivalweek/sat3.jpg", "assets/festivalweek/fri3.jpg"]]
+    },
+    {
+      "day": "Sunday",
+      "date": "4/14",
+      "event_imgs": [["assets/festivalweek/sun1.jpg", "assets/festivalweek/sun2.jpg"], ["assets/festivalweek/fri3.jpg"]]
+    }
+
+  ],
+
   "festival": [{
       "category":"U.S. Graduate",
       "winners": [{
