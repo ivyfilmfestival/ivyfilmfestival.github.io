@@ -171,6 +171,7 @@ a.press:hover {
   float: left;
   width: 50%;
   padding-left: 15px;
+  overflow: auto;
 }
 
 // .row {
@@ -433,8 +434,8 @@ a.press:hover {
   //padding-bottom: 0px;
   //padding-right: 40px;
   display: inline-block;
-  width: 430px;
-  height: 240px;
+  max-width: 430px;
+  max-height: 240px;
   // margin-left: auto;
   // margin-right: auto;
  // width: auto;
@@ -445,9 +446,9 @@ a.press:hover {
 }
 
 .festival-info{
-  width: 430px;
+  max-width: 430px;
   height: auto;
-  border-width: 0 4px 4px 4px;
+  border-width: 0 3px 3px 3px;
   border: solid $primary-color;
   //padding-bottom: 0px;
   //padding-right: 40px;

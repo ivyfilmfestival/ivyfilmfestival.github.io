@@ -35,9 +35,16 @@
                 <div class='column'>
                     {% for day in festivalweek %}
                         {% if loop.index0 % 2 == 0 %}
+                            <a class ="no-underline" href = "{{day.fb}}" target ='_blank'>
                             <div class= "img-container">
                                 <img class='festival-day' src="{{day.day_img}}">
                             </div>
+                            </a>
+
+                            
+
+
+
                             
                             <div class= "festival-title">
                             <h3 style="color: #fff" > {{day.day}}, {{day.date}} </h3>
@@ -77,9 +84,11 @@
                  <div class='column'>
                     {% for day in festivalweek %}
                         {% if loop.index0 % 2 != 0 %}
+                            <a class ="no-underline" href = "{{day.fb}}" target ='_blank'>
                             <div class= "img-container">
                                 <img class='festival-day' src="{{day.day_img}}">
                             </div>
+                            </a>
                             
                             <div class= "festival-title">
                             <h3 style="color: #fff" > {{day.day}}, {{day.date}} </h3>
