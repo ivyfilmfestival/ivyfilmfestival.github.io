@@ -69,6 +69,11 @@ p.list {
 h3.green {
   color: #0e3737; }
 
+h3.tab {
+  color: #fff;
+  background-color: #0e3737;
+  display: block; }
+
 a {
   font-family: "Kazimir Medium", sans-serif;
   text-decoration: none;
@@ -196,6 +201,7 @@ a.press:hover {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 80px;
+  white-space: nowrap;
   /* background-color: $primary-color; */ }
 
 /* link */
@@ -336,9 +342,33 @@ a.press:hover {
   display: inline-block;
   width: 320px;
   height: 180px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 10; }
+
+.festival-day {
+  display: inline-block;
+  width: 430px;
+  height: 240px;
+  padding-top: 10; }
+
+.festival-info {
+  width: 430px;
+  height: auto;
+  border-width: 0 4px 4px 4px;
+  border: solid #0e3737;
+  padding: 0px 10px 10px 10px;
+  margin-left: 10px; }
+
+.festival-title {
+  width: 430px;
+  height: auto;
+  border-width: 0 4px 4px 4px;
+  border: solid #0e3737;
+  padding: 0px 10px 10px 10px;
+  margin-left: 10px;
+  background-color: #0e3737; }
+
+.overlay {
+  visibility: hidden; }
 
 .festival-event:hover {
   -webkit-transition: all 300ms ease-in-out;
@@ -384,9 +414,10 @@ a.press:hover {
   margin-top: 10; }
 
 .img-container {
-  padding: 0 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
   /* margin: auto; */
   position: relative;
+  display: inline-block;
   /* overflow: hidden; */ }
 
 .blur-description {

@@ -24,33 +24,102 @@
             </div>
 
         </div>
+
+
         <div class="container">
             <h1>festival week 2019</h1>
-            <h3> <i>More information and ticket links to come! </i></h3>
-            
-                {% for day in festivalweek %}
-                    
-                   
-                    <h3 class = "green">{{day.day}} {{day.date}}</h3>
-                   
+        
+            <br>
 
-                    {% for tuple in day.event_imgs %}
-                        <div class= "past-events-center past-events-block">
+             <div class='row'>
+                <div class='column'>
+                    {% for day in festivalweek %}
+                        {% if loop.index0 % 2 == 0 %}
+                            <div class= "img-container">
+                                <img class='festival-day' src="{{day.day_img}}">
+                            </div>
+                            
+                            <div class= "festival-title">
+                            <h3 style="color: #fff" > {{day.day}}, {{day.date}} </h3>
+                             </div>
 
-                   
-                        <div class='row' style="padding-top:5px">
-                        {% for event in tuple %}
-                        
-                            <a class="example-image-link no-underline" href="{{event}}" data-lightbox="example-1"><img class="festival-event" src="{{event}}" alt="image-1" /></a>
+                            <div class= "festival-info">
 
-                        
-                        {% endfor %}
-                        </div>
-                        </div>
+                            {% for title, time, tix, trailer in day.events %}
+                                <p class = 'list' style="margin-left:10px; margin-top:20px; margin-bottom:-5px; font-size:12px; display: inline-block;"> {{time}}</p>
+                                <a class='events-icon'  style="display: inline-block; vertical-align:super;" href="{{tix}}"" target='_blank'>
+                                    <i class="social-media-icon fa fa-ticket fa-lg" style = "color:#ee5956"></i>
+                                </a>
+
+                                {% if trailer != "" %}
+                                    <a class='events-icon'  style="display: inline-block; vertical-align:super;" href="{{trailer}}" target='_blank'>
+                                        <i class="social-media-icon fa fa-youtube-play" style = "color:#ee5956"></i>
+                                    </a>
+                                {% endif %}
+
+
+                               {# <a style="font-size:10px;" href = "{{tix}}"> tickets & info </a> #}
+
+                                <a class="festival" style="margin-left:10px; margin-bottom:5px;"> {{title}} </a>
+                                
+
+                                
+
+                            {% endfor %}
+
+
+                            </div>
+                            
+                            <br>
+                        {% endif %}
                     {% endfor %}
-                     
-            
-                {% endfor %}
+                </div>
+                 <div class='column'>
+                    {% for day in festivalweek %}
+                        {% if loop.index0 % 2 != 0 %}
+                            <div class= "img-container">
+                                <img class='festival-day' src="{{day.day_img}}">
+                            </div>
+                            
+                            <div class= "festival-title">
+                            <h3 style="color: #fff" > {{day.day}}, {{day.date}} </h3>
+                             </div>
+
+                            <div class= "festival-info">
+
+                            {% for title, time, tix, trailer in day.events %}
+                                <p class = 'list' style="margin-left:10px; margin-top:20px; margin-bottom:-5px; font-size:12px; display: inline-block;"> {{time}}</p>
+                                <a class='events-icon'  style="display: inline-block; vertical-align:super;" href="{{tix}}"" target='_blank'>
+                                    <i class="social-media-icon fa fa-ticket fa-lg" style = "color:#ee5956"></i>
+                                </a>
+
+                                {% if trailer != "" %}
+                                    <a class='events-icon'  style="display: inline-block; vertical-align:super;" href="{{trailer}}" target='_blank'>
+                                        <i class="social-media-icon fa fa-youtube-play" style = "color:#ee5956"></i>
+                                    </a>
+                                {% endif %}
+
+
+                               {# <a style="font-size:10px;" href = "{{tix}}"> tickets & info </a> #}
+
+                                <a class="festival" style="margin-left:10px; margin-bottom:5px;"> {{title}} </a>
+                                
+
+                                
+
+                            {% endfor %}
+
+
+                            </div>
+                            
+                            <br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+            </div>
+
+
 
             
         </div>
@@ -85,7 +154,7 @@
                     <img class='festival-image' src='assets/2016-cover.jpg'>
                 </a>
 
-                <a class = 'festival' href='assets/2015-program.pdf' target='_blank'>
+                <a class = 'festival' href='https://issuu.com/ivyfilmfestival/docs/iff_2015_program_final' target='_blank'>
                     <img class='festival-image' src='assets/2015-cover.jpg'> 
                 </a>    
             </div>
