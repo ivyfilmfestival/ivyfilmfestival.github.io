@@ -27,7 +27,7 @@
       "day_img":"assets/festivaldays/monday.png",
       "date": "April 8th",
       "fb": "https://www.facebook.com/events/2384449048451279/",
-      "events":[["IFF Presents: Screening of 'Science Fair'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-screening-of-science-fair-tickets-59639275679?aff=ebapi", "https://www.youtube.com/watch?v=AJdYLAc-gzM"], 
+      "events":[["IFF Presents: Screening of 'Science Fair'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-screening-of-science-fair-tickets-59639275679?aff=ebapi", "https://www.youtube.com/watch?v=AJdYLAc-gzM"],
         ["IFF x BSU Present: 'The Gospel According to Andre' + Q&A with Andre Leon Talley'", "7:00 PM – 10:00 PM EDT", "https://www.eventbrite.com/e/iff-x-bsu-present-the-gospel-according-to-andre-qa-with-andre-leon-talley-tickets-59638571573?aff=ebapi", "https://www.youtube.com/watch?v=KzZkVGCY5rY"]],
       "event_imgs": [[["assets/festivalweek/tues1.jpg","https://www.youtube.com/watch?v=AJdYLAc-gzM"], ["assets/festivalweek/mon1.jpg","https://www.youtube.com/watch?v=KzZkVGCY5rY"]]]
 
@@ -37,7 +37,7 @@
       "day_img":"assets/festivaldays/tuesday.png",
       "date": "April 9th",
       "fb": "https://www.facebook.com/events/277253036529953/",
-      "events":[["IFFxA24 Present: Advanced Screening of 'The Farewell'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iffxa24-present-advanced-screening-of-the-farewell-tickets-59639391024", ""], 
+      "events":[["IFFxA24 Present: Advanced Screening of 'The Farewell'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iffxa24-present-advanced-screening-of-the-farewell-tickets-59639391024", ""],
         ["IFF x Netflix Present: 'Extremely Wicked, Shockingly Evil and Vile'", "7:00 PM – 10:00 PM EDT", "https://www.eventbrite.com/e/iff-x-netflix-present-extremely-wicked-shockingly-evil-and-vile-tickets-59639571564", "https://www.youtube.com/watch?v=CtXEcBz3Go0"]],
       "event_imgs": [[["assets/festivalweek/tues2.jpg",""]]]
     },
@@ -46,7 +46,7 @@
       "day_img":"assets/festivaldays/wednesday.png",
       "date": "April 10th",
       "fb": "https://www.facebook.com/events/407532200035645/",
-      "events":[["IFF Presents: Advanced Screening of 'Trial By Fire'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-advanced-screening-of-trial-by-fire-tickets-59639997839", ""], 
+      "events":[["IFF Presents: Advanced Screening of 'Trial By Fire'", "4:00 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-advanced-screening-of-trial-by-fire-tickets-59639997839", ""],
         ["IFF x Annapurna Present: Advanced Screening of 'Booksmart' + Q&A with Olivia Wilde", "7:00 PM – 10:00 PM EDT", "https://www.eventbrite.com/e/iff-x-annapurna-present-advanced-screening-of-booksmart-qa-with-olivia-wilde-tickets-59639938662", "https://www.youtube.com/watch?v=KzZkVGCY5rY"]],
       "event_imgs": [[["assets/festivalweek/wed1.jpg", "https://www.youtube.com/watch?v=Uhd3lo_IWJc&t=7s"], ["assets/festivalweek/wed2.jpg",""]]]
     },
@@ -55,8 +55,8 @@
       "day_img":"assets/festivaldays/thursday.jpg",
       "date": "April 11th",
       "fb": "https://www.facebook.com/events/258591191582493/",
-      "events":[["IFF Presents: Screening of 'Horror Noire'", "3:00 PM – 5:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-screening-of-horror-noire-tickets-59639833347", "https://www.youtube.com/watch?v=BmyueIwsMlo"], 
-        ["IFF Presents: Advanced Screening of 'Teen Spirit'", "5:00 PM – 6:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-advanced-screening-of-teen-spirit-tickets-59640111178", "https://www.youtube.com/watch?v=CkA6DpQEKTU"], 
+      "events":[["IFF Presents: Screening of 'Horror Noire'", "3:00 PM – 5:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-screening-of-horror-noire-tickets-59639833347", "https://www.youtube.com/watch?v=BmyueIwsMlo"],
+        ["IFF Presents: Advanced Screening of 'Teen Spirit'", "5:00 PM – 6:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-advanced-screening-of-teen-spirit-tickets-59640111178", "https://www.youtube.com/watch?v=CkA6DpQEKTU"],
         ["IFF x Bumble Present: Official Selection Block - 'STRENGTH'", "7:00 PM – 8:30 PM EDT", "https://www.eventbrite.com/e/iff-x-bumble-present-official-selection-block-strength-tickets-59640180385", ""]],
       "event_imgs": [[["assets/festivalweek/thurs1.jpg","https://www.youtube.com/watch?v=CkA6DpQEKTU"], ["assets/festivalweek/thurs2.jpg", ""]]]
     },
@@ -65,8 +65,8 @@
       "day_img":"assets/festivaldays/friday.png",
       "date": "April 12th",
       "fb": "https://www.facebook.com/events/2048717378529998/",
-      "events":[["IFF Presents 'An Afternoon of Laughter, Sarcasm, and Tears': In Conversation with Pip Torrens", "1:00 PM – 4:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-an-afternoon-of-laughter-sarcasm-and-tears-in-conversation-with-pip-torrens-tickets-59667271415", ""], 
-        ["IFF Presents: A Lecture with Mike Medavoy", "3:00 PM – 4:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-a-lecture-with-mike-medavoy-tickets-59641463222", ""], 
+      "events":[["IFF Presents 'An Afternoon of Laughter, Sarcasm, and Tears': In Conversation with Pip Torrens", "1:00 PM – 4:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-an-afternoon-of-laughter-sarcasm-and-tears-in-conversation-with-pip-torrens-tickets-59667271415", ""],
+        ["IFF Presents: A Lecture with Mike Medavoy", "3:00 PM – 4:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-a-lecture-with-mike-medavoy-tickets-59641463222", ""],
         ["IFF Presents: Screenplay Official Selection Live Reading", "4:30 PM – 6:00 PM EDT", "https://www.eventbrite.com/e/iff-presents-screenplay-official-selection-live-reading-tickets-59641397024", ""],
         ["IFF Presents: Official Selection Block - 'HOME'", "7:00 PM – 8:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-official-selection-block-home-tickets-59640429129", ""]],
       "event_imgs": [[["assets/festivalweek/fri1.jpg",""], ["assets/festivalweek/fri2.jpg",""]], [["assets/festivalweek/fri3.jpg",""]]]
@@ -81,7 +81,7 @@
         ["IFF Presents: Official Selection Block - 'SELFHOOD'", "3:00 PM – 4:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-official-selection-block-selfhood-tickets-59640504354", ""],
         ["IFF Presents: Reception and Awards Ceremony", "4:30 PM – 5:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-reception-and-awards-ceremony-tickets-59662580384", ""],
         ["IFF Presents: Advanced Screening of 'Mickey and the Bear' + Q&A with Annabelle Attanasio and Lizzie Shapiro", "7:00 PM – 9:30 PM EDT", "https://www.eventbrite.com/e/iff-presents-advanced-screening-of-mickey-and-the-bear-qa-with-annabelle-attanasio-tickets-59662639561", ""]
-        ],      
+        ],
       "event_imgs": [[["assets/festivalweek/sat1.jpg",""], ["assets/festivalweek/sat2.jpg",""]], [["assets/festivalweek/sat3.jpg",""], ["assets/festivalweek/fri3.jpg",""]]]
     },
     {
@@ -225,7 +225,7 @@
           "school":"Rhode Island School of Design"
           }]
       },
-      
+
       {
       "category":"International",
       "winners": [{
@@ -268,14 +268,14 @@
       "facebook_url": "https://www.facebook.com/events/289347948364087/",
       "image_url": "assets/posters/vox lux.jpg",
       "tickets_url": "https://www.eventbrite.com/e/iffxneon-present-vox-lux-advanced-screening-qa-tickets-52961383925"
-    }, 
+    },
     {
       "title": "Advanced Screening + Q&A: Wild Nights with Emily",
       "date": "",
       "facebook_url": "https://www.facebook.com/events/361168287969401/",
       "image_url": "assets/posters/wild nights with emily.jpg",
       "tickets_url": "https://www.eventbrite.com/e/iff-presents-wild-nights-with-emily-advanced-screening-and-qa-tickets-52410322686"
-    }, 
+    },
 
     {
       "title": "Advanced Screening: Green Book",
@@ -474,6 +474,10 @@
     ]
   },
   "press":     [{
+            "link": "http://www.browndailyherald.com/2019/03/22/stars-film-industry-leaders-grace-campus-iff/ ",
+            "pub": " The Brown Daily Herlad: ",
+            "title": "Stars, film industry leaders to grace campus during IFF"
+      }, {
           "link": " https://www.bostonglobe.com/lifestyle/names/2017/03/16/ezra-edelman-night-shyamalan-and-barry-levinson-appear-ivy-film-festival/REBxMiQTDE6iAPZo7EaiPK/story.html",
           "pub": " The Boston Globe: ",
           "title": "Ezra Edelman, M. Night Shyamalan, and Barry Levinson to appear at Ivy Film Festival"
