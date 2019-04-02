@@ -151,8 +151,8 @@ a.press {
 }
 a.press:hover {
   //text-decoration: none;
-  border-bottom: 2px solid $secondary-color;
-  color: $primary-color;
+  //border-bottom: 2px solid $secondary-color;
+  color: $secondary-color;
 }
 
 @media (min-width: 768px) {
