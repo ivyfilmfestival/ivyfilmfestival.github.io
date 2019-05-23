@@ -18,6 +18,9 @@
                     <a class='sidenav-link' href='#past-festivals'>past festivals</a>
                   </li>
                   <li>
+                    <a class='sidenav-link' href='#2019-selection'>2019 selection</a>
+                  </li>
+                  <li>
                     <a class='sidenav-link' href='#2018-selection'>2018 selection</a>
                   </li>
                 </ul>
@@ -170,6 +173,54 @@
         </div>
         </div>
 
+    </section>
+
+    <section id="2019-selection">
+        <div class="container">
+            <h1>2019 official selection</h1> 
+            <div class= "past-events-center">
+
+            <div class='row'>
+                <div class='column'>
+                    {% for c in 2019selection %}
+                        {% if loop.index0 % 2 == 0 %}
+                            <h3> {{c.category}} </h3>
+                            {% for w in c.winners %}
+                                <a class="festival"> {{w.title}} </a>
+                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
+                                <p style="font-size: 15px; margin-top:-5px; color: #8e8e8e"><i>
+                                  {{w.award1}} </i></p>
+                                  <p style="font-size: 15px; margin-top:-5px;"><i>
+                                  {{w.award2}} </i></p>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class='column'>
+                    {% for c in 2019selection %}
+                        {% if loop.index0 % 2 != 0 %}
+                            <h3> {{c.category}} </h3>
+                            {% for w in c.winners %}
+                                <a class="festival"> {{w.title}} </a>
+                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
+                                <p style="font-size: 15px; margin-top:-5px; color: #8e8e8e"><i>
+                                  {{w.award1}} </i></p>
+                                  <p style="font-size: 15px; margin-top:-5px;"><i>
+                                  {{w.award2}} </i></p>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
+
+                    {% endfor %}
+                </div>
+
+            </div>
+
+        </div> 
+        <a class="festival">* indicates a best in category winner</a>
+
+        </div> 
     </section>
 
     <section id="2018-selection">

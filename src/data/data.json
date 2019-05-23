@@ -98,6 +98,160 @@
     }
 
   ],
+  "2019selection": [{
+      "category":"U.S. Graduate",
+      "winners": [{
+          "title":"Hall of Fishes",
+          "artist":"Jennifer Boles",
+          "school":"United States"
+          },
+          {
+          "title":"Finding Phoebe",
+          "artist":"Krenée A. Tolson, Sadé Clacken Joseph",
+          "school":"United States",
+          "award1":"**IFF x Bumble Female Film Force 3rd Place Honoree"
+
+          },
+          {
+          "title":"*San Miguel",
+          "artist":"Cris Gris",
+          "school":"United States",
+          "award1":"**IFF x Bumble Female Film Force 1st Place Honoree"
+          },
+          {
+          "title":"Hierophany",
+          "artist":"Kevin Contento",
+          "school":"United States"
+          }]
+      },
+      {
+      "category":"U.S. Undergraduate - Drama",
+      "winners": [{
+          "title":"*Overbite",
+          "artist":"Zachary Zuckerman, Teak Sittipunt",
+          "school":"United States"
+          }]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Comedy",
+      "winners": [{
+          "title":"*The Tortoise",
+          "artist":"Lyndon Henley Hanrahan",
+          "school":"United States"
+          }]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Documentary",
+      "winners": [{
+          "title":"*Margarita of the River",
+          "artist":"Pilar Garcia-Fernandezsesma",
+          "school":"United States"
+          },
+          {
+          "title":"Emma.",
+          "artist":"Saskia Hennecke, Grace Tourville",
+          "school":"United States"
+          }]
+      },
+
+
+      {
+      "category":"U.S. Undergraduate - Animation",
+      "winners": [{
+          "title":"Run",
+          "artist":"Leilei Xia",
+          "school":"United States"
+          },
+          {
+          "title":"fig. VII",
+          "artist":"Alice Langlois",
+          "school":"United States"
+          },
+          {
+          "title":"Cat",
+          "artist":"Leilei Xia",
+          "school":"United States"
+          },
+          {
+          "title":"*Grandpa’s Favourite Origami",
+          "artist":"Yihan Wang",
+          "school":"United States"
+          }
+
+        ]
+      },
+      {
+      "category":"International",
+      "winners": [{
+          "title":"Don’t Think of a Pink Elephant",
+          "artist":"Suraya Raja",
+          "school":"United Kingdom",
+          "award1":"**IFF x Bumble Female Film Force 2nd Place Honoree"
+
+          },
+          {
+          "title":"The Sun of Ipanema",
+          "artist":"Victor Vicente Villavicencio Potella",
+          "school":"Spain",
+          "award1":"**Grand Jury Award Winner (tie)"
+
+
+          },
+          {
+          "title":"Vs. Santa",
+          "artist":"Raul Colomer Válcarcel, Aitor Carlos Herrero Larrumbide",
+          "school":"Spain"
+          },
+          {
+          "title":"Mariela",
+          "artist":"Victoria Romero",
+          "school":"United Kingdom"
+          },
+          {
+          "title":"*Dante vs. Mohammed Ali",
+          "artist":"Marc Wagenaar",
+          "school":"Netherlands",
+          "award1":"**Audience Choice Award, Grand Jury Award Winner (tie)"
+          
+
+
+          },
+          {
+          "title":"November",
+          "artist":"Kasper Møller Jensen",
+          "school":"Denmark"
+          },
+          {
+          "title":"Eli: A Portrait",
+          "artist":"Lumen Nguyen",
+          "school":"Germany"
+          },
+          {
+          "title":"The Update",
+          "artist":"Mor Hanay",
+          "school":"Israel"
+          },
+          {
+          "title":"Weltschmerz",
+          "artist":"Jesper Dalgaard",
+          "school":"Denmark"
+          }
+        ]
+      },
+
+      {
+      "category":"U.S. Undergraduate - Experimental",
+      "winners": [{
+          "title":"*Kaleidoscope",
+          "artist":"Stella Rae Binion, Sammie C Scott",
+          "school":"United States"
+          }]
+      }
+      
+
+  ],
 
   "festival": [{
       "category":"U.S. Graduate",
