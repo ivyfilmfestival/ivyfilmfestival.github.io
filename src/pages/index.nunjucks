@@ -12,9 +12,9 @@
       <img class="bg-video" id='mobile-bg-picture' src='assets/home.png' width="100%"></img>
 
         <video class = "bg-video" autoplay loop poster="assets/home.png" muted="muted" style= "opacity: 0.5;">
-        <source id="mp4" src="assets/videos/IFF_Trailer_2018.mp4" type="video/mp4" >
-        <source id="webm" src="assets/videos/IFF_Trailer_2018.webm" type="video/webm">
-        <source id="ogv" src="assets/videos/IFF_Trailer_2018.ogv" type="video/ogg">
+        <source id="mp4" src="assets/videos/IFF_Trailer_2019.mp4" type="video/mp4" >
+        <source id="webm" src="assets/videos/IFF_Trailer_2019.webm" type="video/webm">
+        <source id="ogv" src="assets/videos/IFF_Trailer_2019.ogv" type="video/ogg">
 
     </div>
     <div id="intro-text" style= "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
