@@ -17,8 +17,9 @@
         <source id="ogv" src="assets/videos/IFF_Trailer_2019.ogv" type="video/ogg">
 
     </div>
+    
     <div id="intro-text" style= "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-        <h2>april 8-14, 2019</h2>
+        <h2>Ivy Film Festival</h2>
         <br>
 
         <div id="intro-desc" style>
@@ -31,6 +32,7 @@
         </form>
 
       </div>
+
   </section>
 
   <!-- Footer -->

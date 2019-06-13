@@ -21,6 +21,55 @@
     ]
   },
 
+  "staff": [
+    {
+      "dept": "directors",
+      "coordinators": ["Grace Attanasio", " Nora Grahm", " Sasha Pinto", " Karina Rotenstreich"],
+      "email": "director@ivyfilmfestival.org"
+    }, {
+      "dept": "branding",
+      "coordinators": ["Alex Westfall"],
+      "email": "marketing@ivyfilmfestival.org"
+    }, {
+      "dept": "business",
+      "coordinators": ["Paty Garza", " Claire Zhang"],
+      "email": "business@ivyfilmfestival.org"
+    }, {
+      "dept": "events",
+      "coordinators": ["Alisa Caira", " Izzy Di Rita", " Emily Pluhar"],
+      "email": "events@ivyfilmfestival.org"
+    }, {
+      "dept": "industry",
+      "coordinators": ["Jessica Dibble ", " Joe Suddleson", " Becca Wachter"],
+      "email": "industry@ivyfilmfestival.org"
+    }, {
+      "dept": "new media",
+      "coordinators": ["Hannah Seckendorf"],
+      "email": "newmedia@ivyfilmfestival.org"
+    }, {
+      "dept": "outreach",
+      "coordinators": ["Annalie Brody", " Jeewon Shin"],
+      "email": "outreach@ivyfilmfestival.org"
+    }, {
+      "dept": "programming",
+      "coordinators": ["Stella Binion", " Caleb O’Brien", " Yurema Perez-Hinojosa"],
+      "email": "programming@ivyfilmfestival.org"
+    }, {
+      "dept": "publicity",
+      "coordinators": ["Megan Kasselberg"],
+      "email": "marketing@ivyfilmfestival.org"
+    }, {
+      "dept": "screenplay",
+      "coordinators": ["Joshua Danielson", " Nathaniel Kublin", " Emma Weiss"],
+      "email": "industry@ivyfilmfestival.org"
+    }, {
+      "dept": "web",
+      "coordinators": ["Katie Friis"],
+      "email": "ivyfilmfestival.web@gmail.com"
+    }
+  ],
+
+
   "festivalweek":[
     {
       "day": "Monday",
