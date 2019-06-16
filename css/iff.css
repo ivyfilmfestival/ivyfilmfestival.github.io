@@ -132,7 +132,7 @@ a.press {
 a.press:hover {
   color: #ee5956; }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .container {
     width: 80%; } }
 
@@ -141,7 +141,7 @@ a.press:hover {
   .news-section {
     padding-top: 100px; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1155px) {
   .container {
     width: 70%; } }
 
@@ -164,7 +164,7 @@ a.press:hover {
   color: #ee5956;
   background: #0e3737; }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .navbar {
     border-width: 0;
     background: #0e3737;
@@ -192,7 +192,8 @@ a.press:hover {
 
 .navbar-nav > li {
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  display: inline-block; }
 
 .navbar-fixed-top {
   min-height: 80px; }
@@ -220,7 +221,7 @@ a.press:hover {
   background: #00000000;
   border-bottom: none; }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .navbar-nav > li > a:after {
     content: '';
     position: absolute;
@@ -247,7 +248,7 @@ a.press:hover {
 .selected-nav-bar > a:after {
   width: 100%; }
 
-@media (max-width: 768px) {
+@media (max-width: 1155px) {
   .navbar-nav > li > a {
     padding-top: 10px; }
   .navbar-fixed-top {
@@ -462,7 +463,7 @@ a.press:hover {
   -webkit-opacity: 1;
   opacity: 1; }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .event-title-left {
     margin-top: 35px;
     float: right;

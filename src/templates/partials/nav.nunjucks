@@ -21,6 +21,10 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li>
+
+                </li>
+
                 <li class="hidden">
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
@@ -47,13 +51,16 @@
                         <button class="nav-button" id="" formaction="submit.html">submit</button>
                      </form>
                 </li>
+                <li>
+                    <div id="social-media" class="footer-media">
+                        <a href="https://www.facebook.com/ivyfilmfestival/"><i class="social-media-icon fa fa-facebook no-underline"></i></a>
+                        <a href="https://www.instagram.com/ivyfilmfestival/"><i class="social-media-icon fa fa-instagram no-underline"></i></a>
+                        <a href="https://twitter.com/ivyfilmfestival"><i class="social-media-icon fa fa-twitter no-underline"></i></a>
+                        <a href="mailto:director@ivyfilmfestival.com"><i class="social-media-icon fa fa-envelope"></i></a>
+                    </div>
+                </li>
             </ul>
-             <div id="social-media" class="footer-media">
-                <a href="https://www.facebook.com/ivyfilmfestival/"><i class="social-media-icon fa fa-facebook no-underline"></i></a>
-                <a href="https://www.instagram.com/ivyfilmfestival/"><i class="social-media-icon fa fa-instagram no-underline"></i></a>
-                <a href="https://twitter.com/ivyfilmfestival"><i class="social-media-icon fa fa-twitter no-underline"></i></a>
-                <a href="mailto:director@ivyfilmfestival.com"><i class="social-media-icon fa fa-envelope"></i></a>
-            </div>
+            
         </div>
         <!-- /.navbar-collapse -->
     </div>

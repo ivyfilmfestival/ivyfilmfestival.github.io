@@ -155,7 +155,7 @@ a.press:hover {
   color: $secondary-color;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .container {
     width: 80%; 
     } }
@@ -163,7 +163,7 @@ a.press:hover {
   .about-section,
   .news-section {
     padding-top: 100px; } }
-@media (min-width: 1200px) {
+@media (min-width: 1155px) {
   .container {
     width: 70%; } }
 
@@ -197,7 +197,7 @@ a.press:hover {
 
   background: $primary-color; }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .navbar {
     border-width: 0;
     background: $primary-color; 
@@ -233,6 +233,7 @@ a.press:hover {
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
+  display: inline-block;
 }
 
 .navbar-fixed-top {
@@ -266,7 +267,7 @@ a.press:hover {
   border-bottom: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .navbar-nav > li > a:after {
     content: '';
     position: absolute;
@@ -299,7 +300,7 @@ a.press:hover {
 .selected-nav-bar > a:after {
   width: 100%; }
 
-@media (max-width: 768px) {
+@media (max-width: 1155px) {
   .navbar-nav > li > a {
     //line-height: 20px;
     padding-top: 10px;
@@ -577,7 +578,7 @@ a.press:hover {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1155px) {
   .event-title-left {
     margin-top: 35px;
     float: right;

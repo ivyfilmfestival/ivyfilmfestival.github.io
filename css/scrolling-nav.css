@@ -1,5 +1,5 @@
 
-@media(min-width:767px) {
+@media(min-width:1155px) {
     .navbar {
         padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -48,6 +48,7 @@
 .navbar-nav>li {
   padding-left: 10px;
   padding-right: 10px;
+  display: inline-block;
 }
 
 .navbar-fixed-top {
@@ -62,7 +63,7 @@
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1155px) {
   .navbar-nav>li>a {
     line-height: 20px;
     padding-top: 10px;
@@ -81,4 +82,4 @@
     padding: ((@navbarHeight - @elementHeight) / 2 - 2) 20px ((@navbarHeight - @elementHeight) / 2 + 2);
     display: inline-block;
     vertical-align: middle;
-} */
+} 
