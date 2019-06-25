@@ -90,7 +90,7 @@
    </div>
 
 
-   <div class= 'event-label' style = "margin-top: 4em;">
+  <div class= 'event-label' style = "margin-top: 4em;">
     <span style = "opacity: 0.8"> past keynotes</span>
   </div>
   <div class= ''>
@@ -99,11 +99,21 @@
             <!-- <h1>past keynotes &amp; advanced screenings</h1> -->
             <br/>
             <div class="row">
+              <div class="col-md-2 year">2019</div>
+              <div class="col-md-8">
+                <p>
+                  <i>Screenings: The Gospel According to André, Booksmart</i>
+                  <br/>Guests: André Leon Talley, Olivia Wilde
+                  </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
               <div class="col-md-2 year">2018</div>
               <div class="col-md-8">
                 <p>
-                  <i>Screenings: #TAKEMEANYWHERE</i>
-                  <br/>Guests: Shia LaBeouf, Nastja Säde Rönkkö, &amp; Luke Turner
+                  <i>Screenings: On Chesil Beach, #TAKEMEANYWHERE</i>
+                  <br/>Guests: Dominic Cooke, Shia LaBeouf, Nastja Säde Rönkkö, &amp; Luke Turner
                   </p>
               </div>
             </div>

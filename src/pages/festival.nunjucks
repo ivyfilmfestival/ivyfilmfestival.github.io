@@ -20,9 +20,6 @@
                   <li>
                     <a class='sidenav-link' href='#2019-selection'>2019 selection</a>
                   </li>
-                  <li>
-                    <a class='sidenav-link' href='#2018-selection'>2018 selection</a>
-                  </li>
                 </ul>
             </div>
 
@@ -43,12 +40,7 @@
                                 <img class='festival-day' src="{{day.day_img}}">
                             </div>
                             </a>
-
-                            
-
-
-
-                            
+     
                             <div class= "festival-title">
                             <h3 style="color: #fff" > {{day.day}}, {{day.date}} </h3>
                              </div>
@@ -141,11 +133,6 @@
 
 
 
-
-
-
-
-
     <section id="past-festivals">
         <div class="container">
 
@@ -223,44 +210,6 @@
         </div> 
     </section>
 
-    <section id="2018-selection">
-        <div class="container">
-            <h1>2018 official selection</h1> 
-            <div class= "past-events-center">
-
-            <div class='row'>
-                <div class='column'>
-                    {% for c in festival %}
-                        {% if loop.index0 % 2 == 0 %}
-                            <h3> {{c.category}} </h3>
-                            {% for w in c.winners %}
-                                <a class="festival"> {{w.title}} </a>
-                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
-                            {% endfor %}
-                            <br>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-                <div class='column'>
-                    {% for c in festival %}
-                        {% if loop.index0 % 2 != 0 %}
-                            <h3> {{c.category}} </h3>
-                            {% for w in c.winners %}
-                                <a class="festival"> {{w.title}} </a>
-                                <p class ="list"> {{w.artist}} | {{w.school}}</p>
-                            {% endfor %}
-                            <br>
-                        {% endif %}
-
-                    {% endfor %}
-                </div>
-
-            </div>
-
-        </div> 
-        <a class="festival">* indicates a best in category winner</a>
-        </div> 
-    </section>
 
     <!-- Footer -->
     {% include "partials/footer.nunjucks" %}

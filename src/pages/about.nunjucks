@@ -60,7 +60,7 @@
   <section id='satellite'>
     <div class="container">
       <h1>satellite film festival</h1>
-      <p>IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2017 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions, creating an intercollegiate network of emerging filmmakers.</p>
+      <p>IFF is working to inspire the next generation of filmmakers by bringing IFF’s Official Selection to campuses across the country. The 2019 IFF Satellite Festival is partnering with the rest of the Ivy League and other film-minded institutions, creating an intercollegiate network of emerging filmmakers.</p>
       <div class='row' style='padding=top:20px;'>
         {% for school in about.satellite_schools %}
           <div class='col-xs-12 col-sm-6 col-md-4'>
