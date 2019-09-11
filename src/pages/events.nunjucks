@@ -16,33 +16,34 @@
       </div>
 
       <div class='row'>
+      <!-- 
         <div class= 'event-label'>
           <p style = "font-family: Basis Grotesque, sans-serif;"><i>No upcoming events at the moment!</i></p>
         </div> 
+      -->
         
-        <!-- 
         <div class='col-0 col-sm-1'></div>
           <div class='col-12 col-sm-5'>
             <div class='event-title event-title-left'>
-              <h3 style ="color: #252628;">IFF x New York Screening</h3>
+              <h3 style ="color: #252628;">IFF x A24 at Brown Present: The Last Black Man in San Francisco</h3>
 
-              <p style = "font-family: Basis Grotesque, sans-serif;"><i>Screening & Reception</i></p>
+              <p style = "font-family: Basis Grotesque, sans-serif;"><i>Free Screening</i></p>
 
-              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-top: 25px; ">4.2.2019</p>
-              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-bottom: 25px">7pm-10:30pm EDT</p>
+              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-top: 25px; ">9.15.2019</p>
+              <p style = "font-family: Basis Grotesque Bold, sans-serif; line-height: 0.6; margin-bottom: 25px">7pm-9:30pm EDT</p>
 
-              <p style = " font-size: 16px; line-height: 1.4; margin-top: 5">Anthology Film Archives <br/> 32 Second Avenue <br/> New York, NY 10003</p>
+              <p style = " font-size: 16px; line-height: 1.4; margin-top: 5">Granoff Center for the Creative Arts <br/> 154 Angell St. <br/> Providence, Rhode Island 02906</p>
           
 
 
-              <a class='events-icon' href= "https://www.facebook.com/events/289347948364087/" target = _> 
+              <a class='no-underline' href= "https://www.facebook.com/events/600758023786568/" target = _> 
                 <i class="social-media-icon fa fa-facebook fa-lg"></i>
               </a> 
               
-                <a class="no-underline" href = "https://www.eventbrite.com/e/iff-x-new-york-screening-tickets-58457877084" target = _>
+                <a class="no-underline" href = "https://screenings.a24films.com/last-black-man-san-francisco/the-last-black-man-in-san-francisco_the-granoff-center-martinos-auditorium_Sep-15-2019_7-00-PM/partner/a24-at-brown/" target = _>
                   <i class="social-media-icon fa fa-ticket fa-lg"></i>
                 </a>
-                <a href = "https://www.eventbrite.com/e/iff-x-new-york-screening-tickets-58457877084"> tickets & info </a>
+                <a href = "https://screenings.a24films.com/last-black-man-san-francisco/the-last-black-man-in-san-francisco_the-granoff-center-martinos-auditorium_Sep-15-2019_7-00-PM/partner/a24-at-brown/"> tickets & info </a>
 
 
 
@@ -50,10 +51,10 @@
             </div>
           </div>
           <div class='col-12 col-sm-5'>
-            <img class='event-image event-image-left' src="assets/posters/ny_cover.jpg" style= "margin-top: 5em">
+            <img class='event-image event-image-left' src="assets/posters/last-black-man.jpg" style= "margin-top: 5em">
           </div>
           <div class='col-0 col-sm-1'></div>  
-          -->
+          
 
 
         
