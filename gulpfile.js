@@ -19,6 +19,14 @@ gulp.task('default', function() {
 	.pipe(gulp.dest('.'));
 });
 
+gulp.task('submit', function() {
+	return gulp.src('src/templates/submit.html')
+	.pipe(nunjucksRender({
+		path: ['src/pages/submit.nunjucks']
+	}))
+	.pipe(gulp.dest('.'));
+});
+
 gulp.task('sass', function () {
 	return gulp.src('./src/scss/*.scss')
 	  .pipe(sass().on('error', sass.logError))

@@ -12,14 +12,8 @@
       <h1>submissions</h1>
       <p>Submissions for the 2019 festival are now closed.</p>
       <h3>films &amp; screenplay</h3>
-      <p>Submissions are processed through Withoutabox and FilmFreeway. Withoutabox account holders get a $5 discount on all submission fees.
-      </p>
-      <div class="row" style='padding-top:60px'>
-                <div class=col-md-6>
-                    <p style='text-align:center'><a href="https://www.withoutabox.com/03film/03t_fin/03t_fin_app.php?festival_id=5430&film_id=">Submit with Withoutabox here.</a></p></div>
-                <div class=col-md-6>
-                    <p style='text-align:center'><a href='https://filmfreeway.com/IvyFilmFestival'>Submit with FilmFreeway here.</a></p></div>
-      </div>
+      <p>Submissions are processed through FilmFreeway.</p>
+      <p style='text-align:center'><a href='https://filmfreeway.com/IvyFilmFestival'>Submit with FilmFreeway here.</a></p>
     </section> 
 
     <section>
