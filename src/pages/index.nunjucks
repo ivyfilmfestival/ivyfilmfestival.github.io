@@ -23,12 +23,12 @@
         <br>
 
         <div id="intro-desc" style>
-          <p>Ivy Film Festival is the largest student-run film festival in the world hosted annually at Brown University.</p>
+          <p>Ivy Film Festival is the largest student-run film festival in the world hosted annually at Brown University. Now accepting applications!</p>
         </div>
         <br>
 
-        <form id="intro-events" action="events.html">
-          <button class="intro-events-button">upcoming events</button>
+        <form id="intro-events" action="https://docs.google.com/document/d/1LeDcMdPDzTucvRQQ73MnFQ9qM_V84oqidW0poaqmTNo/edit?usp=sharing" target="_blank">
+          <button class="intro-events-button">apply now</button>
         </form>
 
       </div>
